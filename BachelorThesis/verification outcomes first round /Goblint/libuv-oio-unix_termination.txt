@@ -1,0 +1,24 @@
+Program File: /home/qingshi1019/analyzer/repositories/libuv-oio-unix.i
+Property File: /home/qingshi1019/analyzer/properties/termination.prp
+
+--- Output ---
+
+
+--- Error ---
+[Info] Specification: CHECK( init(main()), LTL(F end) ) -> enabling soundness analyses "termination"
+[Info] Specification: Termination -> enabling termination analyses "threadflag, apron"
+[Info] unrolling loop at oio-unix.c:22:3-22:49 with factor 12
+[Info] unrolling loop at oio-unix.c:115:3-115:252 with factor 7
+[Info] unrolling loop at oio-unix.c:118:3-118:253 with factor 7
+[Info] unrolling loop at oio-unix.c:121:3-121:257 with factor 7
+[Info] unrolling loop at oio-unix.c:182:3-182:114 with factor 12
+[Info] unrolling loop at oio-unix.c:183:3-183:117 with factor 12
+[Info] unrolling loop at oio-unix.c:207:3-235:3 with factor 1
+[Info] unrolling loop at oio-unix.c:273:3-273:122 with factor 12
+[Info] unrolling loop at oio-unix.c:569:8-569:230 with factor 7
+[Info] unrolling loop at oio-unix.c:569:232-569:348 with factor 12
+[Info] unrolling loop at lib/libc/stub/src/stdlib.c:10:5-12:5 with factor 12
+[Info] unrolling loop at lib/libc/stub/src/stdlib.c:21:9-27:9 with factor 6
+[Info] unrolling loop at lib/libc/stub/src/stdlib.c:40:3-45:3 with factor 8
+[Info] no thread creation -> disabling thread analyses "race, deadlock, maylocks, symb_locks, thread, threadid, threadJoins, threadreturn, mhp, region"
+Fatal error: exception Goblint_lib__Maingoblint.FrontendError("no suitable function to start from")

@@ -1,0 +1,275 @@
+This is Ultimate 0.2.4-dev-0e0057c
+[2024-08-23 13:20:15,249 INFO  L188        SettingsManager]: Resetting all preferences to default values...
+[2024-08-23 13:20:15,348 INFO  L114        SettingsManager]: Loading settings from /home/qingshi1019/UAutomizer/config/svcomp-Overflow-64bit-Automizer_Default.epf
+[2024-08-23 13:20:15,355 WARN  L101        SettingsManager]: Preference file contains the following unknown settings:
+[2024-08-23 13:20:15,355 WARN  L103        SettingsManager]:   * .-Dinclude.path
+[2024-08-23 13:20:15,356 WARN  L103        SettingsManager]:   * de.uni_freiburg.informatik.ultimate.core.Log level for class
+[2024-08-23 13:20:15,397 INFO  L130        SettingsManager]: Preferences different from defaults after loading the file:
+[2024-08-23 13:20:15,398 INFO  L151        SettingsManager]: Preferences of UltimateCore differ from their defaults:
+[2024-08-23 13:20:15,398 INFO  L153        SettingsManager]:  * Log level for class=de.uni_freiburg.informatik.ultimate.lib.smtlibutils.quantifier.QuantifierPusher=ERROR;
+[2024-08-23 13:20:15,399 INFO  L151        SettingsManager]: Preferences of Boogie Preprocessor differ from their defaults:
+[2024-08-23 13:20:15,400 INFO  L153        SettingsManager]:  * Use memory slicer=true
+[2024-08-23 13:20:15,400 INFO  L151        SettingsManager]: Preferences of Boogie Procedure Inliner differ from their defaults:
+[2024-08-23 13:20:15,401 INFO  L153        SettingsManager]:  * Ignore calls to procedures called more than once=ONLY_FOR_SEQUENTIAL_PROGRAMS
+[2024-08-23 13:20:15,402 INFO  L151        SettingsManager]: Preferences of BlockEncodingV2 differ from their defaults:
+[2024-08-23 13:20:15,403 INFO  L153        SettingsManager]:  * Create parallel compositions if possible=false
+[2024-08-23 13:20:15,404 INFO  L153        SettingsManager]:  * Use SBE=true
+[2024-08-23 13:20:15,405 INFO  L151        SettingsManager]: Preferences of CACSL2BoogieTranslator differ from their defaults:
+[2024-08-23 13:20:15,406 INFO  L153        SettingsManager]:  * Pointer base address is valid at dereference=IGNORE
+[2024-08-23 13:20:15,407 INFO  L153        SettingsManager]:  * Overapproximate operations on floating types=true
+[2024-08-23 13:20:15,407 INFO  L153        SettingsManager]:  * Check division by zero=IGNORE
+[2024-08-23 13:20:15,408 INFO  L153        SettingsManager]:  * Pointer to allocated memory at dereference=IGNORE
+[2024-08-23 13:20:15,409 INFO  L153        SettingsManager]:  * If two pointers are subtracted or compared they have the same base address=IGNORE
+[2024-08-23 13:20:15,409 INFO  L153        SettingsManager]:  * Check array bounds for arrays that are off heap=IGNORE
+[2024-08-23 13:20:15,410 INFO  L153        SettingsManager]:  * Check absence of signed integer overflows=true
+[2024-08-23 13:20:15,410 INFO  L153        SettingsManager]:  * Check unreachability of reach_error function=false
+[2024-08-23 13:20:15,411 INFO  L153        SettingsManager]:  * Check if freed pointer was valid=false
+[2024-08-23 13:20:15,411 INFO  L153        SettingsManager]:  * Use constant arrays=true
+[2024-08-23 13:20:15,412 INFO  L151        SettingsManager]: Preferences of RCFGBuilder differ from their defaults:
+[2024-08-23 13:20:15,413 INFO  L153        SettingsManager]:  * Size of a code block=SequenceOfStatements
+[2024-08-23 13:20:15,414 INFO  L153        SettingsManager]:  * Only consider context switches at boundaries of atomic blocks=true
+[2024-08-23 13:20:15,415 INFO  L153        SettingsManager]:  * SMT solver=External_DefaultMode
+[2024-08-23 13:20:15,415 INFO  L153        SettingsManager]:  * Command for external solver=z3 SMTLIB2_COMPLIANT=true -memory:2024 -smt2 -in -t:4000
+[2024-08-23 13:20:15,416 INFO  L151        SettingsManager]: Preferences of TraceAbstraction differ from their defaults:
+[2024-08-23 13:20:15,416 INFO  L153        SettingsManager]:  * Compute Interpolants along a Counterexample=FPandBP
+[2024-08-23 13:20:15,417 INFO  L153        SettingsManager]:  * Positions where we compute the Hoare Annotation=LoopHeads
+[2024-08-23 13:20:15,417 INFO  L153        SettingsManager]:  * Trace refinement strategy=CAMEL
+[2024-08-23 13:20:15,418 INFO  L153        SettingsManager]:  * Command for external solver=z3 SMTLIB2_COMPLIANT=true -memory:2024 -smt2 -in
+[2024-08-23 13:20:15,432 INFO  L153        SettingsManager]:  * Apply one-shot large block encoding in concurrent analysis=false
+[2024-08-23 13:20:15,433 INFO  L153        SettingsManager]:  * Automaton type used in concurrency analysis=PETRI_NET
+[2024-08-23 13:20:15,433 INFO  L153        SettingsManager]:  * Compute Hoare Annotation of negated interpolant automaton, abstraction and CFG=true
+[2024-08-23 13:20:15,434 INFO  L153        SettingsManager]:  * Order on configurations for Petri net unfoldings=DBO
+[2024-08-23 13:20:15,435 INFO  L153        SettingsManager]:  * SMT solver=External_ModelsAndUnsatCoreMode
+[2024-08-23 13:20:15,436 INFO  L153        SettingsManager]:  * Looper check in Petri net analysis=SEMANTIC
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.sun.xml.bind.v2.runtime.reflect.opt.Injector$1 (file:/home/qingshi1019/UAutomizer/plugins/com.sun.xml.bind_2.2.0.v201505121915.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int)
+WARNING: Please consider reporting this to the maintainers of com.sun.xml.bind.v2.runtime.reflect.opt.Injector$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Applying setting for plugin de.uni_freiburg.informatik.ultimate.plugins.generator.cacsl2boogietranslator: Entry function -> main
+Applying setting for plugin de.uni_freiburg.informatik.ultimate.witnessprinter: Witness directory -> /home/qingshi1019/UAutomizer
+Applying setting for plugin de.uni_freiburg.informatik.ultimate.witnessprinter: Witness filename -> witness
+Applying setting for plugin de.uni_freiburg.informatik.ultimate.witnessprinter: Write witness besides input file -> false
+Applying setting for plugin de.uni_freiburg.informatik.ultimate.witnessprinter: Graph data specification -> CHECK( init(main()), LTL(G ! overflow) )
+
+
+Applying setting for plugin de.uni_freiburg.informatik.ultimate.witnessprinter: Graph data producer -> Automizer
+Applying setting for plugin de.uni_freiburg.informatik.ultimate.witnessprinter: Graph data architecture -> 64bit
+Applying setting for plugin de.uni_freiburg.informatik.ultimate.witnessprinter: Graph data programhash -> 947f8e479f083f86043cc336cb4d4d0c23acbc41fbdb98509ec8373fcfa21a27
+[2024-08-23 13:20:15,914 INFO  L75    nceAwareModelManager]: Repository-Root is: /tmp
+[2024-08-23 13:20:15,953 INFO  L261   ainManager$Toolchain]: [Toolchain 1]: Applicable parser(s) successfully (re)initialized
+[2024-08-23 13:20:15,961 INFO  L217   ainManager$Toolchain]: [Toolchain 1]: Toolchain selected.
+[2024-08-23 13:20:15,964 INFO  L270        PluginConnector]: Initializing CDTParser...
+[2024-08-23 13:20:15,966 INFO  L274        PluginConnector]: CDTParser initialized
+[2024-08-23 13:20:15,970 INFO  L431   ainManager$Toolchain]: [Toolchain 1]: Parsing single file: /home/qingshi1019/UAutomizer/fmod.c
+[2024-08-23 13:20:17,888 INFO  L533              CDTParser]: Created temporary CDT project at NULL
+[2024-08-23 13:20:18,186 INFO  L384              CDTParser]: Found 1 translation units.
+[2024-08-23 13:20:18,187 INFO  L180              CDTParser]: Scanning /home/qingshi1019/UAutomizer/fmod.c
+[2024-08-23 13:20:18,190 WARN  L117   ultiparseSymbolTable]: System include stdio.h could not be resolved by CDT -- only built-in system includes are available.
+[2024-08-23 13:20:18,191 WARN  L117   ultiparseSymbolTable]: System include math.h could not be resolved by CDT -- only built-in system includes are available.
+[2024-08-23 13:20:18,199 INFO  L427              CDTParser]: About to delete temporary CDT project at /home/qingshi1019/UAutomizer/data/fd4455ece/5f5d31324fc1407ab351ed82bbedd047/FLAG25058b66e
+[2024-08-23 13:20:18,232 INFO  L435              CDTParser]: Successfully deleted /home/qingshi1019/UAutomizer/data/fd4455ece/5f5d31324fc1407ab351ed82bbedd047
+[2024-08-23 13:20:18,236 INFO  L299   ainManager$Toolchain]: ####################### [Toolchain 1] #######################
+[2024-08-23 13:20:18,239 INFO  L133        ToolchainWalker]: Walking toolchain with 6 elements.
+[2024-08-23 13:20:18,241 INFO  L112        PluginConnector]: ------------------------CACSL2BoogieTranslator----------------------------
+[2024-08-23 13:20:18,241 INFO  L270        PluginConnector]: Initializing CACSL2BoogieTranslator...
+[2024-08-23 13:20:18,249 INFO  L274        PluginConnector]: CACSL2BoogieTranslator initialized
+[2024-08-23 13:20:18,251 INFO  L184        PluginConnector]: Executing the observer ACSLObjectContainerObserver from plugin CACSL2BoogieTranslator for "CDTParser AST 23.08 01:20:18" (1/1) ...
+[2024-08-23 13:20:18,253 INFO  L204        PluginConnector]: Invalid model from CACSL2BoogieTranslator for observer de.uni_freiburg.informatik.ultimate.plugins.generator.cacsl2boogietranslator.ACSLObjectContainerObserver@227a5dc7 and model type de.uni_freiburg.informatik.ultimate.plugins.generator.cacsl2boogietranslator AST 23.08 01:20:18, skipping insertion in model container
+[2024-08-23 13:20:18,254 INFO  L184        PluginConnector]: Executing the observer CACSL2BoogieTranslatorObserver from plugin CACSL2BoogieTranslator for "CDTParser AST 23.08 01:20:18" (1/1) ...
+[2024-08-23 13:20:18,287 INFO  L177         MainTranslator]: Built tables and reachable declarations
+[2024-08-23 13:20:18,495 FATAL L?                        ?]: The Plugin de.uni_freiburg.informatik.ultimate.plugins.generator.cacsl2boogietranslator has thrown an exception:
+java.lang.UnsupportedOperationException: floating point operation not supported in non-bitprecise translation: fmod
+	at de.uni_freiburg.informatik.ultimate.cdt.translation.implementation.base.expressiontranslation.IntegerTranslation.constructOtherBinaryFloatOperation(IntegerTranslation.java:617)
+	at de.uni_freiburg.informatik.ultimate.cdt.translation.implementation.base.standardfunctions.StandardFunctionHandler.handleBinaryFloatFunction(StandardFunctionHandler.java:2228)
+	at de.uni_freiburg.informatik.ultimate.cdt.translation.implementation.base.standardfunctions.StandardFunctionHandler.translateStandardFunction(StandardFunctionHandler.java:245)
+	at de.uni_freiburg.informatik.ultimate.cdt.translation.implementation.base.CHandler.visit(CHandler.java:1486)
+	at de.uni_freiburg.informatik.ultimate.cdt.translation.implementation.base.PRDispatcher.dispatch(PRDispatcher.java:269)
+	at de.uni_freiburg.informatik.ultimate.cdt.translation.implementation.base.CHandler.visit(CHandler.java:1414)
+	at de.uni_freiburg.informatik.ultimate.cdt.translation.implementation.base.PRDispatcher.dispatch(PRDispatcher.java:251)
+	at de.uni_freiburg.informatik.ultimate.cdt.translation.implementation.base.CHandler.translateInitializer(CHandler.java:3086)
+	at de.uni_freiburg.informatik.ultimate.cdt.translation.implementation.base.CHandler.handleIASTDeclarator(CHandler.java:2927)
+	at de.uni_freiburg.informatik.ultimate.cdt.translation.implementation.base.CHandler.visit(CHandler.java:2209)
+	at de.uni_freiburg.informatik.ultimate.cdt.translation.implementation.base.PRDispatcher.dispatch(PRDispatcher.java:142)
+	at de.uni_freiburg.informatik.ultimate.cdt.translation.implementation.base.CHandler.visit(CHandler.java:1156)
+	at de.uni_freiburg.informatik.ultimate.cdt.translation.implementation.base.PRDispatcher.dispatch(PRDispatcher.java:213)
+	at de.uni_freiburg.informatik.ultimate.cdt.translation.implementation.base.CHandler.handleCompoundStatement(CHandler.java:1088)
+	at de.uni_freiburg.informatik.ultimate.cdt.translation.implementation.base.CHandler.visit(CHandler.java:1073)
+	at de.uni_freiburg.informatik.ultimate.cdt.translation.implementation.base.PRDispatcher.dispatch(PRDispatcher.java:234)
+	at de.uni_freiburg.informatik.ultimate.cdt.translation.implementation.base.chandler.FunctionHandler.handleFunctionDefinition(FunctionHandler.java:386)
+	at de.uni_freiburg.informatik.ultimate.cdt.translation.implementation.base.CHandler.visit(CHandler.java:1512)
+	at de.uni_freiburg.informatik.ultimate.cdt.translation.implementation.base.PRDispatcher.dispatch(PRDispatcher.java:157)
+	at de.uni_freiburg.informatik.ultimate.cdt.translation.implementation.base.CHandler.processTUchild(CHandler.java:3421)
+	at de.uni_freiburg.informatik.ultimate.cdt.translation.implementation.base.CHandler.visit(CHandler.java:2441)
+	at de.uni_freiburg.informatik.ultimate.cdt.translation.implementation.base.CHandler.visit(CHandler.java:611)
+	at de.uni_freiburg.informatik.ultimate.cdt.translation.implementation.base.PRDispatcher.dispatch(PRDispatcher.java:133)
+	at de.uni_freiburg.informatik.ultimate.cdt.translation.implementation.base.MainTranslator.translate(MainTranslator.java:191)
+	at de.uni_freiburg.informatik.ultimate.cdt.translation.implementation.base.MainTranslator.run(MainTranslator.java:117)
+	at de.uni_freiburg.informatik.ultimate.cdt.translation.implementation.base.MainTranslator.<init>(MainTranslator.java:95)
+	at de.uni_freiburg.informatik.ultimate.plugins.generator.cacsl2boogietranslator.CACSL2BoogieTranslatorObserver.finish(CACSL2BoogieTranslatorObserver.java:147)
+	at de.uni_freiburg.informatik.ultimate.core.coreplugin.PluginConnector.runObserver(PluginConnector.java:167)
+	at de.uni_freiburg.informatik.ultimate.core.coreplugin.PluginConnector.runTool(PluginConnector.java:150)
+	at de.uni_freiburg.informatik.ultimate.core.coreplugin.PluginConnector.run(PluginConnector.java:127)
+	at de.uni_freiburg.informatik.ultimate.core.coreplugin.ToolchainWalker.executePluginConnector(ToolchainWalker.java:233)
+	at de.uni_freiburg.informatik.ultimate.core.coreplugin.ToolchainWalker.processPlugin(ToolchainWalker.java:227)
+	at de.uni_freiburg.informatik.ultimate.core.coreplugin.ToolchainWalker.walkUnprotected(ToolchainWalker.java:144)
+	at de.uni_freiburg.informatik.ultimate.core.coreplugin.ToolchainWalker.walk(ToolchainWalker.java:106)
+	at de.uni_freiburg.informatik.ultimate.core.coreplugin.ToolchainManager$Toolchain.processToolchain(ToolchainManager.java:319)
+	at de.uni_freiburg.informatik.ultimate.core.coreplugin.toolchain.DefaultToolchainJob.run(DefaultToolchainJob.java:145)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+[2024-08-23 13:20:18,503 INFO  L158              Benchmark]: Toolchain (without parser) took 263.10ms. Allocated memory is still 69.2MB. Free memory was 44.7MB in the beginning and 36.9MB in the end (delta: 7.9MB). Peak memory consumption was 8.4MB. Max. memory is 16.1GB.
+[2024-08-23 13:20:18,504 INFO  L158              Benchmark]: CDTParser took 0.70ms. Allocated memory is still 50.3MB. Free memory was 26.2MB in the beginning and 26.2MB in the end (delta: 16.8kB). There was no memory consumed. Max. memory is 16.1GB.
+[2024-08-23 13:20:18,506 INFO  L158              Benchmark]: CACSL2BoogieTranslator took 259.32ms. Allocated memory is still 69.2MB. Free memory was 44.6MB in the beginning and 36.9MB in the end (delta: 7.7MB). Peak memory consumption was 8.4MB. Max. memory is 16.1GB.
+[2024-08-23 13:20:18,509 INFO  L338   ainManager$Toolchain]: #######################  End [Toolchain 1] #######################
+ --- Results ---
+ * Results from de.uni_freiburg.informatik.ultimate.core:
+  - StatisticsResult: Toolchain Benchmarks
+    Benchmark results are:
+ * CDTParser took 0.70ms. Allocated memory is still 50.3MB. Free memory was 26.2MB in the beginning and 26.2MB in the end (delta: 16.8kB). There was no memory consumed. Max. memory is 16.1GB.
+ * CACSL2BoogieTranslator took 259.32ms. Allocated memory is still 69.2MB. Free memory was 44.6MB in the beginning and 36.9MB in the end (delta: 7.7MB). Peak memory consumption was 8.4MB. Max. memory is 16.1GB.
+ * Results from de.uni_freiburg.informatik.ultimate.plugins.generator.cacsl2boogietranslator:
+  - ExceptionOrErrorResult: UnsupportedOperationException: floating point operation not supported in non-bitprecise translation: fmod
+    de.uni_freiburg.informatik.ultimate.plugins.generator.cacsl2boogietranslator: UnsupportedOperationException: floating point operation not supported in non-bitprecise translation: fmod: de.uni_freiburg.informatik.ultimate.cdt.translation.implementation.base.expressiontranslation.IntegerTranslation.constructOtherBinaryFloatOperation(IntegerTranslation.java:617)
+RESULT: Ultimate could not prove your program: Toolchain returned no result.
+Received shutdown request...
+
+### Bit-precise run ###
+This is Ultimate 0.2.4-dev-0e0057c
+[2024-08-23 13:20:21,116 INFO  L188        SettingsManager]: Resetting all preferences to default values...
+[2024-08-23 13:20:21,225 INFO  L114        SettingsManager]: Loading settings from /home/qingshi1019/UAutomizer/config/svcomp-Overflow-64bit-Automizer_Bitvector.epf
+[2024-08-23 13:20:21,235 WARN  L101        SettingsManager]: Preference file contains the following unknown settings:
+[2024-08-23 13:20:21,236 WARN  L103        SettingsManager]:   * .-Dinclude.path
+[2024-08-23 13:20:21,236 WARN  L103        SettingsManager]:   * de.uni_freiburg.informatik.ultimate.core.Log level for class
+[2024-08-23 13:20:21,237 WARN  L103        SettingsManager]:   * de.uni_freiburg.informatik.ultimate.plugins.generator.cacsl2boogietranslator.Checked method. Library mode if empty.
+[2024-08-23 13:20:21,283 INFO  L130        SettingsManager]: Preferences different from defaults after loading the file:
+[2024-08-23 13:20:21,285 INFO  L151        SettingsManager]: Preferences of UltimateCore differ from their defaults:
+[2024-08-23 13:20:21,286 INFO  L153        SettingsManager]:  * Log level for class=de.uni_freiburg.informatik.ultimate.lib.smtlibutils.quantifier.QuantifierPusher=ERROR;
+[2024-08-23 13:20:21,287 INFO  L151        SettingsManager]: Preferences of Boogie Preprocessor differ from their defaults:
+[2024-08-23 13:20:21,288 INFO  L153        SettingsManager]:  * Use memory slicer=true
+[2024-08-23 13:20:21,289 INFO  L151        SettingsManager]: Preferences of Boogie Procedure Inliner differ from their defaults:
+[2024-08-23 13:20:21,290 INFO  L153        SettingsManager]:  * Ignore calls to procedures called more than once=ONLY_FOR_SEQUENTIAL_PROGRAMS
+[2024-08-23 13:20:21,292 INFO  L151        SettingsManager]: Preferences of BlockEncodingV2 differ from their defaults:
+[2024-08-23 13:20:21,293 INFO  L153        SettingsManager]:  * Create parallel compositions if possible=false
+[2024-08-23 13:20:21,294 INFO  L153        SettingsManager]:  * Use SBE=true
+[2024-08-23 13:20:21,295 INFO  L151        SettingsManager]: Preferences of CACSL2BoogieTranslator differ from their defaults:
+[2024-08-23 13:20:21,295 INFO  L153        SettingsManager]:  * Pointer base address is valid at dereference=IGNORE
+[2024-08-23 13:20:21,296 INFO  L153        SettingsManager]:  * Check division by zero=IGNORE
+[2024-08-23 13:20:21,297 INFO  L153        SettingsManager]:  * Pointer to allocated memory at dereference=IGNORE
+[2024-08-23 13:20:21,299 INFO  L153        SettingsManager]:  * If two pointers are subtracted or compared they have the same base address=IGNORE
+[2024-08-23 13:20:21,300 INFO  L153        SettingsManager]:  * Check array bounds for arrays that are off heap=IGNORE
+[2024-08-23 13:20:21,301 INFO  L153        SettingsManager]:  * Adapt memory model on pointer casts if necessary=true
+[2024-08-23 13:20:21,301 INFO  L153        SettingsManager]:  * Use bitvectors instead of ints=true
+[2024-08-23 13:20:21,302 INFO  L153        SettingsManager]:  * Check absence of signed integer overflows=true
+[2024-08-23 13:20:21,303 INFO  L153        SettingsManager]:  * Memory model=HoenickeLindenmann_4ByteResolution
+[2024-08-23 13:20:21,304 INFO  L153        SettingsManager]:  * Check unreachability of reach_error function=false
+[2024-08-23 13:20:21,305 INFO  L153        SettingsManager]:  * Check if freed pointer was valid=false
+[2024-08-23 13:20:21,307 INFO  L153        SettingsManager]:  * Use constant arrays=true
+[2024-08-23 13:20:21,308 INFO  L151        SettingsManager]: Preferences of RCFGBuilder differ from their defaults:
+[2024-08-23 13:20:21,308 INFO  L153        SettingsManager]:  * Size of a code block=SequenceOfStatements
+[2024-08-23 13:20:21,309 INFO  L153        SettingsManager]:  * Only consider context switches at boundaries of atomic blocks=true
+[2024-08-23 13:20:21,310 INFO  L153        SettingsManager]:  * SMT solver=External_DefaultMode
+[2024-08-23 13:20:21,310 INFO  L153        SettingsManager]:  * Command for external solver=z3 SMTLIB2_COMPLIANT=true -memory:2024 -smt2 -in -t:4000
+[2024-08-23 13:20:21,311 INFO  L151        SettingsManager]: Preferences of TraceAbstraction differ from their defaults:
+[2024-08-23 13:20:21,312 INFO  L153        SettingsManager]:  * Compute Interpolants along a Counterexample=FPandBP
+[2024-08-23 13:20:21,313 INFO  L153        SettingsManager]:  * Positions where we compute the Hoare Annotation=LoopHeads
+[2024-08-23 13:20:21,314 INFO  L153        SettingsManager]:  * Trace refinement strategy=WOLF
+[2024-08-23 13:20:21,315 INFO  L153        SettingsManager]:  * Command for external solver=cvc4 --incremental --print-success --lang smt 
+[2024-08-23 13:20:21,315 INFO  L153        SettingsManager]:  * Apply one-shot large block encoding in concurrent analysis=false
+[2024-08-23 13:20:21,316 INFO  L153        SettingsManager]:  * Automaton type used in concurrency analysis=PETRI_NET
+[2024-08-23 13:20:21,316 INFO  L153        SettingsManager]:  * Compute Hoare Annotation of negated interpolant automaton, abstraction and CFG=true
+[2024-08-23 13:20:21,317 INFO  L153        SettingsManager]:  * Order on configurations for Petri net unfoldings=DBO
+[2024-08-23 13:20:21,317 INFO  L153        SettingsManager]:  * SMT solver=External_ModelsAndUnsatCoreMode
+[2024-08-23 13:20:21,318 INFO  L153        SettingsManager]:  * Logic for external solver=AUFBV
+[2024-08-23 13:20:21,319 INFO  L153        SettingsManager]:  * Looper check in Petri net analysis=SEMANTIC
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.sun.xml.bind.v2.runtime.reflect.opt.Injector$1 (file:/home/qingshi1019/UAutomizer/plugins/com.sun.xml.bind_2.2.0.v201505121915.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int)
+WARNING: Please consider reporting this to the maintainers of com.sun.xml.bind.v2.runtime.reflect.opt.Injector$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Applying setting for plugin de.uni_freiburg.informatik.ultimate.plugins.generator.cacsl2boogietranslator: Entry function -> main
+Applying setting for plugin de.uni_freiburg.informatik.ultimate.witnessprinter: Witness directory -> /home/qingshi1019/UAutomizer
+Applying setting for plugin de.uni_freiburg.informatik.ultimate.witnessprinter: Witness filename -> witness
+Applying setting for plugin de.uni_freiburg.informatik.ultimate.witnessprinter: Write witness besides input file -> false
+Applying setting for plugin de.uni_freiburg.informatik.ultimate.witnessprinter: Graph data specification -> CHECK( init(main()), LTL(G ! overflow) )
+
+
+Applying setting for plugin de.uni_freiburg.informatik.ultimate.witnessprinter: Graph data producer -> Automizer
+Applying setting for plugin de.uni_freiburg.informatik.ultimate.witnessprinter: Graph data architecture -> 64bit
+Applying setting for plugin de.uni_freiburg.informatik.ultimate.witnessprinter: Graph data programhash -> 947f8e479f083f86043cc336cb4d4d0c23acbc41fbdb98509ec8373fcfa21a27
+[2024-08-23 13:20:21,799 INFO  L75    nceAwareModelManager]: Repository-Root is: /tmp
+[2024-08-23 13:20:21,839 INFO  L261   ainManager$Toolchain]: [Toolchain 1]: Applicable parser(s) successfully (re)initialized
+[2024-08-23 13:20:21,844 INFO  L217   ainManager$Toolchain]: [Toolchain 1]: Toolchain selected.
+[2024-08-23 13:20:21,846 INFO  L270        PluginConnector]: Initializing CDTParser...
+[2024-08-23 13:20:21,847 INFO  L274        PluginConnector]: CDTParser initialized
+[2024-08-23 13:20:21,850 INFO  L431   ainManager$Toolchain]: [Toolchain 1]: Parsing single file: /home/qingshi1019/UAutomizer/fmod.c
+[2024-08-23 13:20:23,666 INFO  L533              CDTParser]: Created temporary CDT project at NULL
+[2024-08-23 13:20:23,935 INFO  L384              CDTParser]: Found 1 translation units.
+[2024-08-23 13:20:23,936 INFO  L180              CDTParser]: Scanning /home/qingshi1019/UAutomizer/fmod.c
+[2024-08-23 13:20:23,939 WARN  L117   ultiparseSymbolTable]: System include stdio.h could not be resolved by CDT -- only built-in system includes are available.
+[2024-08-23 13:20:23,939 WARN  L117   ultiparseSymbolTable]: System include math.h could not be resolved by CDT -- only built-in system includes are available.
+[2024-08-23 13:20:23,948 INFO  L427              CDTParser]: About to delete temporary CDT project at /home/qingshi1019/UAutomizer/data/7da1f9969/1c877975b8614bd2827cb6d96d8b2500/FLAG8c108f5d8
+[2024-08-23 13:20:23,979 INFO  L435              CDTParser]: Successfully deleted /home/qingshi1019/UAutomizer/data/7da1f9969/1c877975b8614bd2827cb6d96d8b2500
+[2024-08-23 13:20:23,982 INFO  L299   ainManager$Toolchain]: ####################### [Toolchain 1] #######################
+[2024-08-23 13:20:23,984 INFO  L133        ToolchainWalker]: Walking toolchain with 6 elements.
+[2024-08-23 13:20:23,986 INFO  L112        PluginConnector]: ------------------------CACSL2BoogieTranslator----------------------------
+[2024-08-23 13:20:23,986 INFO  L270        PluginConnector]: Initializing CACSL2BoogieTranslator...
+[2024-08-23 13:20:23,995 INFO  L274        PluginConnector]: CACSL2BoogieTranslator initialized
+[2024-08-23 13:20:23,996 INFO  L184        PluginConnector]: Executing the observer ACSLObjectContainerObserver from plugin CACSL2BoogieTranslator for "CDTParser AST 23.08 01:20:23" (1/1) ...
+[2024-08-23 13:20:23,999 INFO  L204        PluginConnector]: Invalid model from CACSL2BoogieTranslator for observer de.uni_freiburg.informatik.ultimate.plugins.generator.cacsl2boogietranslator.ACSLObjectContainerObserver@6bc78874 and model type de.uni_freiburg.informatik.ultimate.plugins.generator.cacsl2boogietranslator AST 23.08 01:20:23, skipping insertion in model container
+[2024-08-23 13:20:23,999 INFO  L184        PluginConnector]: Executing the observer CACSL2BoogieTranslatorObserver from plugin CACSL2BoogieTranslator for "CDTParser AST 23.08 01:20:23" (1/1) ...
+[2024-08-23 13:20:24,030 INFO  L177         MainTranslator]: Built tables and reachable declarations
+[2024-08-23 13:20:24,225 FATAL L?                        ?]: The Plugin de.uni_freiburg.informatik.ultimate.plugins.generator.cacsl2boogietranslator has thrown an exception:
+java.lang.UnsupportedOperationException: not yet supported float operation copysign
+	at de.uni_freiburg.informatik.ultimate.cdt.translation.implementation.base.expressiontranslation.BitvectorTranslation.constructOtherBinaryFloatOperation(BitvectorTranslation.java:1286)
+	at de.uni_freiburg.informatik.ultimate.cdt.translation.implementation.base.expressiontranslation.BitvectorTranslation.constructOtherBinaryFloatOperation(BitvectorTranslation.java:1236)
+	at de.uni_freiburg.informatik.ultimate.cdt.translation.implementation.base.standardfunctions.StandardFunctionHandler.handleBinaryFloatFunction(StandardFunctionHandler.java:2228)
+	at de.uni_freiburg.informatik.ultimate.cdt.translation.implementation.base.standardfunctions.StandardFunctionHandler.translateStandardFunction(StandardFunctionHandler.java:245)
+	at de.uni_freiburg.informatik.ultimate.cdt.translation.implementation.base.CHandler.visit(CHandler.java:1486)
+	at de.uni_freiburg.informatik.ultimate.cdt.translation.implementation.base.PRDispatcher.dispatch(PRDispatcher.java:269)
+	at de.uni_freiburg.informatik.ultimate.cdt.translation.implementation.base.CHandler.visit(CHandler.java:1414)
+	at de.uni_freiburg.informatik.ultimate.cdt.translation.implementation.base.PRDispatcher.dispatch(PRDispatcher.java:251)
+	at de.uni_freiburg.informatik.ultimate.cdt.translation.implementation.base.CHandler.translateInitializer(CHandler.java:3086)
+	at de.uni_freiburg.informatik.ultimate.cdt.translation.implementation.base.CHandler.handleIASTDeclarator(CHandler.java:2927)
+	at de.uni_freiburg.informatik.ultimate.cdt.translation.implementation.base.CHandler.visit(CHandler.java:2209)
+	at de.uni_freiburg.informatik.ultimate.cdt.translation.implementation.base.PRDispatcher.dispatch(PRDispatcher.java:142)
+	at de.uni_freiburg.informatik.ultimate.cdt.translation.implementation.base.CHandler.visit(CHandler.java:1156)
+	at de.uni_freiburg.informatik.ultimate.cdt.translation.implementation.base.PRDispatcher.dispatch(PRDispatcher.java:213)
+	at de.uni_freiburg.informatik.ultimate.cdt.translation.implementation.base.CHandler.handleCompoundStatement(CHandler.java:1088)
+	at de.uni_freiburg.informatik.ultimate.cdt.translation.implementation.base.CHandler.visit(CHandler.java:1073)
+	at de.uni_freiburg.informatik.ultimate.cdt.translation.implementation.base.PRDispatcher.dispatch(PRDispatcher.java:234)
+	at de.uni_freiburg.informatik.ultimate.cdt.translation.implementation.base.chandler.FunctionHandler.handleFunctionDefinition(FunctionHandler.java:386)
+	at de.uni_freiburg.informatik.ultimate.cdt.translation.implementation.base.CHandler.visit(CHandler.java:1512)
+	at de.uni_freiburg.informatik.ultimate.cdt.translation.implementation.base.PRDispatcher.dispatch(PRDispatcher.java:157)
+	at de.uni_freiburg.informatik.ultimate.cdt.translation.implementation.base.CHandler.processTUchild(CHandler.java:3421)
+	at de.uni_freiburg.informatik.ultimate.cdt.translation.implementation.base.CHandler.visit(CHandler.java:2441)
+	at de.uni_freiburg.informatik.ultimate.cdt.translation.implementation.base.CHandler.visit(CHandler.java:611)
+	at de.uni_freiburg.informatik.ultimate.cdt.translation.implementation.base.PRDispatcher.dispatch(PRDispatcher.java:133)
+	at de.uni_freiburg.informatik.ultimate.cdt.translation.implementation.base.MainTranslator.translate(MainTranslator.java:191)
+	at de.uni_freiburg.informatik.ultimate.cdt.translation.implementation.base.MainTranslator.run(MainTranslator.java:117)
+	at de.uni_freiburg.informatik.ultimate.cdt.translation.implementation.base.MainTranslator.<init>(MainTranslator.java:95)
+	at de.uni_freiburg.informatik.ultimate.plugins.generator.cacsl2boogietranslator.CACSL2BoogieTranslatorObserver.finish(CACSL2BoogieTranslatorObserver.java:147)
+	at de.uni_freiburg.informatik.ultimate.core.coreplugin.PluginConnector.runObserver(PluginConnector.java:167)
+	at de.uni_freiburg.informatik.ultimate.core.coreplugin.PluginConnector.runTool(PluginConnector.java:150)
+	at de.uni_freiburg.informatik.ultimate.core.coreplugin.PluginConnector.run(PluginConnector.java:127)
+	at de.uni_freiburg.informatik.ultimate.core.coreplugin.ToolchainWalker.executePluginConnector(ToolchainWalker.java:233)
+	at de.uni_freiburg.informatik.ultimate.core.coreplugin.ToolchainWalker.processPlugin(ToolchainWalker.java:227)
+	at de.uni_freiburg.informatik.ultimate.core.coreplugin.ToolchainWalker.walkUnprotected(ToolchainWalker.java:144)
+	at de.uni_freiburg.informatik.ultimate.core.coreplugin.ToolchainWalker.walk(ToolchainWalker.java:106)
+	at de.uni_freiburg.informatik.ultimate.core.coreplugin.ToolchainManager$Toolchain.processToolchain(ToolchainManager.java:319)
+	at de.uni_freiburg.informatik.ultimate.core.coreplugin.toolchain.DefaultToolchainJob.run(DefaultToolchainJob.java:145)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+[2024-08-23 13:20:24,233 INFO  L158              Benchmark]: Toolchain (without parser) took 247.72ms. Allocated memory is still 62.9MB. Free memory was 38.7MB in the beginning and 30.9MB in the end (delta: 7.9MB). Peak memory consumption was 6.3MB. Max. memory is 16.1GB.
+[2024-08-23 13:20:24,234 INFO  L158              Benchmark]: CDTParser took 0.43ms. Allocated memory is still 50.3MB. Free memory is still 25.6MB. There was no memory consumed. Max. memory is 16.1GB.
+[2024-08-23 13:20:24,235 INFO  L158              Benchmark]: CACSL2BoogieTranslator took 244.26ms. Allocated memory is still 62.9MB. Free memory was 38.6MB in the beginning and 30.9MB in the end (delta: 7.7MB). Peak memory consumption was 6.3MB. Max. memory is 16.1GB.
+[2024-08-23 13:20:24,243 INFO  L338   ainManager$Toolchain]: #######################  End [Toolchain 1] #######################
+ --- Results ---
+ * Results from de.uni_freiburg.informatik.ultimate.core:
+  - StatisticsResult: Toolchain Benchmarks
+    Benchmark results are:
+ * CDTParser took 0.43ms. Allocated memory is still 50.3MB. Free memory is still 25.6MB. There was no memory consumed. Max. memory is 16.1GB.
+ * CACSL2BoogieTranslator took 244.26ms. Allocated memory is still 62.9MB. Free memory was 38.6MB in the beginning and 30.9MB in the end (delta: 7.7MB). Peak memory consumption was 6.3MB. Max. memory is 16.1GB.
+ * Results from de.uni_freiburg.informatik.ultimate.plugins.generator.cacsl2boogietranslator:
+  - ExceptionOrErrorResult: UnsupportedOperationException: not yet supported float operation copysign
+    de.uni_freiburg.informatik.ultimate.plugins.generator.cacsl2boogietranslator: UnsupportedOperationException: not yet supported float operation copysign: de.uni_freiburg.informatik.ultimate.cdt.translation.implementation.base.expressiontranslation.BitvectorTranslation.constructOtherBinaryFloatOperation(BitvectorTranslation.java:1286)
+RESULT: Ultimate could not prove your program: Toolchain returned no result.
+Received shutdown request...

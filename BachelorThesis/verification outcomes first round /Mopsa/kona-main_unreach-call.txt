@@ -1,0 +1,18 @@
+Program File: /home/qingshi1019/mopsa/repositories/kona-main.i
+Property File: /home/qingshi1019/mopsa/properties/unreach-call.prp
+
+--- Output ---
+Running /home/qingshi1019/mopsa/bin/mopsa-c -config=c/default.json -c-init-memset-threshold=5 -additional-stubs=c/sv-comp.c -use-stub=reach_error,fread_unlocked,fread,strndup,xstrndup -no-warning -ccopt=-fbracket-depth=2048 -stub-ignore-case=malloc.failure,malloc.empty -c-check-signed-implicit-cast-overflow=false -c-check-unsigned-implicit-cast-overflow=false -c-check-unreachable-memory /home/qingshi1019/mopsa/repositories/kona-main.i /home/qingshi1019/mopsa/share/mopsa/stubs/c/libc/assert.c  /home/qingshi1019/mopsa/share/mopsa/stubs/c/libc/sys/socket.c /home/qingshi1019/mopsa/share/mopsa/stubs/c/libc/libintl.c /home/qingshi1019/mopsa/share/mopsa/stubs/c/libc/stdio_ext.c /home/qingshi1019/mopsa/share/mopsa/stubs/c/libc/netinet/in.c /home/qingshi1019/mopsa/share/mopsa/stubs/c/libc/arpa/inet.c /home/qingshi1019/mopsa/share/mopsa/stubs/c/libc/wctype.c /home/qingshi1019/mopsa/share/mopsa/stubs/c/libc/sys/stat.c -error-is-builtin=false /home/qingshi1019/mopsa/share/mopsa/stubs/c/libc/math.c /home/qingshi1019/mopsa/share/mopsa/stubs/c/libc/stdio.c /home/qingshi1019/mopsa/share/mopsa/stubs/c/libc/stdlib.c -format=json
+Analysis aborted: Parsing error raised:
+/usr/include/stdlib.h:566:20: '__malloc__' attribute takes no arguments
+/usr/include/stdlib.h:570:62: '__malloc__' attribute takes no arguments
+/usr/include/stdio.h:189:47: '__malloc__' attribute takes no arguments
+/usr/include/stdio.h:223:130: '__malloc__' attribute takes no arguments
+/usr/include/stdio.h:260:47: '__malloc__' attribute takes no arguments
+/usr/include/stdio.h:294:47: '__malloc__' attribute takes no arguments
+/usr/include/stdio.h:309:88: '__malloc__' attribute takes no arguments
+/usr/include/stdio.h:315:47: '__malloc__' attribute takes no arguments
+/usr/include/stdio.h:830:47: '__malloc__' attribute takes no arguments
+error parsing error
+
+--- Error ---

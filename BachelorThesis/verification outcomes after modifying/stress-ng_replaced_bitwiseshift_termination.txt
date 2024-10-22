@@ -1,0 +1,1096 @@
+Program File: /home/qingshi1019/analyzer/repositories/stress-ng_replaced.i
+Property File: /home/qingshi1019/analyzer/properties/termination.prp
+
+--- Output ---
+
+
+--- Error ---
+[Info] Specification: CHECK( init(main()), LTL(F end) ) -> enabling soundness analyses "termination"
+[Info] Specification: Termination -> enabling termination analyses "threadflag, apron"
+:-1: Warning: Incompatible declaration for pthread_create (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:202 (from /home/qingshi1019/analyzer/repositories/stress-ng_replaced.i (0)) 
+	Failed assumption that pthread_attr_t and pthread_attr_t are isomorphic 
+	Failed assumption that union pthread_attr_t and union pthread_attr_t are isomorphic (different array sizes)
+union pthread_attr_t {
+   char __size[64] ;
+   long __align ;
+};
+
+union pthread_attr_t {
+   char __size[56] ;
+   long __align ;
+};
+ 
+:-1: Warning: Incompatible declaration for pthread_attr_init (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:285 (from /home/qingshi1019/analyzer/repositories/stress-ng_replaced.i (0)) 
+	Failed assumption that pthread_attr_t and pthread_attr_t are isomorphic 
+	Failed assumption that union pthread_attr_t and union pthread_attr_t are isomorphic (different array sizes)
+union pthread_attr_t {
+   char __size[64] ;
+   long __align ;
+};
+
+union pthread_attr_t {
+   char __size[56] ;
+   long __align ;
+};
+ 
+:-1: Warning: Incompatible declaration for pthread_attr_destroy (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:288 (from /home/qingshi1019/analyzer/repositories/stress-ng_replaced.i (0)) 
+	Failed assumption that pthread_attr_t and pthread_attr_t are isomorphic 
+	Failed assumption that union pthread_attr_t and union pthread_attr_t are isomorphic (different array sizes)
+union pthread_attr_t {
+   char __size[64] ;
+   long __align ;
+};
+
+union pthread_attr_t {
+   char __size[56] ;
+   long __align ;
+};
+ 
+:-1: Warning: Incompatible declaration for pthread_attr_getdetachstate (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:292 (from /home/qingshi1019/analyzer/repositories/stress-ng_replaced.i (0)) 
+	Failed assumption that pthread_attr_t and pthread_attr_t are isomorphic 
+	Failed assumption that union pthread_attr_t and union pthread_attr_t are isomorphic (different array sizes)
+union pthread_attr_t {
+   char __size[64] ;
+   long __align ;
+};
+
+union pthread_attr_t {
+   char __size[56] ;
+   long __align ;
+};
+ 
+:-1: Warning: Incompatible declaration for pthread_attr_setdetachstate (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:297 (from /home/qingshi1019/analyzer/repositories/stress-ng_replaced.i (0)) 
+	Failed assumption that pthread_attr_t and pthread_attr_t are isomorphic 
+	Failed assumption that union pthread_attr_t and union pthread_attr_t are isomorphic (different array sizes)
+union pthread_attr_t {
+   char __size[64] ;
+   long __align ;
+};
+
+union pthread_attr_t {
+   char __size[56] ;
+   long __align ;
+};
+ 
+:-1: Warning: Incompatible declaration for pthread_attr_getguardsize (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:303 (from /home/qingshi1019/analyzer/repositories/stress-ng_replaced.i (0)) 
+	Failed assumption that pthread_attr_t and pthread_attr_t are isomorphic 
+	Failed assumption that union pthread_attr_t and union pthread_attr_t are isomorphic (different array sizes)
+union pthread_attr_t {
+   char __size[64] ;
+   long __align ;
+};
+
+union pthread_attr_t {
+   char __size[56] ;
+   long __align ;
+};
+ 
+:-1: Warning: Incompatible declaration for pthread_attr_setguardsize (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:308 (from /home/qingshi1019/analyzer/repositories/stress-ng_replaced.i (0)) 
+	Failed assumption that pthread_attr_t and pthread_attr_t are isomorphic 
+	Failed assumption that union pthread_attr_t and union pthread_attr_t are isomorphic (different array sizes)
+union pthread_attr_t {
+   char __size[64] ;
+   long __align ;
+};
+
+union pthread_attr_t {
+   char __size[56] ;
+   long __align ;
+};
+ 
+:-1: Warning: Incompatible declaration for pthread_attr_getschedparam (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:314 (from /home/qingshi1019/analyzer/repositories/stress-ng_replaced.i (0)) 
+	Failed assumption that pthread_attr_t and pthread_attr_t are isomorphic 
+	Failed assumption that union pthread_attr_t and union pthread_attr_t are isomorphic (different array sizes)
+union pthread_attr_t {
+   char __size[64] ;
+   long __align ;
+};
+
+union pthread_attr_t {
+   char __size[56] ;
+   long __align ;
+};
+ 
+:-1: Warning: Incompatible declaration for pthread_attr_setschedparam (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:319 (from /home/qingshi1019/analyzer/repositories/stress-ng_replaced.i (0)) 
+	Failed assumption that pthread_attr_t and pthread_attr_t are isomorphic 
+	Failed assumption that union pthread_attr_t and union pthread_attr_t are isomorphic (different array sizes)
+union pthread_attr_t {
+   char __size[64] ;
+   long __align ;
+};
+
+union pthread_attr_t {
+   char __size[56] ;
+   long __align ;
+};
+ 
+:-1: Warning: Incompatible declaration for pthread_attr_getschedpolicy (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:324 (from /home/qingshi1019/analyzer/repositories/stress-ng_replaced.i (0)) 
+	Failed assumption that pthread_attr_t and pthread_attr_t are isomorphic 
+	Failed assumption that union pthread_attr_t and union pthread_attr_t are isomorphic (different array sizes)
+union pthread_attr_t {
+   char __size[64] ;
+   long __align ;
+};
+
+union pthread_attr_t {
+   char __size[56] ;
+   long __align ;
+};
+ 
+:-1: Warning: Incompatible declaration for pthread_attr_setschedpolicy (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:329 (from /home/qingshi1019/analyzer/repositories/stress-ng_replaced.i (0)) 
+	Failed assumption that pthread_attr_t and pthread_attr_t are isomorphic 
+	Failed assumption that union pthread_attr_t and union pthread_attr_t are isomorphic (different array sizes)
+union pthread_attr_t {
+   char __size[64] ;
+   long __align ;
+};
+
+union pthread_attr_t {
+   char __size[56] ;
+   long __align ;
+};
+ 
+:-1: Warning: Incompatible declaration for pthread_attr_getinheritsched (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:333 (from /home/qingshi1019/analyzer/repositories/stress-ng_replaced.i (0)) 
+	Failed assumption that pthread_attr_t and pthread_attr_t are isomorphic 
+	Failed assumption that union pthread_attr_t and union pthread_attr_t are isomorphic (different array sizes)
+union pthread_attr_t {
+   char __size[64] ;
+   long __align ;
+};
+
+union pthread_attr_t {
+   char __size[56] ;
+   long __align ;
+};
+ 
+:-1: Warning: Incompatible declaration for pthread_attr_setinheritsched (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:338 (from /home/qingshi1019/analyzer/repositories/stress-ng_replaced.i (0)) 
+	Failed assumption that pthread_attr_t and pthread_attr_t are isomorphic 
+	Failed assumption that union pthread_attr_t and union pthread_attr_t are isomorphic (different array sizes)
+union pthread_attr_t {
+   char __size[64] ;
+   long __align ;
+};
+
+union pthread_attr_t {
+   char __size[56] ;
+   long __align ;
+};
+ 
+:-1: Warning: Incompatible declaration for pthread_attr_getscope (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:344 (from /home/qingshi1019/analyzer/repositories/stress-ng_replaced.i (0)) 
+	Failed assumption that pthread_attr_t and pthread_attr_t are isomorphic 
+	Failed assumption that union pthread_attr_t and union pthread_attr_t are isomorphic (different array sizes)
+union pthread_attr_t {
+   char __size[64] ;
+   long __align ;
+};
+
+union pthread_attr_t {
+   char __size[56] ;
+   long __align ;
+};
+ 
+:-1: Warning: Incompatible declaration for pthread_attr_setscope (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:349 (from /home/qingshi1019/analyzer/repositories/stress-ng_replaced.i (0)) 
+	Failed assumption that pthread_attr_t and pthread_attr_t are isomorphic 
+	Failed assumption that union pthread_attr_t and union pthread_attr_t are isomorphic (different array sizes)
+union pthread_attr_t {
+   char __size[64] ;
+   long __align ;
+};
+
+union pthread_attr_t {
+   char __size[56] ;
+   long __align ;
+};
+ 
+:-1: Warning: Incompatible declaration for pthread_attr_getstackaddr (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:353 (from /home/qingshi1019/analyzer/repositories/stress-ng_replaced.i (0)) 
+	Failed assumption that pthread_attr_t and pthread_attr_t are isomorphic 
+	Failed assumption that union pthread_attr_t and union pthread_attr_t are isomorphic (different array sizes)
+union pthread_attr_t {
+   char __size[64] ;
+   long __align ;
+};
+
+union pthread_attr_t {
+   char __size[56] ;
+   long __align ;
+};
+ 
+:-1: Warning: Incompatible declaration for pthread_attr_setstackaddr (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:361 (from /home/qingshi1019/analyzer/repositories/stress-ng_replaced.i (0)) 
+	Failed assumption that pthread_attr_t and pthread_attr_t are isomorphic 
+	Failed assumption that union pthread_attr_t and union pthread_attr_t are isomorphic (different array sizes)
+union pthread_attr_t {
+   char __size[64] ;
+   long __align ;
+};
+
+union pthread_attr_t {
+   char __size[56] ;
+   long __align ;
+};
+ 
+:-1: Warning: Incompatible declaration for pthread_attr_getstacksize (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:366 (from /home/qingshi1019/analyzer/repositories/stress-ng_replaced.i (0)) 
+	Failed assumption that pthread_attr_t and pthread_attr_t are isomorphic 
+	Failed assumption that union pthread_attr_t and union pthread_attr_t are isomorphic (different array sizes)
+union pthread_attr_t {
+   char __size[64] ;
+   long __align ;
+};
+
+union pthread_attr_t {
+   char __size[56] ;
+   long __align ;
+};
+ 
+:-1: Warning: Incompatible declaration for pthread_attr_setstacksize (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:373 (from /home/qingshi1019/analyzer/repositories/stress-ng_replaced.i (0)) 
+	Failed assumption that pthread_attr_t and pthread_attr_t are isomorphic 
+	Failed assumption that union pthread_attr_t and union pthread_attr_t are isomorphic (different array sizes)
+union pthread_attr_t {
+   char __size[64] ;
+   long __align ;
+};
+
+union pthread_attr_t {
+   char __size[56] ;
+   long __align ;
+};
+ 
+:-1: Warning: Incompatible declaration for pthread_attr_getstack (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:379 (from /home/qingshi1019/analyzer/repositories/stress-ng_replaced.i (0)) 
+	Failed assumption that pthread_attr_t and pthread_attr_t are isomorphic 
+	Failed assumption that union pthread_attr_t and union pthread_attr_t are isomorphic (different array sizes)
+union pthread_attr_t {
+   char __size[64] ;
+   long __align ;
+};
+
+union pthread_attr_t {
+   char __size[56] ;
+   long __align ;
+};
+ 
+:-1: Warning: Incompatible declaration for pthread_attr_setstack (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:387 (from /home/qingshi1019/analyzer/repositories/stress-ng_replaced.i (0)) 
+	Failed assumption that pthread_attr_t and pthread_attr_t are isomorphic 
+	Failed assumption that union pthread_attr_t and union pthread_attr_t are isomorphic (different array sizes)
+union pthread_attr_t {
+   char __size[64] ;
+   long __align ;
+};
+
+union pthread_attr_t {
+   char __size[56] ;
+   long __align ;
+};
+ 
+:-1: Warning: Incompatible declaration for __pthread_register_cancel (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:697 (from /home/qingshi1019/analyzer/repositories/stress-ng_replaced.i (0)) 
+	Failed assumption that __pthread_unwind_buf_t and __pthread_unwind_buf_t are isomorphic 
+	Failed assumption that struct __anonstruct___pthread_unwind_buf_t_530692248 and struct __anonstruct___pthread_unwind_buf_t_530692248 are isomorphic 
+	Failed assumption that struct __cancel_jmp_buf_tag and struct __cancel_jmp_buf_tag are isomorphic 
+	Failed assumption that __jmp_buf and __jmp_buf are isomorphic (different integer types unsigned long long  and long )
+struct __cancel_jmp_buf_tag {
+   __jmp_buf __cancel_jmp_buf ;
+   int __mask_was_saved ;
+};
+
+struct __cancel_jmp_buf_tag {
+   __jmp_buf __cancel_jmp_buf ;
+   int __mask_was_saved ;
+};
+
+struct __anonstruct___pthread_unwind_buf_t_530692248 {
+   struct __cancel_jmp_buf_tag __cancel_jmp_buf[1] ;
+   void *__pad[4] ;
+};
+
+struct __anonstruct___pthread_unwind_buf_t_530692248 {
+   struct __cancel_jmp_buf_tag __cancel_jmp_buf[1] ;
+   void *__pad[4] ;
+};
+ 
+:-1: Warning: Incompatible declaration for __pthread_unregister_cancel (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:709 (from /home/qingshi1019/analyzer/repositories/stress-ng_replaced.i (0)) 
+	Failed assumption that __pthread_unwind_buf_t and __pthread_unwind_buf_t are isomorphic 
+	Failed assumption that struct __anonstruct___pthread_unwind_buf_t_530692248 and struct __anonstruct___pthread_unwind_buf_t_530692248 are isomorphic 
+	Failed assumption that struct __cancel_jmp_buf_tag and struct __cancel_jmp_buf_tag are isomorphic 
+	Failed assumption that __jmp_buf and __jmp_buf are isomorphic (different integer types unsigned long long  and long )
+struct __cancel_jmp_buf_tag {
+   __jmp_buf __cancel_jmp_buf ;
+   int __mask_was_saved ;
+};
+
+struct __cancel_jmp_buf_tag {
+   __jmp_buf __cancel_jmp_buf ;
+   int __mask_was_saved ;
+};
+
+struct __anonstruct___pthread_unwind_buf_t_530692248 {
+   struct __cancel_jmp_buf_tag __cancel_jmp_buf[1] ;
+   void *__pad[4] ;
+};
+
+struct __anonstruct___pthread_unwind_buf_t_530692248 {
+   struct __cancel_jmp_buf_tag __cancel_jmp_buf[1] ;
+   void *__pad[4] ;
+};
+ 
+:-1: Warning: Incompatible declaration for __pthread_unwind_next (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:750 (from /home/qingshi1019/analyzer/repositories/stress-ng_replaced.i (0)) 
+	Failed assumption that __pthread_unwind_buf_t and __pthread_unwind_buf_t are isomorphic 
+	Failed assumption that struct __anonstruct___pthread_unwind_buf_t_530692248 and struct __anonstruct___pthread_unwind_buf_t_530692248 are isomorphic 
+	Failed assumption that struct __cancel_jmp_buf_tag and struct __cancel_jmp_buf_tag are isomorphic 
+	Failed assumption that __jmp_buf and __jmp_buf are isomorphic (different integer types unsigned long long  and long )
+struct __cancel_jmp_buf_tag {
+   __jmp_buf __cancel_jmp_buf ;
+   int __mask_was_saved ;
+};
+
+struct __cancel_jmp_buf_tag {
+   __jmp_buf __cancel_jmp_buf ;
+   int __mask_was_saved ;
+};
+
+struct __anonstruct___pthread_unwind_buf_t_530692248 {
+   struct __cancel_jmp_buf_tag __cancel_jmp_buf[1] ;
+   void *__pad[4] ;
+};
+
+struct __anonstruct___pthread_unwind_buf_t_530692248 {
+   struct __cancel_jmp_buf_tag __cancel_jmp_buf[1] ;
+   void *__pad[4] ;
+};
+ 
+:-1: Warning: Incompatible declaration for __sigsetjmp_cancel (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:766 (from /home/qingshi1019/analyzer/repositories/stress-ng_replaced.i (0)) 
+	Failed assumption that struct __cancel_jmp_buf_tag and struct __cancel_jmp_buf_tag are isomorphic 
+	Failed assumption that __jmp_buf and __jmp_buf are isomorphic (different integer types unsigned long long  and long )
+struct __cancel_jmp_buf_tag {
+   __jmp_buf __cancel_jmp_buf ;
+   int __mask_was_saved ;
+};
+
+struct __cancel_jmp_buf_tag {
+   __jmp_buf __cancel_jmp_buf ;
+   int __mask_was_saved ;
+};
+ 
+:-1: Warning: Incompatible declaration for pthread_mutex_init (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:781 (from /home/qingshi1019/analyzer/repositories/stress-ng_replaced.i (0)) 
+	Failed assumption that pthread_mutex_t and pthread_mutex_t are isomorphic 
+	Failed assumption that union __anonunion_pthread_mutex_t_335460617 and union __anonunion_pthread_mutex_t_335460617 are isomorphic (different number of fields in __pthread_mutex_s and __pthread_mutex_s: 7 != 8.)
+union __anonunion_pthread_mutex_t_335460617 {
+   struct __pthread_mutex_s __data ;
+   char __size[48] ;
+   long __align ;
+};
+
+union __anonunion_pthread_mutex_t_335460617 {
+   struct __pthread_mutex_s __data ;
+   char __size[40] ;
+   long __align ;
+};
+ 
+:-1: Warning: Incompatible declaration for pthread_mutex_destroy (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:786 (from /home/qingshi1019/analyzer/repositories/stress-ng_replaced.i (0)) 
+	Failed assumption that pthread_mutex_t and pthread_mutex_t are isomorphic 
+	Failed assumption that union __anonunion_pthread_mutex_t_335460617 and union __anonunion_pthread_mutex_t_335460617 are isomorphic (different number of fields in __pthread_mutex_s and __pthread_mutex_s: 7 != 8.)
+union __anonunion_pthread_mutex_t_335460617 {
+   struct __pthread_mutex_s __data ;
+   char __size[48] ;
+   long __align ;
+};
+
+union __anonunion_pthread_mutex_t_335460617 {
+   struct __pthread_mutex_s __data ;
+   char __size[40] ;
+   long __align ;
+};
+ 
+:-1: Warning: Incompatible declaration for pthread_mutex_trylock (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:790 (from /home/qingshi1019/analyzer/repositories/stress-ng_replaced.i (0)) 
+	Failed assumption that pthread_mutex_t and pthread_mutex_t are isomorphic 
+	Failed assumption that union __anonunion_pthread_mutex_t_335460617 and union __anonunion_pthread_mutex_t_335460617 are isomorphic (different number of fields in __pthread_mutex_s and __pthread_mutex_s: 7 != 8.)
+union __anonunion_pthread_mutex_t_335460617 {
+   struct __pthread_mutex_s __data ;
+   char __size[48] ;
+   long __align ;
+};
+
+union __anonunion_pthread_mutex_t_335460617 {
+   struct __pthread_mutex_s __data ;
+   char __size[40] ;
+   long __align ;
+};
+ 
+:-1: Warning: Incompatible declaration for pthread_mutex_lock (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:794 (from /home/qingshi1019/analyzer/repositories/stress-ng_replaced.i (0)) 
+	Failed assumption that pthread_mutex_t and pthread_mutex_t are isomorphic 
+	Failed assumption that union __anonunion_pthread_mutex_t_335460617 and union __anonunion_pthread_mutex_t_335460617 are isomorphic (different number of fields in __pthread_mutex_s and __pthread_mutex_s: 7 != 8.)
+union __anonunion_pthread_mutex_t_335460617 {
+   struct __pthread_mutex_s __data ;
+   char __size[48] ;
+   long __align ;
+};
+
+union __anonunion_pthread_mutex_t_335460617 {
+   struct __pthread_mutex_s __data ;
+   char __size[40] ;
+   long __align ;
+};
+ 
+:-1: Warning: Incompatible declaration for pthread_mutex_timedlock (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:800 (from /home/qingshi1019/analyzer/repositories/stress-ng_replaced.i (0)) 
+	Failed assumption that pthread_mutex_t and pthread_mutex_t are isomorphic 
+	Failed assumption that union __anonunion_pthread_mutex_t_335460617 and union __anonunion_pthread_mutex_t_335460617 are isomorphic (different number of fields in __pthread_mutex_s and __pthread_mutex_s: 7 != 8.)
+union __anonunion_pthread_mutex_t_335460617 {
+   struct __pthread_mutex_s __data ;
+   char __size[48] ;
+   long __align ;
+};
+
+union __anonunion_pthread_mutex_t_335460617 {
+   struct __pthread_mutex_s __data ;
+   char __size[40] ;
+   long __align ;
+};
+ 
+:-1: Warning: Incompatible declaration for pthread_mutex_unlock (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:835 (from /home/qingshi1019/analyzer/repositories/stress-ng_replaced.i (0)) 
+	Failed assumption that pthread_mutex_t and pthread_mutex_t are isomorphic 
+	Failed assumption that union __anonunion_pthread_mutex_t_335460617 and union __anonunion_pthread_mutex_t_335460617 are isomorphic (different number of fields in __pthread_mutex_s and __pthread_mutex_s: 7 != 8.)
+union __anonunion_pthread_mutex_t_335460617 {
+   struct __pthread_mutex_s __data ;
+   char __size[48] ;
+   long __align ;
+};
+
+union __anonunion_pthread_mutex_t_335460617 {
+   struct __pthread_mutex_s __data ;
+   char __size[40] ;
+   long __align ;
+};
+ 
+:-1: Warning: Incompatible declaration for pthread_mutex_getprioceiling (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:840 (from /home/qingshi1019/analyzer/repositories/stress-ng_replaced.i (0)) 
+	Failed assumption that pthread_mutex_t and pthread_mutex_t are isomorphic 
+	Failed assumption that union __anonunion_pthread_mutex_t_335460617 and union __anonunion_pthread_mutex_t_335460617 are isomorphic (different number of fields in __pthread_mutex_s and __pthread_mutex_s: 7 != 8.)
+union __anonunion_pthread_mutex_t_335460617 {
+   struct __pthread_mutex_s __data ;
+   char __size[48] ;
+   long __align ;
+};
+
+union __anonunion_pthread_mutex_t_335460617 {
+   struct __pthread_mutex_s __data ;
+   char __size[40] ;
+   long __align ;
+};
+ 
+:-1: Warning: Incompatible declaration for pthread_mutex_setprioceiling (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:847 (from /home/qingshi1019/analyzer/repositories/stress-ng_replaced.i (0)) 
+	Failed assumption that pthread_mutex_t and pthread_mutex_t are isomorphic 
+	Failed assumption that union __anonunion_pthread_mutex_t_335460617 and union __anonunion_pthread_mutex_t_335460617 are isomorphic (different number of fields in __pthread_mutex_s and __pthread_mutex_s: 7 != 8.)
+union __anonunion_pthread_mutex_t_335460617 {
+   struct __pthread_mutex_s __data ;
+   char __size[48] ;
+   long __align ;
+};
+
+union __anonunion_pthread_mutex_t_335460617 {
+   struct __pthread_mutex_s __data ;
+   char __size[40] ;
+   long __align ;
+};
+ 
+:-1: Warning: Incompatible declaration for pthread_mutex_consistent (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:855 (from /home/qingshi1019/analyzer/repositories/stress-ng_replaced.i (0)) 
+	Failed assumption that pthread_mutex_t and pthread_mutex_t are isomorphic 
+	Failed assumption that union __anonunion_pthread_mutex_t_335460617 and union __anonunion_pthread_mutex_t_335460617 are isomorphic (different number of fields in __pthread_mutex_s and __pthread_mutex_s: 7 != 8.)
+union __anonunion_pthread_mutex_t_335460617 {
+   struct __pthread_mutex_s __data ;
+   char __size[48] ;
+   long __align ;
+};
+
+union __anonunion_pthread_mutex_t_335460617 {
+   struct __pthread_mutex_s __data ;
+   char __size[40] ;
+   long __align ;
+};
+ 
+:-1: Warning: Incompatible declaration for pthread_mutexattr_init (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:874 (from /home/qingshi1019/analyzer/repositories/stress-ng_replaced.i (0)) 
+	Failed assumption that pthread_mutexattr_t and pthread_mutexattr_t are isomorphic 
+	Failed assumption that union __anonunion_pthread_mutexattr_t_488594144 and union __anonunion_pthread_mutexattr_t_488594144 are isomorphic (different array sizes)
+union __anonunion_pthread_mutexattr_t_488594144 {
+   char __size[8] ;
+   int __align ;
+};
+
+union __anonunion_pthread_mutexattr_t_488594144 {
+   char __size[4] ;
+   int __align ;
+};
+ 
+:-1: Warning: Incompatible declaration for pthread_mutexattr_destroy (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:878 (from /home/qingshi1019/analyzer/repositories/stress-ng_replaced.i (0)) 
+	Failed assumption that pthread_mutexattr_t and pthread_mutexattr_t are isomorphic 
+	Failed assumption that union __anonunion_pthread_mutexattr_t_488594144 and union __anonunion_pthread_mutexattr_t_488594144 are isomorphic (different array sizes)
+union __anonunion_pthread_mutexattr_t_488594144 {
+   char __size[8] ;
+   int __align ;
+};
+
+union __anonunion_pthread_mutexattr_t_488594144 {
+   char __size[4] ;
+   int __align ;
+};
+ 
+:-1: Warning: Incompatible declaration for pthread_mutexattr_getpshared (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:882 (from /home/qingshi1019/analyzer/repositories/stress-ng_replaced.i (0)) 
+	Failed assumption that pthread_mutexattr_t and pthread_mutexattr_t are isomorphic 
+	Failed assumption that union __anonunion_pthread_mutexattr_t_488594144 and union __anonunion_pthread_mutexattr_t_488594144 are isomorphic (different array sizes)
+union __anonunion_pthread_mutexattr_t_488594144 {
+   char __size[8] ;
+   int __align ;
+};
+
+union __anonunion_pthread_mutexattr_t_488594144 {
+   char __size[4] ;
+   int __align ;
+};
+ 
+:-1: Warning: Incompatible declaration for pthread_mutexattr_setpshared (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:888 (from /home/qingshi1019/analyzer/repositories/stress-ng_replaced.i (0)) 
+	Failed assumption that pthread_mutexattr_t and pthread_mutexattr_t are isomorphic 
+	Failed assumption that union __anonunion_pthread_mutexattr_t_488594144 and union __anonunion_pthread_mutexattr_t_488594144 are isomorphic (different array sizes)
+union __anonunion_pthread_mutexattr_t_488594144 {
+   char __size[8] ;
+   int __align ;
+};
+
+union __anonunion_pthread_mutexattr_t_488594144 {
+   char __size[4] ;
+   int __align ;
+};
+ 
+:-1: Warning: Incompatible declaration for pthread_mutexattr_gettype (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:894 (from /home/qingshi1019/analyzer/repositories/stress-ng_replaced.i (0)) 
+	Failed assumption that pthread_mutexattr_t and pthread_mutexattr_t are isomorphic 
+	Failed assumption that union __anonunion_pthread_mutexattr_t_488594144 and union __anonunion_pthread_mutexattr_t_488594144 are isomorphic (different array sizes)
+union __anonunion_pthread_mutexattr_t_488594144 {
+   char __size[8] ;
+   int __align ;
+};
+
+union __anonunion_pthread_mutexattr_t_488594144 {
+   char __size[4] ;
+   int __align ;
+};
+ 
+:-1: Warning: Incompatible declaration for pthread_mutexattr_settype (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:901 (from /home/qingshi1019/analyzer/repositories/stress-ng_replaced.i (0)) 
+	Failed assumption that pthread_mutexattr_t and pthread_mutexattr_t are isomorphic 
+	Failed assumption that union __anonunion_pthread_mutexattr_t_488594144 and union __anonunion_pthread_mutexattr_t_488594144 are isomorphic (different array sizes)
+union __anonunion_pthread_mutexattr_t_488594144 {
+   char __size[8] ;
+   int __align ;
+};
+
+union __anonunion_pthread_mutexattr_t_488594144 {
+   char __size[4] ;
+   int __align ;
+};
+ 
+:-1: Warning: Incompatible declaration for pthread_mutexattr_getprotocol (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:906 (from /home/qingshi1019/analyzer/repositories/stress-ng_replaced.i (0)) 
+	Failed assumption that pthread_mutexattr_t and pthread_mutexattr_t are isomorphic 
+	Failed assumption that union __anonunion_pthread_mutexattr_t_488594144 and union __anonunion_pthread_mutexattr_t_488594144 are isomorphic (different array sizes)
+union __anonunion_pthread_mutexattr_t_488594144 {
+   char __size[8] ;
+   int __align ;
+};
+
+union __anonunion_pthread_mutexattr_t_488594144 {
+   char __size[4] ;
+   int __align ;
+};
+ 
+:-1: Warning: Incompatible declaration for pthread_mutexattr_setprotocol (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:913 (from /home/qingshi1019/analyzer/repositories/stress-ng_replaced.i (0)) 
+	Failed assumption that pthread_mutexattr_t and pthread_mutexattr_t are isomorphic 
+	Failed assumption that union __anonunion_pthread_mutexattr_t_488594144 and union __anonunion_pthread_mutexattr_t_488594144 are isomorphic (different array sizes)
+union __anonunion_pthread_mutexattr_t_488594144 {
+   char __size[8] ;
+   int __align ;
+};
+
+union __anonunion_pthread_mutexattr_t_488594144 {
+   char __size[4] ;
+   int __align ;
+};
+ 
+:-1: Warning: Incompatible declaration for pthread_mutexattr_getprioceiling (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:918 (from /home/qingshi1019/analyzer/repositories/stress-ng_replaced.i (0)) 
+	Failed assumption that pthread_mutexattr_t and pthread_mutexattr_t are isomorphic 
+	Failed assumption that union __anonunion_pthread_mutexattr_t_488594144 and union __anonunion_pthread_mutexattr_t_488594144 are isomorphic (different array sizes)
+union __anonunion_pthread_mutexattr_t_488594144 {
+   char __size[8] ;
+   int __align ;
+};
+
+union __anonunion_pthread_mutexattr_t_488594144 {
+   char __size[4] ;
+   int __align ;
+};
+ 
+:-1: Warning: Incompatible declaration for pthread_mutexattr_setprioceiling (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:924 (from /home/qingshi1019/analyzer/repositories/stress-ng_replaced.i (0)) 
+	Failed assumption that pthread_mutexattr_t and pthread_mutexattr_t are isomorphic 
+	Failed assumption that union __anonunion_pthread_mutexattr_t_488594144 and union __anonunion_pthread_mutexattr_t_488594144 are isomorphic (different array sizes)
+union __anonunion_pthread_mutexattr_t_488594144 {
+   char __size[8] ;
+   int __align ;
+};
+
+union __anonunion_pthread_mutexattr_t_488594144 {
+   char __size[4] ;
+   int __align ;
+};
+ 
+:-1: Warning: Incompatible declaration for pthread_mutexattr_getrobust (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:930 (from /home/qingshi1019/analyzer/repositories/stress-ng_replaced.i (0)) 
+	Failed assumption that pthread_mutexattr_t and pthread_mutexattr_t are isomorphic 
+	Failed assumption that union __anonunion_pthread_mutexattr_t_488594144 and union __anonunion_pthread_mutexattr_t_488594144 are isomorphic (different array sizes)
+union __anonunion_pthread_mutexattr_t_488594144 {
+   char __size[8] ;
+   int __align ;
+};
+
+union __anonunion_pthread_mutexattr_t_488594144 {
+   char __size[4] ;
+   int __align ;
+};
+ 
+:-1: Warning: Incompatible declaration for pthread_mutexattr_setrobust (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:946 (from /home/qingshi1019/analyzer/repositories/stress-ng_replaced.i (0)) 
+	Failed assumption that pthread_mutexattr_t and pthread_mutexattr_t are isomorphic 
+	Failed assumption that union __anonunion_pthread_mutexattr_t_488594144 and union __anonunion_pthread_mutexattr_t_488594144 are isomorphic (different array sizes)
+union __anonunion_pthread_mutexattr_t_488594144 {
+   char __size[8] ;
+   int __align ;
+};
+
+union __anonunion_pthread_mutexattr_t_488594144 {
+   char __size[4] ;
+   int __align ;
+};
+ 
+:-1: Warning: Incompatible declaration for pthread_rwlock_init (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:967 (from /home/qingshi1019/analyzer/repositories/stress-ng_replaced.i (0)) 
+	Failed assumption that pthread_rwlock_t and pthread_rwlock_t are isomorphic 
+	Failed assumption that union __anonunion_pthread_rwlock_t_656928968 and union __anonunion_pthread_rwlock_t_656928968 are isomorphic (different number of fields in __pthread_rwlock_arch_t and __pthread_rwlock_arch_t: 11 != 12.)
+union __anonunion_pthread_rwlock_t_656928968 {
+   struct __pthread_rwlock_arch_t __data ;
+   char __size[56] ;
+   long __align ;
+};
+
+union __anonunion_pthread_rwlock_t_656928968 {
+   struct __pthread_rwlock_arch_t __data ;
+   char __size[56] ;
+   long __align ;
+};
+ 
+:-1: Warning: Incompatible declaration for pthread_rwlock_destroy (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:972 (from /home/qingshi1019/analyzer/repositories/stress-ng_replaced.i (0)) 
+	Failed assumption that pthread_rwlock_t and pthread_rwlock_t are isomorphic 
+	Failed assumption that union __anonunion_pthread_rwlock_t_656928968 and union __anonunion_pthread_rwlock_t_656928968 are isomorphic (different number of fields in __pthread_rwlock_arch_t and __pthread_rwlock_arch_t: 11 != 12.)
+union __anonunion_pthread_rwlock_t_656928968 {
+   struct __pthread_rwlock_arch_t __data ;
+   char __size[56] ;
+   long __align ;
+};
+
+union __anonunion_pthread_rwlock_t_656928968 {
+   struct __pthread_rwlock_arch_t __data ;
+   char __size[56] ;
+   long __align ;
+};
+ 
+:-1: Warning: Incompatible declaration for pthread_rwlock_rdlock (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:976 (from /home/qingshi1019/analyzer/repositories/stress-ng_replaced.i (0)) 
+	Failed assumption that pthread_rwlock_t and pthread_rwlock_t are isomorphic 
+	Failed assumption that union __anonunion_pthread_rwlock_t_656928968 and union __anonunion_pthread_rwlock_t_656928968 are isomorphic (different number of fields in __pthread_rwlock_arch_t and __pthread_rwlock_arch_t: 11 != 12.)
+union __anonunion_pthread_rwlock_t_656928968 {
+   struct __pthread_rwlock_arch_t __data ;
+   char __size[56] ;
+   long __align ;
+};
+
+union __anonunion_pthread_rwlock_t_656928968 {
+   struct __pthread_rwlock_arch_t __data ;
+   char __size[56] ;
+   long __align ;
+};
+ 
+:-1: Warning: Incompatible declaration for pthread_rwlock_tryrdlock (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:980 (from /home/qingshi1019/analyzer/repositories/stress-ng_replaced.i (0)) 
+	Failed assumption that pthread_rwlock_t and pthread_rwlock_t are isomorphic 
+	Failed assumption that union __anonunion_pthread_rwlock_t_656928968 and union __anonunion_pthread_rwlock_t_656928968 are isomorphic (different number of fields in __pthread_rwlock_arch_t and __pthread_rwlock_arch_t: 11 != 12.)
+union __anonunion_pthread_rwlock_t_656928968 {
+   struct __pthread_rwlock_arch_t __data ;
+   char __size[56] ;
+   long __align ;
+};
+
+union __anonunion_pthread_rwlock_t_656928968 {
+   struct __pthread_rwlock_arch_t __data ;
+   char __size[56] ;
+   long __align ;
+};
+ 
+:-1: Warning: Incompatible declaration for pthread_rwlock_timedrdlock (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:986 (from /home/qingshi1019/analyzer/repositories/stress-ng_replaced.i (0)) 
+	Failed assumption that pthread_rwlock_t and pthread_rwlock_t are isomorphic 
+	Failed assumption that union __anonunion_pthread_rwlock_t_656928968 and union __anonunion_pthread_rwlock_t_656928968 are isomorphic (different number of fields in __pthread_rwlock_arch_t and __pthread_rwlock_arch_t: 11 != 12.)
+union __anonunion_pthread_rwlock_t_656928968 {
+   struct __pthread_rwlock_arch_t __data ;
+   char __size[56] ;
+   long __align ;
+};
+
+union __anonunion_pthread_rwlock_t_656928968 {
+   struct __pthread_rwlock_arch_t __data ;
+   char __size[56] ;
+   long __align ;
+};
+ 
+:-1: Warning: Incompatible declaration for pthread_rwlock_wrlock (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:1023 (from /home/qingshi1019/analyzer/repositories/stress-ng_replaced.i (0)) 
+	Failed assumption that pthread_rwlock_t and pthread_rwlock_t are isomorphic 
+	Failed assumption that union __anonunion_pthread_rwlock_t_656928968 and union __anonunion_pthread_rwlock_t_656928968 are isomorphic (different number of fields in __pthread_rwlock_arch_t and __pthread_rwlock_arch_t: 11 != 12.)
+union __anonunion_pthread_rwlock_t_656928968 {
+   struct __pthread_rwlock_arch_t __data ;
+   char __size[56] ;
+   long __align ;
+};
+
+union __anonunion_pthread_rwlock_t_656928968 {
+   struct __pthread_rwlock_arch_t __data ;
+   char __size[56] ;
+   long __align ;
+};
+ 
+:-1: Warning: Incompatible declaration for pthread_rwlock_trywrlock (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:1027 (from /home/qingshi1019/analyzer/repositories/stress-ng_replaced.i (0)) 
+	Failed assumption that pthread_rwlock_t and pthread_rwlock_t are isomorphic 
+	Failed assumption that union __anonunion_pthread_rwlock_t_656928968 and union __anonunion_pthread_rwlock_t_656928968 are isomorphic (different number of fields in __pthread_rwlock_arch_t and __pthread_rwlock_arch_t: 11 != 12.)
+union __anonunion_pthread_rwlock_t_656928968 {
+   struct __pthread_rwlock_arch_t __data ;
+   char __size[56] ;
+   long __align ;
+};
+
+union __anonunion_pthread_rwlock_t_656928968 {
+   struct __pthread_rwlock_arch_t __data ;
+   char __size[56] ;
+   long __align ;
+};
+ 
+:-1: Warning: Incompatible declaration for pthread_rwlock_timedwrlock (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:1033 (from /home/qingshi1019/analyzer/repositories/stress-ng_replaced.i (0)) 
+	Failed assumption that pthread_rwlock_t and pthread_rwlock_t are isomorphic 
+	Failed assumption that union __anonunion_pthread_rwlock_t_656928968 and union __anonunion_pthread_rwlock_t_656928968 are isomorphic (different number of fields in __pthread_rwlock_arch_t and __pthread_rwlock_arch_t: 11 != 12.)
+union __anonunion_pthread_rwlock_t_656928968 {
+   struct __pthread_rwlock_arch_t __data ;
+   char __size[56] ;
+   long __align ;
+};
+
+union __anonunion_pthread_rwlock_t_656928968 {
+   struct __pthread_rwlock_arch_t __data ;
+   char __size[56] ;
+   long __align ;
+};
+ 
+:-1: Warning: Incompatible declaration for pthread_rwlock_unlock (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:1071 (from /home/qingshi1019/analyzer/repositories/stress-ng_replaced.i (0)) 
+	Failed assumption that pthread_rwlock_t and pthread_rwlock_t are isomorphic 
+	Failed assumption that union __anonunion_pthread_rwlock_t_656928968 and union __anonunion_pthread_rwlock_t_656928968 are isomorphic (different number of fields in __pthread_rwlock_arch_t and __pthread_rwlock_arch_t: 11 != 12.)
+union __anonunion_pthread_rwlock_t_656928968 {
+   struct __pthread_rwlock_arch_t __data ;
+   char __size[56] ;
+   long __align ;
+};
+
+union __anonunion_pthread_rwlock_t_656928968 {
+   struct __pthread_rwlock_arch_t __data ;
+   char __size[56] ;
+   long __align ;
+};
+ 
+:-1: Warning: Incompatible declaration for pthread_cond_init (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:1112 (from /home/qingshi1019/analyzer/repositories/stress-ng_replaced.i (0)) 
+	Failed assumption that pthread_condattr_t and pthread_condattr_t are isomorphic 
+	Failed assumption that union __anonunion_pthread_condattr_t_488594145 and union __anonunion_pthread_condattr_t_488594145 are isomorphic (different array sizes)
+union __anonunion_pthread_condattr_t_488594145 {
+   char __size[8] ;
+   int __align ;
+};
+
+union __anonunion_pthread_condattr_t_488594145 {
+   char __size[4] ;
+   int __align ;
+};
+ 
+:-1: Warning: Incompatible declaration for pthread_cond_wait (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:1133 (from /home/qingshi1019/analyzer/repositories/stress-ng_replaced.i (0)) 
+	Failed assumption that pthread_mutex_t and pthread_mutex_t are isomorphic 
+	Failed assumption that union __anonunion_pthread_mutex_t_335460617 and union __anonunion_pthread_mutex_t_335460617 are isomorphic (different number of fields in __pthread_mutex_s and __pthread_mutex_s: 7 != 8.)
+union __anonunion_pthread_mutex_t_335460617 {
+   struct __pthread_mutex_s __data ;
+   char __size[48] ;
+   long __align ;
+};
+
+union __anonunion_pthread_mutex_t_335460617 {
+   struct __pthread_mutex_s __data ;
+   char __size[40] ;
+   long __align ;
+};
+ 
+:-1: Warning: Incompatible declaration for pthread_cond_timedwait (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:1145 (from /home/qingshi1019/analyzer/repositories/stress-ng_replaced.i (0)) 
+	Failed assumption that pthread_mutex_t and pthread_mutex_t are isomorphic 
+	Failed assumption that union __anonunion_pthread_mutex_t_335460617 and union __anonunion_pthread_mutex_t_335460617 are isomorphic (different number of fields in __pthread_mutex_s and __pthread_mutex_s: 7 != 8.)
+union __anonunion_pthread_mutex_t_335460617 {
+   struct __pthread_mutex_s __data ;
+   char __size[48] ;
+   long __align ;
+};
+
+union __anonunion_pthread_mutex_t_335460617 {
+   struct __pthread_mutex_s __data ;
+   char __size[40] ;
+   long __align ;
+};
+ 
+:-1: Warning: Incompatible declaration for pthread_condattr_init (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:1194 (from /home/qingshi1019/analyzer/repositories/stress-ng_replaced.i (0)) 
+	Failed assumption that pthread_condattr_t and pthread_condattr_t are isomorphic 
+	Failed assumption that union __anonunion_pthread_condattr_t_488594145 and union __anonunion_pthread_condattr_t_488594145 are isomorphic (different array sizes)
+union __anonunion_pthread_condattr_t_488594145 {
+   char __size[8] ;
+   int __align ;
+};
+
+union __anonunion_pthread_condattr_t_488594145 {
+   char __size[4] ;
+   int __align ;
+};
+ 
+:-1: Warning: Incompatible declaration for pthread_condattr_destroy (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:1198 (from /home/qingshi1019/analyzer/repositories/stress-ng_replaced.i (0)) 
+	Failed assumption that pthread_condattr_t and pthread_condattr_t are isomorphic 
+	Failed assumption that union __anonunion_pthread_condattr_t_488594145 and union __anonunion_pthread_condattr_t_488594145 are isomorphic (different array sizes)
+union __anonunion_pthread_condattr_t_488594145 {
+   char __size[8] ;
+   int __align ;
+};
+
+union __anonunion_pthread_condattr_t_488594145 {
+   char __size[4] ;
+   int __align ;
+};
+ 
+:-1: Warning: Incompatible declaration for pthread_condattr_getpshared (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:1202 (from /home/qingshi1019/analyzer/repositories/stress-ng_replaced.i (0)) 
+	Failed assumption that pthread_condattr_t and pthread_condattr_t are isomorphic 
+	Failed assumption that union __anonunion_pthread_condattr_t_488594145 and union __anonunion_pthread_condattr_t_488594145 are isomorphic (different array sizes)
+union __anonunion_pthread_condattr_t_488594145 {
+   char __size[8] ;
+   int __align ;
+};
+
+union __anonunion_pthread_condattr_t_488594145 {
+   char __size[4] ;
+   int __align ;
+};
+ 
+:-1: Warning: Incompatible declaration for pthread_condattr_setpshared (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:1208 (from /home/qingshi1019/analyzer/repositories/stress-ng_replaced.i (0)) 
+	Failed assumption that pthread_condattr_t and pthread_condattr_t are isomorphic 
+	Failed assumption that union __anonunion_pthread_condattr_t_488594145 and union __anonunion_pthread_condattr_t_488594145 are isomorphic (different array sizes)
+union __anonunion_pthread_condattr_t_488594145 {
+   char __size[8] ;
+   int __align ;
+};
+
+union __anonunion_pthread_condattr_t_488594145 {
+   char __size[4] ;
+   int __align ;
+};
+ 
+:-1: Warning: Incompatible declaration for pthread_condattr_getclock (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:1213 (from /home/qingshi1019/analyzer/repositories/stress-ng_replaced.i (0)) 
+	Failed assumption that pthread_condattr_t and pthread_condattr_t are isomorphic 
+	Failed assumption that union __anonunion_pthread_condattr_t_488594145 and union __anonunion_pthread_condattr_t_488594145 are isomorphic (different array sizes)
+union __anonunion_pthread_condattr_t_488594145 {
+   char __size[8] ;
+   int __align ;
+};
+
+union __anonunion_pthread_condattr_t_488594145 {
+   char __size[4] ;
+   int __align ;
+};
+ 
+:-1: Warning: Incompatible declaration for pthread_condattr_setclock (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:1219 (from /home/qingshi1019/analyzer/repositories/stress-ng_replaced.i (0)) 
+	Failed assumption that pthread_condattr_t and pthread_condattr_t are isomorphic 
+	Failed assumption that union __anonunion_pthread_condattr_t_488594145 and union __anonunion_pthread_condattr_t_488594145 are isomorphic (different array sizes)
+union __anonunion_pthread_condattr_t_488594145 {
+   char __size[8] ;
+   int __align ;
+};
+
+union __anonunion_pthread_condattr_t_488594145 {
+   char __size[4] ;
+   int __align ;
+};
+ 
+:-1: Warning: Incompatible declaration for pthread_barrier_init (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:1254 (from /home/qingshi1019/analyzer/repositories/stress-ng_replaced.i (0)) 
+	Failed assumption that pthread_barrierattr_t and pthread_barrierattr_t are isomorphic 
+	Failed assumption that union __anonunion_pthread_barrierattr_t_951761806 and union __anonunion_pthread_barrierattr_t_951761806 are isomorphic (different array sizes)
+union __anonunion_pthread_barrierattr_t_951761806 {
+   char __size[8] ;
+   int __align ;
+};
+
+union __anonunion_pthread_barrierattr_t_951761806 {
+   char __size[4] ;
+   int __align ;
+};
+ 
+:-1: Warning: Incompatible declaration for pthread_barrierattr_init (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:1269 (from /home/qingshi1019/analyzer/repositories/stress-ng_replaced.i (0)) 
+	Failed assumption that pthread_barrierattr_t and pthread_barrierattr_t are isomorphic 
+	Failed assumption that union __anonunion_pthread_barrierattr_t_951761806 and union __anonunion_pthread_barrierattr_t_951761806 are isomorphic (different array sizes)
+union __anonunion_pthread_barrierattr_t_951761806 {
+   char __size[8] ;
+   int __align ;
+};
+
+union __anonunion_pthread_barrierattr_t_951761806 {
+   char __size[4] ;
+   int __align ;
+};
+ 
+:-1: Warning: Incompatible declaration for pthread_barrierattr_destroy (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:1273 (from /home/qingshi1019/analyzer/repositories/stress-ng_replaced.i (0)) 
+	Failed assumption that pthread_barrierattr_t and pthread_barrierattr_t are isomorphic 
+	Failed assumption that union __anonunion_pthread_barrierattr_t_951761806 and union __anonunion_pthread_barrierattr_t_951761806 are isomorphic (different array sizes)
+union __anonunion_pthread_barrierattr_t_951761806 {
+   char __size[8] ;
+   int __align ;
+};
+
+union __anonunion_pthread_barrierattr_t_951761806 {
+   char __size[4] ;
+   int __align ;
+};
+ 
+:-1: Warning: Incompatible declaration for pthread_barrierattr_getpshared (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:1277 (from /home/qingshi1019/analyzer/repositories/stress-ng_replaced.i (0)) 
+	Failed assumption that pthread_barrierattr_t and pthread_barrierattr_t are isomorphic 
+	Failed assumption that union __anonunion_pthread_barrierattr_t_951761806 and union __anonunion_pthread_barrierattr_t_951761806 are isomorphic (different array sizes)
+union __anonunion_pthread_barrierattr_t_951761806 {
+   char __size[8] ;
+   int __align ;
+};
+
+union __anonunion_pthread_barrierattr_t_951761806 {
+   char __size[4] ;
+   int __align ;
+};
+ 
+:-1: Warning: Incompatible declaration for pthread_barrierattr_setpshared (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:1283 (from /home/qingshi1019/analyzer/repositories/stress-ng_replaced.i (0)) 
+	Failed assumption that pthread_barrierattr_t and pthread_barrierattr_t are isomorphic 
+	Failed assumption that union __anonunion_pthread_barrierattr_t_951761806 and union __anonunion_pthread_barrierattr_t_951761806 are isomorphic (different array sizes)
+union __anonunion_pthread_barrierattr_t_951761806 {
+   char __size[8] ;
+   int __align ;
+};
+
+union __anonunion_pthread_barrierattr_t_951761806 {
+   char __size[4] ;
+   int __align ;
+};
+ 
+[Info] unrolling loop at /usr/include/aarch64-linux-gnu/bits/stdio2.h:360:4-366:6 with factor 5
+[Info] unrolling loop at /usr/include/aarch64-linux-gnu/bits/stdlib-bsearch.h:29:3-49:5 with factor 6
+[Info] unrolling loop at stress-ng.c:1049:2-1055:2 with factor 6
+[Info] unrolling loop at stress-ng.c:1094:2-1097:2 with factor 10
+[Info] unrolling loop at stress-ng.c:1126:6-1129:6 with factor 8
+[Info] unrolling loop at stress-ng.c:1136:4-1137:49 with factor 12
+[Info] unrolling loop at stress-ng.c:1169:3-1175:3 with factor 10
+[Info] unrolling loop at stress-ng.c:1284:3-1284:22 with factor 12
+[Info] unrolling loop at stress-ng.c:1302:2-1305:2 with factor 12
+[Info] unrolling loop at stress-ng.c:1316:2-1318:47 with factor 6
+[Info] unrolling loop at stress-ng.c:1350:2-1354:2 with factor 16
+[Info] unrolling loop at stress-ng.c:1402:3-1405:3 with factor 12
+[Info] unrolling loop at stress-ng.c:1490:2-1538:2 with factor 3
+[Info] unrolling loop at stress-ng.c:1631:20-1631:138 with factor 6
+[Info] unrolling loop at stress-ng.c:1633:6-1633:21 with factor 16
+[Info] unrolling loop at stress-ng.c:1650:3-1746:3 with factor 1
+[Info] unrolling loop at stress-ng.c:1786:2-1787:16 with factor 12
+[Info] unrolling loop at stress-ng.c:1801:2-1802:6 with factor 12
+[Info] unrolling loop at stress-ng.c:1815:2-1823:2 with factor 7
+[Info] unrolling loop at stress-ng.c:1838:2-1839:43 with factor 12
+[Info] unrolling loop at stress-ng.c:2072:2-2094:2 with factor 2
+[Info] unrolling loop at stress-ng.c:2116:3-2151:3 with factor 2
+[Info] unrolling loop at stress-ng.c:2196:3-2206:3 with factor 5
+[Info] unrolling loop at stress-ng.c:2326:2-2329:2 with factor 8
+[Info] unrolling loop at stress-ng.c:2335:2-2342:2 with factor 7
+[Info] unrolling loop at stress-ng.c:2539:4-2549:4 with factor 6
+[Info] unrolling loop at stress-ng.c:2570:3-2579:3 with factor 10
+[Info] unrolling loop at stress-ng.c:2632:3-2637:3 with factor 12
+[Info] unrolling loop at stress-ng.c:2652:3-2657:3 with factor 12
+[Info] unrolling loop at stress-ng.c:2671:2-2675:2 with factor 12
+[Info] unrolling loop at stress-ng.c:2688:3-2702:3 with factor 6
+[Info] unrolling loop at stress-ng.c:2718:3-2719:24 with factor 10
+[Info] unrolling loop at stress-ng.c:2751:3-2763:3 with factor 3
+[Info] unrolling loop at stress-ng.c:2779:2-2787:2 with factor 5
+[Info] unrolling loop at stress-ng.c:2804:2-2813:2 with factor 6
+[Info] unrolling loop at stress-ng.c:2871:5-2878:5 with factor 10
+[Info] unrolling loop at stress-ng.c:2882:3-2887:3 with factor 12
+[Info] unrolling loop at stress-ng.c:3088:2-3092:2 with factor 10
+[Info] unrolling loop at stress-ng.c:3105:2-3116:2 with factor 7
+[Info] unrolling loop at stress-ng.c:3135:2-3143:2 with factor 5
+[Info] unrolling loop at stress-ng.c:3345:2-3348:2 with factor 8
+[Info] unrolling loop at stress-ng.c:3352:2-3355:2 with factor 10
+[Info] unrolling loop at lib/libc/stub/src/stdlib.c:10:5-12:5 with factor 12
+[Info] unrolling loop at lib/libc/stub/src/stdlib.c:21:9-27:9 with factor 6
+Fatal error: exception LibraryDsl.Pattern.Expected("Library function is called with more arguments than expected.")

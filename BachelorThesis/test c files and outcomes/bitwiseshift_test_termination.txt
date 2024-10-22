@@ -1,0 +1,21 @@
+Program File: /home/qingshi1019/analyzer/repositories/bitshift.c
+Property File: /home/qingshi1019/analyzer/properties/termination.prp
+
+--- Output ---
+[Warning][Integer > Overflow][CWE-190] Signed integer overflow (/home/qingshi1019/analyzer/repositories/bitshift.c:4:18-4:34)
+[Warning][Integer > Overflow] DefExc: Value was outside of range, indicating overflow, but 'sem.int.signed_overflow' is 'assume_none' -> Returned Bot (/home/qingshi1019/analyzer/repositories/bitshift.c:4:18-4:34)
+[Info][Deadcode] Logical lines of code (LLoC) summary:
+  live: 5
+  dead: 0
+  total lines: 5
+SV-COMP result: true
+[Info][Witness] witness generation summary:
+  total generation entries: 1
+
+--- Error ---
+[Info] Specification: CHECK( init(main()), LTL(F end) ) -> enabling soundness analyses "termination"
+[Info] Specification: Termination -> enabling termination analyses "threadflag, apron"
+[Info] no thread creation -> disabling thread analyses "race, deadlock, maylocks, symb_locks, thread, threadid, threadJoins, threadreturn, mhp, region"
+[Info] Enabled widening thresholds
+[Info] Enabled congruence domain.
+[Info] SV-COMP specification: CHECK( init(main()), LTL(F end) )

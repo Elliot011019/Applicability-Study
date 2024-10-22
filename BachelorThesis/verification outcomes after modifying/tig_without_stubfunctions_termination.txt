@@ -1,0 +1,12 @@
+Program File: /home/qingshi1019/analyzer/repositories/tig.i
+Property File: /home/qingshi1019/analyzer/properties/termination.prp
+
+--- Output ---
+
+
+--- Error ---
+[Info] Specification: CHECK( init(main()), LTL(F end) ) -> enabling soundness analyses "termination"
+[Info] Specification: Termination -> enabling termination analyses "threadflag, apron"
+[Info] unrolling loop at /usr/include/aarch64-linux-gnu/bits/stdio2.h:360:4-366:6 with factor 5
+[Info] unrolling loop at /usr/include/aarch64-linux-gnu/bits/stdlib-bsearch.h:29:3-49:5 with factor 6
+Fatal error: exception LibraryDsl.Pattern.Expected("Library function is called with more arguments than expected.")

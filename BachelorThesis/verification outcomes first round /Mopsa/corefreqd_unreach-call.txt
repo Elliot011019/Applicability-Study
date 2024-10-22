@@ -1,0 +1,58 @@
+Program File: /home/qingshi1019/mopsa/repositories/corefreqd.i
+Property File: /home/qingshi1019/mopsa/properties/unreach-call.prp
+
+--- Output ---
+Running /home/qingshi1019/mopsa/bin/mopsa-c -config=c/default.json -c-init-memset-threshold=5 -additional-stubs=c/sv-comp.c -use-stub=reach_error,fread_unlocked,fread,strndup,xstrndup -no-warning -ccopt=-fbracket-depth=2048 -stub-ignore-case=malloc.failure,malloc.empty -c-check-signed-implicit-cast-overflow=false -c-check-unsigned-implicit-cast-overflow=false -c-check-unreachable-memory /home/qingshi1019/mopsa/repositories/corefreqd.i /home/qingshi1019/mopsa/share/mopsa/stubs/c/libc/assert.c  /home/qingshi1019/mopsa/share/mopsa/stubs/c/libc/sys/socket.c /home/qingshi1019/mopsa/share/mopsa/stubs/c/libc/libintl.c /home/qingshi1019/mopsa/share/mopsa/stubs/c/libc/stdio_ext.c /home/qingshi1019/mopsa/share/mopsa/stubs/c/libc/netinet/in.c /home/qingshi1019/mopsa/share/mopsa/stubs/c/libc/arpa/inet.c /home/qingshi1019/mopsa/share/mopsa/stubs/c/libc/wctype.c /home/qingshi1019/mopsa/share/mopsa/stubs/c/libc/sys/stat.c -error-is-builtin=false /home/qingshi1019/mopsa/share/mopsa/stubs/c/libc/math.c /home/qingshi1019/mopsa/share/mopsa/stubs/c/libc/stdio.c /home/qingshi1019/mopsa/share/mopsa/stubs/c/libc/stdlib.c -format=json
+Analysis aborted: Parsing error raised:
+/usr/include/stdlib.h:141:7: unknown type name '_Float32'
+/usr/include/stdlib.h:147:7: unknown type name '_Float64'
+/usr/include/stdlib.h:153:7: unknown type name '_Float128'
+/usr/include/stdlib.h:159:7: unknown type name '_Float32x'
+/usr/include/stdlib.h:165:7: unknown type name '_Float64x'
+/usr/include/stdlib.h:234:9: unknown type name '_Float32'
+/usr/include/stdlib.h:240:9: unknown type name '_Float64'
+/usr/include/stdlib.h:246:3: unknown type name '_Float128'
+/usr/include/stdlib.h:252:3: unknown type name '_Float32x'
+/usr/include/stdlib.h:258:3: unknown type name '_Float64x'
+/usr/include/stdlib.h:317:7: unknown type name '_Float32'
+/usr/include/stdlib.h:324:7: unknown type name '_Float64'
+/usr/include/stdlib.h:331:7: unknown type name '_Float128'
+/usr/include/stdlib.h:338:7: unknown type name '_Float32x'
+/usr/include/stdlib.h:345:7: unknown type name '_Float64x'
+/usr/include/stdlib.h:566:20: '__malloc__' attribute takes no arguments
+/usr/include/stdlib.h:570:62: '__malloc__' attribute takes no arguments
+/usr/include/stdlib.h:799:21: '__malloc__' attribute takes no arguments
+/usr/include/stdio.h:189:47: '__malloc__' attribute takes no arguments
+/usr/include/stdio.h:201:48: '__malloc__' attribute takes no arguments
+/usr/include/stdio.h:223:89: '__malloc__' attribute takes no arguments
+/usr/include/stdio.h:260:47: '__malloc__' attribute takes no arguments
+/usr/include/stdio.h:285:47: '__malloc__' attribute takes no arguments
+/usr/include/stdio.h:294:47: '__malloc__' attribute takes no arguments
+/usr/include/stdio.h:303:47: '__malloc__' attribute takes no arguments
+/usr/include/stdio.h:309:88: '__malloc__' attribute takes no arguments
+/usr/include/stdio.h:315:47: '__malloc__' attribute takes no arguments
+/usr/include/stdio.h:830:47: '__malloc__' attribute takes no arguments
+corefreqd.c:2002:1: function definition is not allowed here
+corefreqd.c:2122:10: call to undeclared function 'DimmWidthToRows'; ISO C99 and later do not support implicit function declarations
+corefreqd.c:2558:3: function definition is not allowed here
+corefreqd.c:2582:6: call to undeclared function 'Compute_Way'; ISO C99 and later do not support implicit function declarations
+corefreqd.c:2739:1: function definition is not allowed here
+corefreqd.c:2747:1: function definition is not allowed here
+corefreqd.c:2755:1: function definition is not allowed here
+corefreqd.c:2763:1: function definition is not allowed here
+corefreqd.c:2771:1: function definition is not allowed here
+corefreqd.c:2779:1: function definition is not allowed here
+corefreqd.c:2789:2: use of undeclared identifier 'SortByState'
+corefreqd.c:2790:2: use of undeclared identifier 'SortByRuntime'; did you mean 'SortByFunc'?
+corefreqd.c:2788:12: 'SortByFunc' declared here
+corefreqd.c:2791:2: use of undeclared identifier 'SortByUsertime'
+corefreqd.c:2792:2: use of undeclared identifier 'SortBySystime'
+corefreqd.c:2793:2: use of undeclared identifier 'SortByPID'
+corefreqd.c:2794:2: use of undeclared identifier 'SortByCommand'
+corefreqd.c:2798:1: function definition is not allowed here
+corefreqd.c:2809:5: use of undeclared identifier 'SortByTracker'
+corefreqd.c:2901:4: function definition is not allowed here
+corefreqd.c:2923:2: call to undeclared function 'UpdateFeatures'; ISO C99 and later do not support implicit function declarations
+error parsing error
+
+--- Error ---

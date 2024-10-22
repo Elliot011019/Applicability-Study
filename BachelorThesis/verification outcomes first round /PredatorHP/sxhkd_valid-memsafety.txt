@@ -1,0 +1,7 @@
+PRP File: /home/qingshi1019/predatorhp/properties/valid-memsafety.prp
+I File: /home/qingshi1019/predatorhp/repositories/sxhkd.i
+
+--- Output ---
+UNKNOWN
+
+--- Error ---

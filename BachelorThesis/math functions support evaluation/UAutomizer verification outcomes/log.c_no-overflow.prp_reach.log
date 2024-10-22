@@ -1,0 +1,174 @@
+This is Ultimate 0.2.4-dev-0e0057c
+[2024-08-16 15:34:34,283 INFO  L188        SettingsManager]: Resetting all preferences to default values...
+[2024-08-16 15:34:34,420 INFO  L114        SettingsManager]: Loading settings from /home/qingshi1019/UAutomizer/config/svcomp-Overflow-64bit-Automizer_Default.epf
+[2024-08-16 15:34:34,432 WARN  L101        SettingsManager]: Preference file contains the following unknown settings:
+[2024-08-16 15:34:34,433 WARN  L103        SettingsManager]:   * .-Dinclude.path
+[2024-08-16 15:34:34,434 WARN  L103        SettingsManager]:   * de.uni_freiburg.informatik.ultimate.core.Log level for class
+[2024-08-16 15:34:34,483 INFO  L130        SettingsManager]: Preferences different from defaults after loading the file:
+[2024-08-16 15:34:34,485 INFO  L151        SettingsManager]: Preferences of UltimateCore differ from their defaults:
+[2024-08-16 15:34:34,486 INFO  L153        SettingsManager]:  * Log level for class=de.uni_freiburg.informatik.ultimate.lib.smtlibutils.quantifier.QuantifierPusher=ERROR;
+[2024-08-16 15:34:34,488 INFO  L151        SettingsManager]: Preferences of Boogie Preprocessor differ from their defaults:
+[2024-08-16 15:34:34,489 INFO  L153        SettingsManager]:  * Use memory slicer=true
+[2024-08-16 15:34:34,490 INFO  L151        SettingsManager]: Preferences of Boogie Procedure Inliner differ from their defaults:
+[2024-08-16 15:34:34,491 INFO  L153        SettingsManager]:  * Ignore calls to procedures called more than once=ONLY_FOR_SEQUENTIAL_PROGRAMS
+[2024-08-16 15:34:34,493 INFO  L151        SettingsManager]: Preferences of BlockEncodingV2 differ from their defaults:
+[2024-08-16 15:34:34,494 INFO  L153        SettingsManager]:  * Create parallel compositions if possible=false
+[2024-08-16 15:34:34,495 INFO  L153        SettingsManager]:  * Use SBE=true
+[2024-08-16 15:34:34,496 INFO  L151        SettingsManager]: Preferences of CACSL2BoogieTranslator differ from their defaults:
+[2024-08-16 15:34:34,497 INFO  L153        SettingsManager]:  * Pointer base address is valid at dereference=IGNORE
+[2024-08-16 15:34:34,498 INFO  L153        SettingsManager]:  * Overapproximate operations on floating types=true
+[2024-08-16 15:34:34,498 INFO  L153        SettingsManager]:  * Check division by zero=IGNORE
+[2024-08-16 15:34:34,499 INFO  L153        SettingsManager]:  * Pointer to allocated memory at dereference=IGNORE
+[2024-08-16 15:34:34,500 INFO  L153        SettingsManager]:  * If two pointers are subtracted or compared they have the same base address=IGNORE
+[2024-08-16 15:34:34,501 INFO  L153        SettingsManager]:  * Check array bounds for arrays that are off heap=IGNORE
+[2024-08-16 15:34:34,502 INFO  L153        SettingsManager]:  * Check absence of signed integer overflows=true
+[2024-08-16 15:34:34,503 INFO  L153        SettingsManager]:  * Check unreachability of reach_error function=false
+[2024-08-16 15:34:34,504 INFO  L153        SettingsManager]:  * Check if freed pointer was valid=false
+[2024-08-16 15:34:34,505 INFO  L153        SettingsManager]:  * Use constant arrays=true
+[2024-08-16 15:34:34,506 INFO  L151        SettingsManager]: Preferences of RCFGBuilder differ from their defaults:
+[2024-08-16 15:34:34,506 INFO  L153        SettingsManager]:  * Size of a code block=SequenceOfStatements
+[2024-08-16 15:34:34,507 INFO  L153        SettingsManager]:  * Only consider context switches at boundaries of atomic blocks=true
+[2024-08-16 15:34:34,507 INFO  L153        SettingsManager]:  * SMT solver=External_DefaultMode
+[2024-08-16 15:34:34,509 INFO  L153        SettingsManager]:  * Command for external solver=z3 SMTLIB2_COMPLIANT=true -memory:2024 -smt2 -in -t:4000
+[2024-08-16 15:34:34,510 INFO  L151        SettingsManager]: Preferences of TraceAbstraction differ from their defaults:
+[2024-08-16 15:34:34,511 INFO  L153        SettingsManager]:  * Compute Interpolants along a Counterexample=FPandBP
+[2024-08-16 15:34:34,511 INFO  L153        SettingsManager]:  * Positions where we compute the Hoare Annotation=LoopHeads
+[2024-08-16 15:34:34,512 INFO  L153        SettingsManager]:  * Trace refinement strategy=CAMEL
+[2024-08-16 15:34:34,512 INFO  L153        SettingsManager]:  * Command for external solver=z3 SMTLIB2_COMPLIANT=true -memory:2024 -smt2 -in
+[2024-08-16 15:34:34,513 INFO  L153        SettingsManager]:  * Apply one-shot large block encoding in concurrent analysis=false
+[2024-08-16 15:34:34,513 INFO  L153        SettingsManager]:  * Automaton type used in concurrency analysis=PETRI_NET
+[2024-08-16 15:34:34,514 INFO  L153        SettingsManager]:  * Compute Hoare Annotation of negated interpolant automaton, abstraction and CFG=true
+[2024-08-16 15:34:34,514 INFO  L153        SettingsManager]:  * Order on configurations for Petri net unfoldings=DBO
+[2024-08-16 15:34:34,515 INFO  L153        SettingsManager]:  * SMT solver=External_ModelsAndUnsatCoreMode
+[2024-08-16 15:34:34,515 INFO  L153        SettingsManager]:  * Looper check in Petri net analysis=SEMANTIC
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.sun.xml.bind.v2.runtime.reflect.opt.Injector$1 (file:/home/qingshi1019/UAutomizer/plugins/com.sun.xml.bind_2.2.0.v201505121915.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int)
+WARNING: Please consider reporting this to the maintainers of com.sun.xml.bind.v2.runtime.reflect.opt.Injector$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Applying setting for plugin de.uni_freiburg.informatik.ultimate.plugins.generator.cacsl2boogietranslator: Entry function -> main
+Applying setting for plugin de.uni_freiburg.informatik.ultimate.witnessprinter: Witness directory -> /home/qingshi1019/UAutomizer
+Applying setting for plugin de.uni_freiburg.informatik.ultimate.witnessprinter: Witness filename -> witness
+Applying setting for plugin de.uni_freiburg.informatik.ultimate.witnessprinter: Write witness besides input file -> false
+Applying setting for plugin de.uni_freiburg.informatik.ultimate.witnessprinter: Graph data specification -> CHECK( init(main()), LTL(G ! overflow) )
+
+
+Applying setting for plugin de.uni_freiburg.informatik.ultimate.witnessprinter: Graph data producer -> Automizer
+Applying setting for plugin de.uni_freiburg.informatik.ultimate.witnessprinter: Graph data architecture -> 64bit
+Applying setting for plugin de.uni_freiburg.informatik.ultimate.witnessprinter: Graph data programhash -> ba2a9619646e09f687321b5ddcee7f0b85c12c78d2d27ee947c57b95fdb2347d
+[2024-08-16 15:34:34,987 INFO  L75    nceAwareModelManager]: Repository-Root is: /tmp
+[2024-08-16 15:34:35,038 INFO  L261   ainManager$Toolchain]: [Toolchain 1]: Applicable parser(s) successfully (re)initialized
+[2024-08-16 15:34:35,049 INFO  L217   ainManager$Toolchain]: [Toolchain 1]: Toolchain selected.
+[2024-08-16 15:34:35,053 INFO  L270        PluginConnector]: Initializing CDTParser...
+[2024-08-16 15:34:35,054 INFO  L274        PluginConnector]: CDTParser initialized
+[2024-08-16 15:34:35,059 INFO  L431   ainManager$Toolchain]: [Toolchain 1]: Parsing single file: /home/qingshi1019/UAutomizer/log.c
+[2024-08-16 15:34:36,875 INFO  L533              CDTParser]: Created temporary CDT project at NULL
+[2024-08-16 15:34:37,162 INFO  L384              CDTParser]: Found 1 translation units.
+[2024-08-16 15:34:37,162 INFO  L180              CDTParser]: Scanning /home/qingshi1019/UAutomizer/log.c
+[2024-08-16 15:34:37,165 WARN  L117   ultiparseSymbolTable]: System include stdio.h could not be resolved by CDT -- only built-in system includes are available.
+[2024-08-16 15:34:37,165 WARN  L117   ultiparseSymbolTable]: System include math.h could not be resolved by CDT -- only built-in system includes are available.
+[2024-08-16 15:34:37,173 INFO  L427              CDTParser]: About to delete temporary CDT project at /home/qingshi1019/UAutomizer/data/6fb954797/b419bed68140409aad522e451c6c8dbc/FLAG2c1d24198
+[2024-08-16 15:34:37,212 INFO  L435              CDTParser]: Successfully deleted /home/qingshi1019/UAutomizer/data/6fb954797/b419bed68140409aad522e451c6c8dbc
+[2024-08-16 15:34:37,216 INFO  L299   ainManager$Toolchain]: ####################### [Toolchain 1] #######################
+[2024-08-16 15:34:37,219 INFO  L133        ToolchainWalker]: Walking toolchain with 6 elements.
+[2024-08-16 15:34:37,221 INFO  L112        PluginConnector]: ------------------------CACSL2BoogieTranslator----------------------------
+[2024-08-16 15:34:37,222 INFO  L270        PluginConnector]: Initializing CACSL2BoogieTranslator...
+[2024-08-16 15:34:37,233 INFO  L274        PluginConnector]: CACSL2BoogieTranslator initialized
+[2024-08-16 15:34:37,235 INFO  L184        PluginConnector]: Executing the observer ACSLObjectContainerObserver from plugin CACSL2BoogieTranslator for "CDTParser AST 16.08 03:34:37" (1/1) ...
+[2024-08-16 15:34:37,237 INFO  L204        PluginConnector]: Invalid model from CACSL2BoogieTranslator for observer de.uni_freiburg.informatik.ultimate.plugins.generator.cacsl2boogietranslator.ACSLObjectContainerObserver@23031d25 and model type de.uni_freiburg.informatik.ultimate.plugins.generator.cacsl2boogietranslator AST 16.08 03:34:37, skipping insertion in model container
+[2024-08-16 15:34:37,238 INFO  L184        PluginConnector]: Executing the observer CACSL2BoogieTranslatorObserver from plugin CACSL2BoogieTranslator for "CDTParser AST 16.08 03:34:37" (1/1) ...
+[2024-08-16 15:34:37,277 INFO  L177         MainTranslator]: Built tables and reachable declarations
+[2024-08-16 15:34:37,509 INFO  L209          PostProcessor]: Analyzing one entry point: main
+[2024-08-16 15:34:37,521 INFO  L202         MainTranslator]: Completed pre-run
+[2024-08-16 15:34:37,544 INFO  L209          PostProcessor]: Analyzing one entry point: main
+[2024-08-16 15:34:37,567 INFO  L206         MainTranslator]: Completed translation
+[2024-08-16 15:34:37,568 INFO  L201        PluginConnector]: Adding new model de.uni_freiburg.informatik.ultimate.plugins.generator.cacsl2boogietranslator AST 16.08 03:34:37 WrapperNode
+[2024-08-16 15:34:37,568 INFO  L131        PluginConnector]: ------------------------ END CACSL2BoogieTranslator----------------------------
+[2024-08-16 15:34:37,571 INFO  L112        PluginConnector]: ------------------------Boogie Procedure Inliner----------------------------
+[2024-08-16 15:34:37,572 INFO  L270        PluginConnector]: Initializing Boogie Procedure Inliner...
+[2024-08-16 15:34:37,572 INFO  L274        PluginConnector]: Boogie Procedure Inliner initialized
+[2024-08-16 15:34:37,586 INFO  L184        PluginConnector]: Executing the observer TypeChecker from plugin Boogie Procedure Inliner for "de.uni_freiburg.informatik.ultimate.plugins.generator.cacsl2boogietranslator AST 16.08 03:34:37" (1/1) ...
+[2024-08-16 15:34:37,594 INFO  L184        PluginConnector]: Executing the observer Inliner from plugin Boogie Procedure Inliner for "de.uni_freiburg.informatik.ultimate.plugins.generator.cacsl2boogietranslator AST 16.08 03:34:37" (1/1) ...
+[2024-08-16 15:34:37,627 INFO  L138                Inliner]: procedures = 3, calls = 2, calls flagged for inlining = 2, calls inlined = 2, statements flattened = 8
+[2024-08-16 15:34:37,628 INFO  L131        PluginConnector]: ------------------------ END Boogie Procedure Inliner----------------------------
+[2024-08-16 15:34:37,629 INFO  L112        PluginConnector]: ------------------------Boogie Preprocessor----------------------------
+[2024-08-16 15:34:37,629 INFO  L270        PluginConnector]: Initializing Boogie Preprocessor...
+[2024-08-16 15:34:37,629 INFO  L274        PluginConnector]: Boogie Preprocessor initialized
+[2024-08-16 15:34:37,648 INFO  L184        PluginConnector]: Executing the observer EnsureBoogieModelObserver from plugin Boogie Preprocessor for "de.uni_freiburg.informatik.ultimate.plugins.generator.cacsl2boogietranslator AST 16.08 03:34:37" (1/1) ...
+[2024-08-16 15:34:37,648 INFO  L184        PluginConnector]: Executing the observer TypeChecker from plugin Boogie Preprocessor for "de.uni_freiburg.informatik.ultimate.plugins.generator.cacsl2boogietranslator AST 16.08 03:34:37" (1/1) ...
+[2024-08-16 15:34:37,649 INFO  L184        PluginConnector]: Executing the observer MemorySlicer from plugin Boogie Preprocessor for "de.uni_freiburg.informatik.ultimate.plugins.generator.cacsl2boogietranslator AST 16.08 03:34:37" (1/1) ...
+[2024-08-16 15:34:37,661 INFO  L175           MemorySlicer]: No memory access in input program.
+[2024-08-16 15:34:37,661 INFO  L184        PluginConnector]: Executing the observer ConstExpander from plugin Boogie Preprocessor for "de.uni_freiburg.informatik.ultimate.plugins.generator.cacsl2boogietranslator AST 16.08 03:34:37" (1/1) ...
+[2024-08-16 15:34:37,662 INFO  L184        PluginConnector]: Executing the observer StructExpander from plugin Boogie Preprocessor for "de.uni_freiburg.informatik.ultimate.plugins.generator.cacsl2boogietranslator AST 16.08 03:34:37" (1/1) ...
+[2024-08-16 15:34:37,664 INFO  L184        PluginConnector]: Executing the observer UnstructureCode from plugin Boogie Preprocessor for "de.uni_freiburg.informatik.ultimate.plugins.generator.cacsl2boogietranslator AST 16.08 03:34:37" (1/1) ...
+[2024-08-16 15:34:37,666 INFO  L184        PluginConnector]: Executing the observer FunctionInliner from plugin Boogie Preprocessor for "de.uni_freiburg.informatik.ultimate.plugins.generator.cacsl2boogietranslator AST 16.08 03:34:37" (1/1) ...
+[2024-08-16 15:34:37,668 INFO  L184        PluginConnector]: Executing the observer LTLStepAnnotator from plugin Boogie Preprocessor for "de.uni_freiburg.informatik.ultimate.plugins.generator.cacsl2boogietranslator AST 16.08 03:34:37" (1/1) ...
+[2024-08-16 15:34:37,669 INFO  L184        PluginConnector]: Executing the observer BoogieSymbolTableConstructor from plugin Boogie Preprocessor for "de.uni_freiburg.informatik.ultimate.plugins.generator.cacsl2boogietranslator AST 16.08 03:34:37" (1/1) ...
+[2024-08-16 15:34:37,671 INFO  L131        PluginConnector]: ------------------------ END Boogie Preprocessor----------------------------
+[2024-08-16 15:34:37,674 INFO  L112        PluginConnector]: ------------------------RCFGBuilder----------------------------
+[2024-08-16 15:34:37,674 INFO  L270        PluginConnector]: Initializing RCFGBuilder...
+[2024-08-16 15:34:37,675 INFO  L274        PluginConnector]: RCFGBuilder initialized
+[2024-08-16 15:34:37,688 INFO  L184        PluginConnector]: Executing the observer RCFGBuilderObserver from plugin RCFGBuilder for "de.uni_freiburg.informatik.ultimate.plugins.generator.cacsl2boogietranslator AST 16.08 03:34:37" (1/1) ...
+[2024-08-16 15:34:37,700 INFO  L173          SolverBuilder]: Constructing external solver with command: z3 SMTLIB2_COMPLIANT=true -memory:2024 -smt2 -in -t:4000
+[2024-08-16 15:34:37,731 INFO  L189       MonitoredProcess]: No working directory specified, using /home/qingshi1019/UAutomizer/z3
+[2024-08-16 15:34:37,756 INFO  L229       MonitoredProcess]: Starting monitored process 1 with /home/qingshi1019/UAutomizer/z3 SMTLIB2_COMPLIANT=true -memory:2024 -smt2 -in -t:4000 (exit command is (exit), workingDir is null)
+[2024-08-16 15:34:37,762 INFO  L327       MonitoredProcess]: [MP /home/qingshi1019/UAutomizer/z3 SMTLIB2_COMPLIANT=true -memory:2024 -smt2 -in -t:4000 (1)] Waiting until timeout for monitored process
+[2024-08-16 15:34:37,812 INFO  L130     BoogieDeclarations]: Found specification of procedure ULTIMATE.start
+[2024-08-16 15:34:37,812 INFO  L138     BoogieDeclarations]: Found implementation of procedure ULTIMATE.start
+[2024-08-16 15:34:37,908 INFO  L241             CfgBuilder]: Building ICFG
+[2024-08-16 15:34:37,913 INFO  L267             CfgBuilder]: Building CFG for each procedure with an implementation
+[2024-08-16 15:34:38,006 INFO  L282             CfgBuilder]: Performing block encoding
+[2024-08-16 15:34:38,047 INFO  L304             CfgBuilder]: Using the 1 location(s) as analysis (start of procedure ULTIMATE.start)
+[2024-08-16 15:34:38,047 INFO  L309             CfgBuilder]: Removed 0 assume(true) statements.
+[2024-08-16 15:34:38,048 INFO  L201        PluginConnector]: Adding new model de.uni_freiburg.informatik.ultimate.plugins.generator.rcfgbuilder CFG 16.08 03:34:38 BoogieIcfgContainer
+[2024-08-16 15:34:38,048 INFO  L131        PluginConnector]: ------------------------ END RCFGBuilder----------------------------
+[2024-08-16 15:34:38,053 INFO  L112        PluginConnector]: ------------------------TraceAbstraction----------------------------
+[2024-08-16 15:34:38,054 INFO  L270        PluginConnector]: Initializing TraceAbstraction...
+[2024-08-16 15:34:38,062 INFO  L274        PluginConnector]: TraceAbstraction initialized
+[2024-08-16 15:34:38,063 INFO  L184        PluginConnector]: Executing the observer TraceAbstractionObserver from plugin TraceAbstraction for "CDTParser AST 16.08 03:34:37" (1/3) ...
+[2024-08-16 15:34:38,066 INFO  L204        PluginConnector]: Invalid model from TraceAbstraction for observer de.uni_freiburg.informatik.ultimate.plugins.generator.traceabstraction.TraceAbstractionObserver@2c9a9599 and model type de.uni_freiburg.informatik.ultimate.plugins.generator.traceabstraction AST 16.08 03:34:38, skipping insertion in model container
+[2024-08-16 15:34:38,066 INFO  L184        PluginConnector]: Executing the observer TraceAbstractionObserver from plugin TraceAbstraction for "de.uni_freiburg.informatik.ultimate.plugins.generator.cacsl2boogietranslator AST 16.08 03:34:37" (2/3) ...
+[2024-08-16 15:34:38,067 INFO  L204        PluginConnector]: Invalid model from TraceAbstraction for observer de.uni_freiburg.informatik.ultimate.plugins.generator.traceabstraction.TraceAbstractionObserver@2c9a9599 and model type de.uni_freiburg.informatik.ultimate.plugins.generator.traceabstraction AST 16.08 03:34:38, skipping insertion in model container
+[2024-08-16 15:34:38,068 INFO  L184        PluginConnector]: Executing the observer TraceAbstractionObserver from plugin TraceAbstraction for "de.uni_freiburg.informatik.ultimate.plugins.generator.rcfgbuilder CFG 16.08 03:34:38" (3/3) ...
+[2024-08-16 15:34:38,075 INFO  L112   eAbstractionObserver]: Analyzing ICFG log.c
+[2024-08-16 15:34:38,120 INFO  L203   ceAbstractionStarter]: Automizer settings: Hoare:true NWA Interpolation:FPandBP Determinization: PREDICATE_ABSTRACTION
+[2024-08-16 15:34:38,120 INFO  L162   ceAbstractionStarter]: Applying trace abstraction to program that has 0 error locations.
+[2024-08-16 15:34:38,123 INFO  L204        PluginConnector]: Invalid model from TraceAbstraction for observer de.uni_freiburg.informatik.ultimate.plugins.generator.traceabstraction.TraceAbstractionObserver@2c9a9599 and model type de.uni_freiburg.informatik.ultimate.plugins.generator.traceabstraction CFG 16.08 03:34:38, skipping insertion in model container
+[2024-08-16 15:34:38,123 INFO  L131        PluginConnector]: ------------------------ END TraceAbstraction----------------------------
+[2024-08-16 15:34:38,125 INFO  L112        PluginConnector]: ------------------------Witness Printer----------------------------
+[2024-08-16 15:34:38,125 INFO  L270        PluginConnector]: Initializing Witness Printer...
+[2024-08-16 15:34:38,126 INFO  L274        PluginConnector]: Witness Printer initialized
+[2024-08-16 15:34:38,128 INFO  L184        PluginConnector]: Executing the observer RCFGCatcher from plugin Witness Printer for "de.uni_freiburg.informatik.ultimate.plugins.generator.rcfgbuilder CFG 16.08 03:34:38" (3/3) ...
+[2024-08-16 15:34:38,132 INFO  L137         WitnessPrinter]: Generating witness for correct program
+[2024-08-16 15:34:38,148 INFO  L943   BoogieBacktranslator]: Reduced CFG by removing 7 nodes and edges
+[2024-08-16 15:34:38,149 INFO  L943   BoogieBacktranslator]: Reduced CFG by removing 4 nodes and edges
+[2024-08-16 15:34:38,149 INFO  L943   BoogieBacktranslator]: Reduced CFG by removing 2 nodes and edges
+[2024-08-16 15:34:38,272 INFO  L149         WitnessManager]: Wrote witness to /home/qingshi1019/UAutomizer/witness.graphml
+[2024-08-16 15:34:38,274 INFO  L149         WitnessManager]: Wrote witness to /home/qingshi1019/UAutomizer/witness.yml
+[2024-08-16 15:34:38,275 INFO  L131        PluginConnector]: ------------------------ END Witness Printer----------------------------
+[2024-08-16 15:34:38,278 INFO  L158              Benchmark]: Toolchain (without parser) took 1058.08ms. Allocated memory is still 65.0MB. Free memory was 40.6MB in the beginning and 30.6MB in the end (delta: 10.0MB). Peak memory consumption was 9.0MB. Max. memory is 16.1GB.
+[2024-08-16 15:34:38,279 INFO  L158              Benchmark]: CDTParser took 0.79ms. Allocated memory is still 52.4MB. Free memory was 27.8MB in the beginning and 27.7MB in the end (delta: 78.1kB). There was no memory consumed. Max. memory is 16.1GB.
+[2024-08-16 15:34:38,280 INFO  L158              Benchmark]: CACSL2BoogieTranslator took 348.29ms. Allocated memory is still 65.0MB. Free memory was 40.4MB in the beginning and 31.2MB in the end (delta: 9.2MB). Peak memory consumption was 8.4MB. Max. memory is 16.1GB.
+[2024-08-16 15:34:38,281 INFO  L158              Benchmark]: Boogie Procedure Inliner took 56.61ms. Allocated memory is still 65.0MB. Free memory was 31.2MB in the beginning and 30.0MB in the end (delta: 1.2MB). Peak memory consumption was 2.1MB. Max. memory is 16.1GB.
+[2024-08-16 15:34:38,282 INFO  L158              Benchmark]: Boogie Preprocessor took 43.33ms. Allocated memory is still 65.0MB. Free memory was 30.0MB in the beginning and 28.7MB in the end (delta: 1.3MB). There was no memory consumed. Max. memory is 16.1GB.
+[2024-08-16 15:34:38,283 INFO  L158              Benchmark]: RCFGBuilder took 374.98ms. Allocated memory is still 65.0MB. Free memory was 28.7MB in the beginning and 37.4MB in the end (delta: -8.7MB). Peak memory consumption was 2.7MB. Max. memory is 16.1GB.
+[2024-08-16 15:34:38,284 INFO  L158              Benchmark]: TraceAbstraction took 69.98ms. Allocated memory is still 65.0MB. Free memory was 36.7MB in the beginning and 34.5MB in the end (delta: 2.2MB). Peak memory consumption was 2.1MB. Max. memory is 16.1GB.
+[2024-08-16 15:34:38,285 INFO  L158              Benchmark]: Witness Printer took 150.11ms. Allocated memory is still 65.0MB. Free memory was 34.5MB in the beginning and 30.6MB in the end (delta: 3.9MB). Peak memory consumption was 4.2MB. Max. memory is 16.1GB.
+[2024-08-16 15:34:38,290 INFO  L338   ainManager$Toolchain]: #######################  End [Toolchain 1] #######################
+ --- Results ---
+ * Results from de.uni_freiburg.informatik.ultimate.core:
+  - StatisticsResult: Toolchain Benchmarks
+    Benchmark results are:
+ * CDTParser took 0.79ms. Allocated memory is still 52.4MB. Free memory was 27.8MB in the beginning and 27.7MB in the end (delta: 78.1kB). There was no memory consumed. Max. memory is 16.1GB.
+ * CACSL2BoogieTranslator took 348.29ms. Allocated memory is still 65.0MB. Free memory was 40.4MB in the beginning and 31.2MB in the end (delta: 9.2MB). Peak memory consumption was 8.4MB. Max. memory is 16.1GB.
+ * Boogie Procedure Inliner took 56.61ms. Allocated memory is still 65.0MB. Free memory was 31.2MB in the beginning and 30.0MB in the end (delta: 1.2MB). Peak memory consumption was 2.1MB. Max. memory is 16.1GB.
+ * Boogie Preprocessor took 43.33ms. Allocated memory is still 65.0MB. Free memory was 30.0MB in the beginning and 28.7MB in the end (delta: 1.3MB). There was no memory consumed. Max. memory is 16.1GB.
+ * RCFGBuilder took 374.98ms. Allocated memory is still 65.0MB. Free memory was 28.7MB in the beginning and 37.4MB in the end (delta: -8.7MB). Peak memory consumption was 2.7MB. Max. memory is 16.1GB.
+ * TraceAbstraction took 69.98ms. Allocated memory is still 65.0MB. Free memory was 36.7MB in the beginning and 34.5MB in the end (delta: 2.2MB). Peak memory consumption was 2.1MB. Max. memory is 16.1GB.
+ * Witness Printer took 150.11ms. Allocated memory is still 65.0MB. Free memory was 34.5MB in the beginning and 30.6MB in the end (delta: 3.9MB). Peak memory consumption was 4.2MB. Max. memory is 16.1GB.
+ * Results from de.uni_freiburg.informatik.ultimate.plugins.generator.traceabstraction:
+  - AllSpecificationsHoldResult: All specifications hold
+    We were not able to verify any specification because the program does not contain any specification.
+RESULT: Ultimate proved your program to be correct!
+[2024-08-16 15:34:38,319 INFO  L540       MonitoredProcess]: [MP /home/qingshi1019/UAutomizer/z3 SMTLIB2_COMPLIANT=true -memory:2024 -smt2 -in -t:4000 (1)] Forceful destruction successful, exit code 0
+Received shutdown request...

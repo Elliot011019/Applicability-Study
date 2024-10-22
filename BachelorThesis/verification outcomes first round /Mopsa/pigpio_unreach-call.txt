@@ -1,0 +1,50 @@
+Program File: /home/qingshi1019/mopsa/repositories/pigpio.i
+Property File: /home/qingshi1019/mopsa/properties/unreach-call.prp
+
+--- Output ---
+Running /home/qingshi1019/mopsa/bin/mopsa-c -config=c/default.json -c-init-memset-threshold=5 -additional-stubs=c/sv-comp.c -use-stub=reach_error,fread_unlocked,fread,strndup,xstrndup -no-warning -ccopt=-fbracket-depth=2048 -stub-ignore-case=malloc.failure,malloc.empty -c-check-signed-implicit-cast-overflow=false -c-check-unsigned-implicit-cast-overflow=false -c-check-unreachable-memory /home/qingshi1019/mopsa/repositories/pigpio.i /home/qingshi1019/mopsa/share/mopsa/stubs/c/libc/assert.c  /home/qingshi1019/mopsa/share/mopsa/stubs/c/libc/sys/socket.c /home/qingshi1019/mopsa/share/mopsa/stubs/c/libc/libintl.c /home/qingshi1019/mopsa/share/mopsa/stubs/c/libc/stdio_ext.c /home/qingshi1019/mopsa/share/mopsa/stubs/c/libc/netinet/in.c /home/qingshi1019/mopsa/share/mopsa/stubs/c/libc/arpa/inet.c /home/qingshi1019/mopsa/share/mopsa/stubs/c/libc/wctype.c /home/qingshi1019/mopsa/share/mopsa/stubs/c/libc/sys/stat.c -error-is-builtin=false /home/qingshi1019/mopsa/share/mopsa/stubs/c/libc/math.c /home/qingshi1019/mopsa/share/mopsa/stubs/c/libc/stdio.c /home/qingshi1019/mopsa/share/mopsa/stubs/c/libc/stdlib.c -format=json
+Analysis aborted: Parsing error raised:
+/usr/include/stdio.h:189:47: '__malloc__' attribute takes no arguments
+/usr/include/stdio.h:201:48: '__malloc__' attribute takes no arguments
+/usr/include/stdio.h:223:130: '__malloc__' attribute takes no arguments
+/usr/include/stdio.h:260:47: '__malloc__' attribute takes no arguments
+/usr/include/stdio.h:285:47: '__malloc__' attribute takes no arguments
+/usr/include/stdio.h:294:47: '__malloc__' attribute takes no arguments
+/usr/include/stdio.h:303:47: '__malloc__' attribute takes no arguments
+/usr/include/stdio.h:309:88: '__malloc__' attribute takes no arguments
+/usr/include/stdio.h:315:47: '__malloc__' attribute takes no arguments
+/usr/include/stdio.h:830:47: '__malloc__' attribute takes no arguments
+/usr/include/stdlib.h:141:7: unknown type name '_Float32'
+/usr/include/stdlib.h:147:7: unknown type name '_Float64'
+/usr/include/stdlib.h:153:7: unknown type name '_Float128'
+/usr/include/stdlib.h:159:7: unknown type name '_Float32x'
+/usr/include/stdlib.h:165:7: unknown type name '_Float64x'
+/usr/include/stdlib.h:234:9: unknown type name '_Float32'
+/usr/include/stdlib.h:240:9: unknown type name '_Float64'
+/usr/include/stdlib.h:246:3: unknown type name '_Float128'
+/usr/include/stdlib.h:252:3: unknown type name '_Float32x'
+/usr/include/stdlib.h:258:3: unknown type name '_Float64x'
+/usr/include/stdlib.h:317:7: unknown type name '_Float32'
+/usr/include/stdlib.h:324:7: unknown type name '_Float64'
+/usr/include/stdlib.h:331:7: unknown type name '_Float128'
+/usr/include/stdlib.h:338:7: unknown type name '_Float32x'
+/usr/include/stdlib.h:345:7: unknown type name '_Float64x'
+/usr/include/stdlib.h:566:20: '__malloc__' attribute takes no arguments
+/usr/include/stdlib.h:570:62: '__malloc__' attribute takes no arguments
+/usr/include/stdlib.h:799:21: '__malloc__' attribute takes no arguments
+pigpio.c:5532:37: passing arguments to a function without a prototype is deprecated in all versions of C and is not supported in C23
+pigpio.c:5536:37: passing arguments to a function without a prototype is deprecated in all versions of C and is not supported in C23
+pigpio.c:5773:15: passing arguments to a function without a prototype is deprecated in all versions of C and is not supported in C23
+pigpio.c:5777:33: passing arguments to a function without a prototype is deprecated in all versions of C and is not supported in C23
+pigpio.c:5800:35: passing arguments to a function without a prototype is deprecated in all versions of C and is not supported in C23
+pigpio.c:5804:35: passing arguments to a function without a prototype is deprecated in all versions of C and is not supported in C23
+pigpio.c:5837:27: passing arguments to a function without a prototype is deprecated in all versions of C and is not supported in C23
+pigpio.c:5842:43: passing arguments to a function without a prototype is deprecated in all versions of C and is not supported in C23
+pigpio.c:5874:40: passing arguments to a function without a prototype is deprecated in all versions of C and is not supported in C23
+pigpio.c:5879:40: passing arguments to a function without a prototype is deprecated in all versions of C and is not supported in C23
+pigpio.c:6819:28: passing arguments to a function without a prototype is deprecated in all versions of C and is not supported in C23
+pigpio.c:11599:33: passing arguments to a function without a prototype is deprecated in all versions of C and is not supported in C23
+pigpio.c:11600:25: passing arguments to a function without a prototype is deprecated in all versions of C and is not supported in C23
+error parsing error
+
+--- Error ---

@@ -1,0 +1,2148 @@
+Program File: /home/qingshi1019/analyzer/repositories/sxhkd.i
+Property File: /home/qingshi1019/analyzer/properties/termination.prp
+
+--- Output ---
+[Warning][Integer > Overflow][CWE-190][CWE-191] Unsigned integer overflow and underflow (src/sxhkd.c:135:13-135:53)
+[Error][Imprecise][Unsound] Function definition missing for xcb_poll_for_event (src/sxhkd.c:134:12-134:49)
+[Error][Imprecise][Unsound] Function definition missing for xcb_poll_for_event (src/sxhkd.c:134:12-134:49)
+[Error][Imprecise][Unsound] Function definition missing for xcb_poll_for_event (src/sxhkd.c:134:12-134:49)
+[Error][Imprecise][Unsound] Function definition missing for xcb_poll_for_event (src/sxhkd.c:134:12-134:49)
+[Error][Imprecise][Unsound] Function definition missing for xcb_poll_for_event (src/sxhkd.c:134:12-134:49)
+[Warning][Termination] The program might not terminate! (Loop analysis) (src/sxhkd.c:130:9-130:68)
+[Warning][Integer > Overflow][CWE-190] Unsigned integer overflow (src/sxhkd.c:130:9-130:68)
+[Warning][Integer > Overflow][CWE-190][CWE-191] Unsigned integer overflow and underflow (src/sxhkd.c:131:3-131:26)
+[Warning][Integer > Overflow][CWE-190] Signed integer overflow (src/sxhkd.c:131:3-131:26)
+[Info][Imprecise] Invalidating expressions: (fd_set * __restrict  )(& descriptors), (fd_set * __restrict  )((void *)0), (fd_set * __restrict  )((void *)0), (struct timeval * __restrict  )((void *)0) (src/sxhkd.c:133:7-133:56)
+[Info][Imprecise] Invalidating expressions: & tmp___4 (src/sxhkd.c:133:7-133:56)
+[Error][Imprecise][Unsound] Function definition missing for xcb_poll_for_event (src/sxhkd.c:134:12-134:49)
+[Info][Imprecise] INVALIDATING ALL GLOBALS! (src/sxhkd.c:134:12-134:49)
+[Info][Imprecise] Invalidating expressions: & scroll_lock, & caps_lock, & num_lock, & escape_chord, & locked, & chained, & bell, & reload, & toggle_grab, & grabbed, & running, & hotkeys_tail, & hotkeys_head, & timeout, & mapping_count, & progress, & status_fifo, & redir_fd, & num_extra_confs, & extra_confs, & config_path, & config_file, & shell, & symbols, & root, & dpy, & Scroll_Lock, & Num_Lock, & Mode_switch, & Meta_R, & Meta_L, & Hyper_R, & Hyper_L, & Super_R, & Super_L, & Alt_R, & Alt_L, dpy (src/sxhkd.c:134:12-134:49)
+[Info][Unsound] Unknown address in {&escape_chord} has escaped. (src/sxhkd.c:134:12-134:49)
+[Info][Unsound] Unknown value in {?} could be an escaped pointer address! (src/sxhkd.c:134:12-134:49)
+[Info][Unsound] Unknown address in {&hotkeys_tail} has escaped. (src/sxhkd.c:134:12-134:49)
+[Info][Unsound] Unknown address in {&hotkeys_head} has escaped. (src/sxhkd.c:134:12-134:49)
+[Info][Unsound] Unknown address in {&status_fifo} has escaped. (src/sxhkd.c:134:12-134:49)
+[Info][Unsound] Unknown address in {&extra_confs} has escaped. (src/sxhkd.c:134:12-134:49)
+[Info][Unsound] Unknown address in {&config_path} has escaped. (src/sxhkd.c:134:12-134:49)
+[Info][Unsound] Unknown address in {&shell} has escaped. (src/sxhkd.c:134:12-134:49)
+[Info][Unsound] Unknown address in {&symbols} has escaped. (src/sxhkd.c:134:12-134:49)
+[Info][Unsound] Unknown address in {&dpy} has escaped. (src/sxhkd.c:134:12-134:49)
+[Info][Unsound] Unknown address in dpy has escaped. (src/sxhkd.c:134:12-134:49)
+[Info][Imprecise] Invalidating expressions: & evt (src/sxhkd.c:134:12-134:49)
+[Warning][Integer > Overflow][CWE-190][CWE-191] Unsigned integer overflow and underflow (src/sxhkd.c:135:13-135:53)
+[Info][Unsound] Unknown address given as function argument (src/sxhkd.c:144:7-144:26)
+[Error][Imprecise][Unsound] Function definition missing for xcb_refresh_keyboard_mapping (src/sxhkd.c:238:6-238:51)
+[Info][Imprecise] INVALIDATING ALL GLOBALS! (src/sxhkd.c:238:6-238:51)
+[Info][Imprecise] Invalidating expressions: & scroll_lock, & caps_lock, & num_lock, & escape_chord, & locked, & chained, & bell, & reload, & toggle_grab, & grabbed, & running, & hotkeys_tail, & hotkeys_head, & timeout, & mapping_count, & progress, & status_fifo, & redir_fd, & num_extra_confs, & extra_confs, & config_path, & config_file, & shell, & symbols, & root, & dpy, & Scroll_Lock, & Num_Lock, & Mode_switch, & Meta_R, & Meta_L, & Hyper_R, & Hyper_L, & Super_R, & Super_L, & Alt_R, & Alt_L, symbols, e (src/sxhkd.c:238:6-238:51)
+[Info][Unsound] Unknown address in {&escape_chord} has escaped. (src/sxhkd.c:238:6-238:51)
+[Info][Unsound] Unknown value in {?} could be an escaped pointer address! (src/sxhkd.c:238:6-238:51)
+[Info][Unsound] Unknown address in {&hotkeys_tail} has escaped. (src/sxhkd.c:238:6-238:51)
+[Info][Unsound] Unknown address in {&hotkeys_head} has escaped. (src/sxhkd.c:238:6-238:51)
+[Info][Unsound] Unknown address in {&status_fifo} has escaped. (src/sxhkd.c:238:6-238:51)
+[Info][Unsound] Unknown address in {&extra_confs} has escaped. (src/sxhkd.c:238:6-238:51)
+[Info][Unsound] Unknown address in {&config_path} has escaped. (src/sxhkd.c:238:6-238:51)
+[Info][Unsound] Unknown address in {&shell} has escaped. (src/sxhkd.c:238:6-238:51)
+[Info][Unsound] Unknown address in {&symbols} has escaped. (src/sxhkd.c:238:6-238:51)
+[Info][Unsound] Unknown address in {&dpy} has escaped. (src/sxhkd.c:238:6-238:51)
+[Info][Unsound] Unknown address in symbols has escaped. (src/sxhkd.c:238:6-238:51)
+[Info][Unsound] Unknown address in e has escaped. (src/sxhkd.c:238:6-238:51)
+[Info][Imprecise] Invalidating expressions: & tmp (src/sxhkd.c:238:6-238:51)
+[Error][Imprecise][Unsound] Function definition missing for destroy_chord (src/sxhkd.c:239:3-239:30)
+[Info][Imprecise] INVALIDATING ALL GLOBALS! (src/sxhkd.c:239:3-239:30)
+[Info][Imprecise] Invalidating expressions: & scroll_lock, & caps_lock, & num_lock, & escape_chord, & locked, & chained, & bell, & reload, & toggle_grab, & grabbed, & running, & hotkeys_tail, & hotkeys_head, & timeout, & mapping_count, & progress, & status_fifo, & redir_fd, & num_extra_confs, & extra_confs, & config_path, & config_file, & shell, & symbols, & root, & dpy, & Scroll_Lock, & Num_Lock, & Mode_switch, & Meta_R, & Meta_L, & Hyper_R, & Hyper_L, & Super_R, & Super_L, & Alt_R, & Alt_L, escape_chord (src/sxhkd.c:239:3-239:30)
+[Info][Unsound] Unknown address in {&escape_chord} has escaped. (src/sxhkd.c:239:3-239:30)
+[Info][Unsound] Unknown value in {?} could be an escaped pointer address! (src/sxhkd.c:239:3-239:30)
+[Info][Unsound] Unknown address in {&hotkeys_tail} has escaped. (src/sxhkd.c:239:3-239:30)
+[Info][Unsound] Unknown address in {&hotkeys_head} has escaped. (src/sxhkd.c:239:3-239:30)
+[Info][Unsound] Unknown address in {&status_fifo} has escaped. (src/sxhkd.c:239:3-239:30)
+[Info][Unsound] Unknown address in {&extra_confs} has escaped. (src/sxhkd.c:239:3-239:30)
+[Info][Unsound] Unknown address in {&config_path} has escaped. (src/sxhkd.c:239:3-239:30)
+[Info][Unsound] Unknown address in {&shell} has escaped. (src/sxhkd.c:239:3-239:30)
+[Info][Unsound] Unknown address in {&symbols} has escaped. (src/sxhkd.c:239:3-239:30)
+[Info][Unsound] Unknown address in {&dpy} has escaped. (src/sxhkd.c:239:3-239:30)
+[Info][Unsound] Unknown address in escape_chord has escaped. (src/sxhkd.c:239:3-239:30)
+[Error][Imprecise][Unsound] Function definition missing for get_lock_fields (src/sxhkd.c:240:3-240:20)
+[Info][Imprecise] INVALIDATING ALL GLOBALS! (src/sxhkd.c:240:3-240:20)
+[Info][Imprecise] Invalidating expressions: & scroll_lock, & caps_lock, & num_lock, & escape_chord, & locked, & chained, & bell, & reload, & toggle_grab, & grabbed, & running, & hotkeys_tail, & hotkeys_head, & timeout, & mapping_count, & progress, & status_fifo, & redir_fd, & num_extra_confs, & extra_confs, & config_path, & config_file, & shell, & symbols, & root, & dpy, & Scroll_Lock, & Num_Lock, & Mode_switch, & Meta_R, & Meta_L, & Hyper_R, & Hyper_L, & Super_R, & Super_L, & Alt_R, & Alt_L (src/sxhkd.c:240:3-240:20)
+[Info][Unsound] Unknown address in {&escape_chord} has escaped. (src/sxhkd.c:240:3-240:20)
+[Info][Unsound] Unknown value in {?} could be an escaped pointer address! (src/sxhkd.c:240:3-240:20)
+[Info][Unsound] Unknown address in {&hotkeys_tail} has escaped. (src/sxhkd.c:240:3-240:20)
+[Info][Unsound] Unknown address in {&hotkeys_head} has escaped. (src/sxhkd.c:240:3-240:20)
+[Info][Unsound] Unknown address in {&status_fifo} has escaped. (src/sxhkd.c:240:3-240:20)
+[Info][Unsound] Unknown address in {&extra_confs} has escaped. (src/sxhkd.c:240:3-240:20)
+[Info][Unsound] Unknown address in {&config_path} has escaped. (src/sxhkd.c:240:3-240:20)
+[Info][Unsound] Unknown address in {&shell} has escaped. (src/sxhkd.c:240:3-240:20)
+[Info][Unsound] Unknown address in {&symbols} has escaped. (src/sxhkd.c:240:3-240:20)
+[Info][Unsound] Unknown address in {&dpy} has escaped. (src/sxhkd.c:240:3-240:20)
+[Error][Imprecise][Unsound] Function definition missing for destroy_chain (src/sxhkd.c:270:3-270:27)
+[Info][Imprecise] INVALIDATING ALL GLOBALS! (src/sxhkd.c:270:3-270:27)
+[Info][Imprecise] Invalidating expressions: & scroll_lock, & caps_lock, & num_lock, & escape_chord, & locked, & chained, & bell, & reload, & toggle_grab, & grabbed, & running, & hotkeys_tail, & hotkeys_head, & timeout, & mapping_count, & progress, & status_fifo, & redir_fd, & num_extra_confs, & extra_confs, & config_path, & config_file, & shell, & symbols, & root, & dpy, & Scroll_Lock, & Num_Lock, & Mode_switch, & Meta_R, & Meta_L, & Hyper_R, & Hyper_L, & Super_R, & Super_L, & Alt_R, & Alt_L, hk->chain (src/sxhkd.c:270:3-270:27)
+[Info][Unsound] Unknown address in {&escape_chord} has escaped. (src/sxhkd.c:270:3-270:27)
+[Info][Unsound] Unknown value in {?} could be an escaped pointer address! (src/sxhkd.c:270:3-270:27)
+[Info][Unsound] Unknown address in {&hotkeys_tail} has escaped. (src/sxhkd.c:270:3-270:27)
+[Info][Unsound] Unknown address in {&hotkeys_head} has escaped. (src/sxhkd.c:270:3-270:27)
+[Info][Unsound] Unknown address in {&status_fifo} has escaped. (src/sxhkd.c:270:3-270:27)
+[Info][Unsound] Unknown address in {&extra_confs} has escaped. (src/sxhkd.c:270:3-270:27)
+[Info][Unsound] Unknown address in {&config_path} has escaped. (src/sxhkd.c:270:3-270:27)
+[Info][Unsound] Unknown address in {&shell} has escaped. (src/sxhkd.c:270:3-270:27)
+[Info][Unsound] Unknown address in {&symbols} has escaped. (src/sxhkd.c:270:3-270:27)
+[Info][Unsound] Unknown address in {&dpy} has escaped. (src/sxhkd.c:270:3-270:27)
+[Info][Unsound] Unknown address in hk->chain has escaped. (src/sxhkd.c:270:3-270:27)
+[Warning][Behavior > Undefined > InvalidMemoryDeallocation][CWE-590] Points-to set for pointer (void *)hk->cycle in function free is top. Potentially invalid memory deallocation may occur (src/sxhkd.c:271:3-271:18)
+[Warning][Behavior > Undefined > InvalidMemoryDeallocation][CWE-590] Points-to set for pointer (void *)hk in function free is top. Potentially invalid memory deallocation may occur (src/sxhkd.c:272:3-272:11)
+[Error][Imprecise][Unsound] Function definition missing for destroy_chain (src/sxhkd.c:270:3-270:27)
+[Info][Imprecise] INVALIDATING ALL GLOBALS! (src/sxhkd.c:270:3-270:27)
+[Info][Imprecise] Invalidating expressions: & scroll_lock, & caps_lock, & num_lock, & escape_chord, & locked, & chained, & bell, & reload, & toggle_grab, & grabbed, & running, & hotkeys_tail, & hotkeys_head, & timeout, & mapping_count, & progress, & status_fifo, & redir_fd, & num_extra_confs, & extra_confs, & config_path, & config_file, & shell, & symbols, & root, & dpy, & Scroll_Lock, & Num_Lock, & Mode_switch, & Meta_R, & Meta_L, & Hyper_R, & Hyper_L, & Super_R, & Super_L, & Alt_R, & Alt_L, hk->chain (src/sxhkd.c:270:3-270:27)
+[Info][Unsound] Unknown address in {&escape_chord} has escaped. (src/sxhkd.c:270:3-270:27)
+[Info][Unsound] Unknown value in {?} could be an escaped pointer address! (src/sxhkd.c:270:3-270:27)
+[Info][Unsound] Unknown address in {&hotkeys_tail} has escaped. (src/sxhkd.c:270:3-270:27)
+[Info][Unsound] Unknown address in {&hotkeys_head} has escaped. (src/sxhkd.c:270:3-270:27)
+[Info][Unsound] Unknown address in {&status_fifo} has escaped. (src/sxhkd.c:270:3-270:27)
+[Info][Unsound] Unknown address in {&extra_confs} has escaped. (src/sxhkd.c:270:3-270:27)
+[Info][Unsound] Unknown address in {&config_path} has escaped. (src/sxhkd.c:270:3-270:27)
+[Info][Unsound] Unknown address in {&shell} has escaped. (src/sxhkd.c:270:3-270:27)
+[Info][Unsound] Unknown address in {&symbols} has escaped. (src/sxhkd.c:270:3-270:27)
+[Info][Unsound] Unknown address in {&dpy} has escaped. (src/sxhkd.c:270:3-270:27)
+[Info][Unsound] Unknown address in hk->chain has escaped. (src/sxhkd.c:270:3-270:27)
+[Warning][Behavior > Undefined > InvalidMemoryDeallocation][CWE-590] Points-to set for pointer (void *)hk->cycle in function free is top. Potentially invalid memory deallocation may occur (src/sxhkd.c:271:3-271:18)
+[Warning][Behavior > Undefined > InvalidMemoryDeallocation][CWE-590] Points-to set for pointer (void *)hk in function free is top. Potentially invalid memory deallocation may occur (src/sxhkd.c:272:3-272:11)
+[Error][Imprecise][Unsound] Function definition missing for destroy_chain (src/sxhkd.c:270:3-270:27)
+[Info][Imprecise] INVALIDATING ALL GLOBALS! (src/sxhkd.c:270:3-270:27)
+[Info][Imprecise] Invalidating expressions: & scroll_lock, & caps_lock, & num_lock, & escape_chord, & locked, & chained, & bell, & reload, & toggle_grab, & grabbed, & running, & hotkeys_tail, & hotkeys_head, & timeout, & mapping_count, & progress, & status_fifo, & redir_fd, & num_extra_confs, & extra_confs, & config_path, & config_file, & shell, & symbols, & root, & dpy, & Scroll_Lock, & Num_Lock, & Mode_switch, & Meta_R, & Meta_L, & Hyper_R, & Hyper_L, & Super_R, & Super_L, & Alt_R, & Alt_L, hk->chain (src/sxhkd.c:270:3-270:27)
+[Info][Unsound] Unknown address in {&escape_chord} has escaped. (src/sxhkd.c:270:3-270:27)
+[Info][Unsound] Unknown value in {?} could be an escaped pointer address! (src/sxhkd.c:270:3-270:27)
+[Info][Unsound] Unknown address in {&hotkeys_tail} has escaped. (src/sxhkd.c:270:3-270:27)
+[Info][Unsound] Unknown address in {&hotkeys_head} has escaped. (src/sxhkd.c:270:3-270:27)
+[Info][Unsound] Unknown address in {&status_fifo} has escaped. (src/sxhkd.c:270:3-270:27)
+[Info][Unsound] Unknown address in {&extra_confs} has escaped. (src/sxhkd.c:270:3-270:27)
+[Info][Unsound] Unknown address in {&config_path} has escaped. (src/sxhkd.c:270:3-270:27)
+[Info][Unsound] Unknown address in {&shell} has escaped. (src/sxhkd.c:270:3-270:27)
+[Info][Unsound] Unknown address in {&symbols} has escaped. (src/sxhkd.c:270:3-270:27)
+[Info][Unsound] Unknown address in {&dpy} has escaped. (src/sxhkd.c:270:3-270:27)
+[Info][Unsound] Unknown address in hk->chain has escaped. (src/sxhkd.c:270:3-270:27)
+[Warning][Behavior > Undefined > InvalidMemoryDeallocation][CWE-590] Points-to set for pointer (void *)hk->cycle in function free is top. Potentially invalid memory deallocation may occur (src/sxhkd.c:271:3-271:18)
+[Warning][Behavior > Undefined > InvalidMemoryDeallocation][CWE-590] Points-to set for pointer (void *)hk in function free is top. Potentially invalid memory deallocation may occur (src/sxhkd.c:272:3-272:11)
+[Error][Imprecise][Unsound] Function definition missing for destroy_chain (src/sxhkd.c:270:3-270:27)
+[Info][Imprecise] INVALIDATING ALL GLOBALS! (src/sxhkd.c:270:3-270:27)
+[Info][Imprecise] Invalidating expressions: & scroll_lock, & caps_lock, & num_lock, & escape_chord, & locked, & chained, & bell, & reload, & toggle_grab, & grabbed, & running, & hotkeys_tail, & hotkeys_head, & timeout, & mapping_count, & progress, & status_fifo, & redir_fd, & num_extra_confs, & extra_confs, & config_path, & config_file, & shell, & symbols, & root, & dpy, & Scroll_Lock, & Num_Lock, & Mode_switch, & Meta_R, & Meta_L, & Hyper_R, & Hyper_L, & Super_R, & Super_L, & Alt_R, & Alt_L, hk->chain (src/sxhkd.c:270:3-270:27)
+[Info][Unsound] Unknown address in {&escape_chord} has escaped. (src/sxhkd.c:270:3-270:27)
+[Info][Unsound] Unknown value in {?} could be an escaped pointer address! (src/sxhkd.c:270:3-270:27)
+[Info][Unsound] Unknown address in {&hotkeys_tail} has escaped. (src/sxhkd.c:270:3-270:27)
+[Info][Unsound] Unknown address in {&hotkeys_head} has escaped. (src/sxhkd.c:270:3-270:27)
+[Info][Unsound] Unknown address in {&status_fifo} has escaped. (src/sxhkd.c:270:3-270:27)
+[Info][Unsound] Unknown address in {&extra_confs} has escaped. (src/sxhkd.c:270:3-270:27)
+[Info][Unsound] Unknown address in {&config_path} has escaped. (src/sxhkd.c:270:3-270:27)
+[Info][Unsound] Unknown address in {&shell} has escaped. (src/sxhkd.c:270:3-270:27)
+[Info][Unsound] Unknown address in {&symbols} has escaped. (src/sxhkd.c:270:3-270:27)
+[Info][Unsound] Unknown address in {&dpy} has escaped. (src/sxhkd.c:270:3-270:27)
+[Info][Unsound] Unknown address in hk->chain has escaped. (src/sxhkd.c:270:3-270:27)
+[Warning][Behavior > Undefined > InvalidMemoryDeallocation][CWE-590] Points-to set for pointer (void *)hk->cycle in function free is top. Potentially invalid memory deallocation may occur (src/sxhkd.c:271:3-271:18)
+[Warning][Behavior > Undefined > InvalidMemoryDeallocation][CWE-590] Points-to set for pointer (void *)hk in function free is top. Potentially invalid memory deallocation may occur (src/sxhkd.c:272:3-272:11)
+[Error][Imprecise][Unsound] Function definition missing for destroy_chain (src/sxhkd.c:270:3-270:27)
+[Info][Imprecise] INVALIDATING ALL GLOBALS! (src/sxhkd.c:270:3-270:27)
+[Info][Imprecise] Invalidating expressions: & scroll_lock, & caps_lock, & num_lock, & escape_chord, & locked, & chained, & bell, & reload, & toggle_grab, & grabbed, & running, & hotkeys_tail, & hotkeys_head, & timeout, & mapping_count, & progress, & status_fifo, & redir_fd, & num_extra_confs, & extra_confs, & config_path, & config_file, & shell, & symbols, & root, & dpy, & Scroll_Lock, & Num_Lock, & Mode_switch, & Meta_R, & Meta_L, & Hyper_R, & Hyper_L, & Super_R, & Super_L, & Alt_R, & Alt_L, hk->chain (src/sxhkd.c:270:3-270:27)
+[Info][Unsound] Unknown address in {&escape_chord} has escaped. (src/sxhkd.c:270:3-270:27)
+[Info][Unsound] Unknown value in {?} could be an escaped pointer address! (src/sxhkd.c:270:3-270:27)
+[Info][Unsound] Unknown address in {&hotkeys_tail} has escaped. (src/sxhkd.c:270:3-270:27)
+[Info][Unsound] Unknown address in {&hotkeys_head} has escaped. (src/sxhkd.c:270:3-270:27)
+[Info][Unsound] Unknown address in {&status_fifo} has escaped. (src/sxhkd.c:270:3-270:27)
+[Info][Unsound] Unknown address in {&extra_confs} has escaped. (src/sxhkd.c:270:3-270:27)
+[Info][Unsound] Unknown address in {&config_path} has escaped. (src/sxhkd.c:270:3-270:27)
+[Info][Unsound] Unknown address in {&shell} has escaped. (src/sxhkd.c:270:3-270:27)
+[Info][Unsound] Unknown address in {&symbols} has escaped. (src/sxhkd.c:270:3-270:27)
+[Info][Unsound] Unknown address in {&dpy} has escaped. (src/sxhkd.c:270:3-270:27)
+[Info][Unsound] Unknown address in hk->chain has escaped. (src/sxhkd.c:270:3-270:27)
+[Warning][Behavior > Undefined > InvalidMemoryDeallocation][CWE-590] Points-to set for pointer (void *)hk->cycle in function free is top. Potentially invalid memory deallocation may occur (src/sxhkd.c:271:3-271:18)
+[Warning][Behavior > Undefined > InvalidMemoryDeallocation][CWE-590] Points-to set for pointer (void *)hk in function free is top. Potentially invalid memory deallocation may occur (src/sxhkd.c:272:3-272:11)
+[Error][Imprecise][Unsound] Function definition missing for destroy_chain (src/sxhkd.c:270:3-270:27)
+[Info][Imprecise] INVALIDATING ALL GLOBALS! (src/sxhkd.c:270:3-270:27)
+[Info][Imprecise] Invalidating expressions: & scroll_lock, & caps_lock, & num_lock, & escape_chord, & locked, & chained, & bell, & reload, & toggle_grab, & grabbed, & running, & hotkeys_tail, & hotkeys_head, & timeout, & mapping_count, & progress, & status_fifo, & redir_fd, & num_extra_confs, & extra_confs, & config_path, & config_file, & shell, & symbols, & root, & dpy, & Scroll_Lock, & Num_Lock, & Mode_switch, & Meta_R, & Meta_L, & Hyper_R, & Hyper_L, & Super_R, & Super_L, & Alt_R, & Alt_L, hk->chain (src/sxhkd.c:270:3-270:27)
+[Info][Unsound] Unknown address in {&escape_chord} has escaped. (src/sxhkd.c:270:3-270:27)
+[Info][Unsound] Unknown value in {?} could be an escaped pointer address! (src/sxhkd.c:270:3-270:27)
+[Info][Unsound] Unknown address in {&hotkeys_tail} has escaped. (src/sxhkd.c:270:3-270:27)
+[Info][Unsound] Unknown address in {&hotkeys_head} has escaped. (src/sxhkd.c:270:3-270:27)
+[Info][Unsound] Unknown address in {&status_fifo} has escaped. (src/sxhkd.c:270:3-270:27)
+[Info][Unsound] Unknown address in {&extra_confs} has escaped. (src/sxhkd.c:270:3-270:27)
+[Info][Unsound] Unknown address in {&config_path} has escaped. (src/sxhkd.c:270:3-270:27)
+[Info][Unsound] Unknown address in {&shell} has escaped. (src/sxhkd.c:270:3-270:27)
+[Info][Unsound] Unknown address in {&symbols} has escaped. (src/sxhkd.c:270:3-270:27)
+[Info][Unsound] Unknown address in {&dpy} has escaped. (src/sxhkd.c:270:3-270:27)
+[Info][Unsound] Unknown address in hk->chain has escaped. (src/sxhkd.c:270:3-270:27)
+[Warning][Behavior > Undefined > InvalidMemoryDeallocation][CWE-590] Points-to set for pointer (void *)hk->cycle in function free is top. Potentially invalid memory deallocation may occur (src/sxhkd.c:271:3-271:18)
+[Warning][Behavior > Undefined > InvalidMemoryDeallocation][CWE-590] Points-to set for pointer (void *)hk in function free is top. Potentially invalid memory deallocation may occur (src/sxhkd.c:272:3-272:11)
+[Error][Imprecise][Unsound] Function definition missing for destroy_chain (src/sxhkd.c:270:3-270:27)
+[Info][Imprecise] INVALIDATING ALL GLOBALS! (src/sxhkd.c:270:3-270:27)
+[Info][Imprecise] Invalidating expressions: & scroll_lock, & caps_lock, & num_lock, & escape_chord, & locked, & chained, & bell, & reload, & toggle_grab, & grabbed, & running, & hotkeys_tail, & hotkeys_head, & timeout, & mapping_count, & progress, & status_fifo, & redir_fd, & num_extra_confs, & extra_confs, & config_path, & config_file, & shell, & symbols, & root, & dpy, & Scroll_Lock, & Num_Lock, & Mode_switch, & Meta_R, & Meta_L, & Hyper_R, & Hyper_L, & Super_R, & Super_L, & Alt_R, & Alt_L, hk->chain (src/sxhkd.c:270:3-270:27)
+[Info][Unsound] Unknown address in {&escape_chord} has escaped. (src/sxhkd.c:270:3-270:27)
+[Info][Unsound] Unknown value in {?} could be an escaped pointer address! (src/sxhkd.c:270:3-270:27)
+[Info][Unsound] Unknown address in {&hotkeys_tail} has escaped. (src/sxhkd.c:270:3-270:27)
+[Info][Unsound] Unknown address in {&hotkeys_head} has escaped. (src/sxhkd.c:270:3-270:27)
+[Info][Unsound] Unknown address in {&status_fifo} has escaped. (src/sxhkd.c:270:3-270:27)
+[Info][Unsound] Unknown address in {&extra_confs} has escaped. (src/sxhkd.c:270:3-270:27)
+[Info][Unsound] Unknown address in {&config_path} has escaped. (src/sxhkd.c:270:3-270:27)
+[Info][Unsound] Unknown address in {&shell} has escaped. (src/sxhkd.c:270:3-270:27)
+[Info][Unsound] Unknown address in {&symbols} has escaped. (src/sxhkd.c:270:3-270:27)
+[Info][Unsound] Unknown address in {&dpy} has escaped. (src/sxhkd.c:270:3-270:27)
+[Info][Unsound] Unknown address in hk->chain has escaped. (src/sxhkd.c:270:3-270:27)
+[Warning][Behavior > Undefined > InvalidMemoryDeallocation][CWE-590] Points-to set for pointer (void *)hk->cycle in function free is top. Potentially invalid memory deallocation may occur (src/sxhkd.c:271:3-271:18)
+[Warning][Behavior > Undefined > InvalidMemoryDeallocation][CWE-590] Points-to set for pointer (void *)hk in function free is top. Potentially invalid memory deallocation may occur (src/sxhkd.c:272:3-272:11)
+[Error][Imprecise][Unsound] Function definition missing for destroy_chain (src/sxhkd.c:270:3-270:27)
+[Info][Imprecise] INVALIDATING ALL GLOBALS! (src/sxhkd.c:270:3-270:27)
+[Info][Imprecise] Invalidating expressions: & scroll_lock, & caps_lock, & num_lock, & escape_chord, & locked, & chained, & bell, & reload, & toggle_grab, & grabbed, & running, & hotkeys_tail, & hotkeys_head, & timeout, & mapping_count, & progress, & status_fifo, & redir_fd, & num_extra_confs, & extra_confs, & config_path, & config_file, & shell, & symbols, & root, & dpy, & Scroll_Lock, & Num_Lock, & Mode_switch, & Meta_R, & Meta_L, & Hyper_R, & Hyper_L, & Super_R, & Super_L, & Alt_R, & Alt_L, hk->chain (src/sxhkd.c:270:3-270:27)
+[Info][Unsound] Unknown address in {&escape_chord} has escaped. (src/sxhkd.c:270:3-270:27)
+[Info][Unsound] Unknown value in {?} could be an escaped pointer address! (src/sxhkd.c:270:3-270:27)
+[Info][Unsound] Unknown address in {&hotkeys_tail} has escaped. (src/sxhkd.c:270:3-270:27)
+[Info][Unsound] Unknown address in {&hotkeys_head} has escaped. (src/sxhkd.c:270:3-270:27)
+[Info][Unsound] Unknown address in {&status_fifo} has escaped. (src/sxhkd.c:270:3-270:27)
+[Info][Unsound] Unknown address in {&extra_confs} has escaped. (src/sxhkd.c:270:3-270:27)
+[Info][Unsound] Unknown address in {&config_path} has escaped. (src/sxhkd.c:270:3-270:27)
+[Info][Unsound] Unknown address in {&shell} has escaped. (src/sxhkd.c:270:3-270:27)
+[Info][Unsound] Unknown address in {&symbols} has escaped. (src/sxhkd.c:270:3-270:27)
+[Info][Unsound] Unknown address in {&dpy} has escaped. (src/sxhkd.c:270:3-270:27)
+[Info][Unsound] Unknown address in hk->chain has escaped. (src/sxhkd.c:270:3-270:27)
+[Warning][Behavior > Undefined > InvalidMemoryDeallocation][CWE-590] Points-to set for pointer (void *)hk->cycle in function free is top. Potentially invalid memory deallocation may occur (src/sxhkd.c:271:3-271:18)
+[Warning][Behavior > Undefined > InvalidMemoryDeallocation][CWE-590] Points-to set for pointer (void *)hk in function free is top. Potentially invalid memory deallocation may occur (src/sxhkd.c:272:3-272:11)
+[Warning][Termination] The program might not terminate! (Loop analysis) (src/sxhkd.c:268:9-268:18)
+[Warning][Integer > Overflow][CWE-190] Unsigned integer overflow (src/sxhkd.c:268:9-268:18)
+[Error][Imprecise][Unsound] Function definition missing for load_config (src/sxhkd.c:282:2-282:26)
+[Info][Imprecise] INVALIDATING ALL GLOBALS! (src/sxhkd.c:282:2-282:26)
+[Info][Imprecise] Invalidating expressions: & scroll_lock, & caps_lock, & num_lock, & escape_chord, & locked, & chained, & bell, & reload, & toggle_grab, & grabbed, & running, & hotkeys_tail, & hotkeys_head, & timeout, & mapping_count, & progress, & status_fifo, & redir_fd, & num_extra_confs, & extra_confs, & config_path, & config_file, & shell, & symbols, & root, & dpy, & Scroll_Lock, & Num_Lock, & Mode_switch, & Meta_R, & Meta_L, & Hyper_R, & Hyper_L, & Super_R, & Super_L, & Alt_R, & Alt_L, (char const   *)(config_file) (src/sxhkd.c:282:2-282:26)
+[Info][Unsound] Unknown address in {&escape_chord} has escaped. (src/sxhkd.c:282:2-282:26)
+[Info][Unsound] Unknown value in {?} could be an escaped pointer address! (src/sxhkd.c:282:2-282:26)
+[Info][Unsound] Unknown address in {&status_fifo} has escaped. (src/sxhkd.c:282:2-282:26)
+[Info][Unsound] Unknown address in {&extra_confs} has escaped. (src/sxhkd.c:282:2-282:26)
+[Info][Unsound] Unknown address in {&config_path} has escaped. (src/sxhkd.c:282:2-282:26)
+[Info][Unsound] Unknown address in {&shell} has escaped. (src/sxhkd.c:282:2-282:26)
+[Info][Unsound] Unknown address in {&symbols} has escaped. (src/sxhkd.c:282:2-282:26)
+[Info][Unsound] Unknown address in {&dpy} has escaped. (src/sxhkd.c:282:2-282:26)
+[Error][Imprecise][Unsound] Function definition missing for load_config (src/sxhkd.c:284:3-284:30)
+[Info][Imprecise] INVALIDATING ALL GLOBALS! (src/sxhkd.c:284:3-284:30)
+[Info][Imprecise] Invalidating expressions: & scroll_lock, & caps_lock, & num_lock, & escape_chord, & locked, & chained, & bell, & reload, & toggle_grab, & grabbed, & running, & hotkeys_tail, & hotkeys_head, & timeout, & mapping_count, & progress, & status_fifo, & redir_fd, & num_extra_confs, & extra_confs, & config_path, & config_file, & shell, & symbols, & root, & dpy, & Scroll_Lock, & Num_Lock, & Mode_switch, & Meta_R, & Meta_L, & Hyper_R, & Hyper_L, & Super_R, & Super_L, & Alt_R, & Alt_L, (char const   *)*(extra_confs + i) (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in {&escape_chord} has escaped. (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown value in {?} could be an escaped pointer address! (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in {&hotkeys_tail} has escaped. (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in {&hotkeys_head} has escaped. (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in {&status_fifo} has escaped. (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in {&extra_confs} has escaped. (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in {&config_path} has escaped. (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in {&shell} has escaped. (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in {&symbols} has escaped. (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in {&dpy} has escaped. (src/sxhkd.c:284:3-284:30)
+[Warning][Behavior > Undefined > NullPointerDereference][CWE-476] May dereference NULL pointer (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in (char const   *)*(extra_confs + i) has escaped. (src/sxhkd.c:284:3-284:30)
+[Error][Imprecise][Unsound] Function definition missing for load_config (src/sxhkd.c:284:3-284:30)
+[Info][Imprecise] INVALIDATING ALL GLOBALS! (src/sxhkd.c:284:3-284:30)
+[Info][Imprecise] Invalidating expressions: & scroll_lock, & caps_lock, & num_lock, & escape_chord, & locked, & chained, & bell, & reload, & toggle_grab, & grabbed, & running, & hotkeys_tail, & hotkeys_head, & timeout, & mapping_count, & progress, & status_fifo, & redir_fd, & num_extra_confs, & extra_confs, & config_path, & config_file, & shell, & symbols, & root, & dpy, & Scroll_Lock, & Num_Lock, & Mode_switch, & Meta_R, & Meta_L, & Hyper_R, & Hyper_L, & Super_R, & Super_L, & Alt_R, & Alt_L, (char const   *)*(extra_confs + i) (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in {&escape_chord} has escaped. (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown value in {?} could be an escaped pointer address! (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in {&hotkeys_tail} has escaped. (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in {&hotkeys_head} has escaped. (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in {&status_fifo} has escaped. (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in {&extra_confs} has escaped. (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in {&config_path} has escaped. (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in {&shell} has escaped. (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in {&symbols} has escaped. (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in {&dpy} has escaped. (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in (char const   *)*(extra_confs + i) has escaped. (src/sxhkd.c:284:3-284:30)
+[Error][Imprecise][Unsound] Function definition missing for load_config (src/sxhkd.c:284:3-284:30)
+[Info][Imprecise] INVALIDATING ALL GLOBALS! (src/sxhkd.c:284:3-284:30)
+[Info][Imprecise] Invalidating expressions: & scroll_lock, & caps_lock, & num_lock, & escape_chord, & locked, & chained, & bell, & reload, & toggle_grab, & grabbed, & running, & hotkeys_tail, & hotkeys_head, & timeout, & mapping_count, & progress, & status_fifo, & redir_fd, & num_extra_confs, & extra_confs, & config_path, & config_file, & shell, & symbols, & root, & dpy, & Scroll_Lock, & Num_Lock, & Mode_switch, & Meta_R, & Meta_L, & Hyper_R, & Hyper_L, & Super_R, & Super_L, & Alt_R, & Alt_L, (char const   *)*(extra_confs + i) (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in {&escape_chord} has escaped. (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown value in {?} could be an escaped pointer address! (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in {&hotkeys_tail} has escaped. (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in {&hotkeys_head} has escaped. (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in {&status_fifo} has escaped. (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in {&extra_confs} has escaped. (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in {&config_path} has escaped. (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in {&shell} has escaped. (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in {&symbols} has escaped. (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in {&dpy} has escaped. (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in (char const   *)*(extra_confs + i) has escaped. (src/sxhkd.c:284:3-284:30)
+[Error][Imprecise][Unsound] Function definition missing for load_config (src/sxhkd.c:284:3-284:30)
+[Info][Imprecise] INVALIDATING ALL GLOBALS! (src/sxhkd.c:284:3-284:30)
+[Info][Imprecise] Invalidating expressions: & scroll_lock, & caps_lock, & num_lock, & escape_chord, & locked, & chained, & bell, & reload, & toggle_grab, & grabbed, & running, & hotkeys_tail, & hotkeys_head, & timeout, & mapping_count, & progress, & status_fifo, & redir_fd, & num_extra_confs, & extra_confs, & config_path, & config_file, & shell, & symbols, & root, & dpy, & Scroll_Lock, & Num_Lock, & Mode_switch, & Meta_R, & Meta_L, & Hyper_R, & Hyper_L, & Super_R, & Super_L, & Alt_R, & Alt_L, (char const   *)*(extra_confs + i) (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in {&escape_chord} has escaped. (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown value in {?} could be an escaped pointer address! (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in {&hotkeys_tail} has escaped. (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in {&hotkeys_head} has escaped. (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in {&status_fifo} has escaped. (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in {&extra_confs} has escaped. (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in {&config_path} has escaped. (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in {&shell} has escaped. (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in {&symbols} has escaped. (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in {&dpy} has escaped. (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in (char const   *)*(extra_confs + i) has escaped. (src/sxhkd.c:284:3-284:30)
+[Error][Imprecise][Unsound] Function definition missing for load_config (src/sxhkd.c:284:3-284:30)
+[Info][Imprecise] INVALIDATING ALL GLOBALS! (src/sxhkd.c:284:3-284:30)
+[Info][Imprecise] Invalidating expressions: & scroll_lock, & caps_lock, & num_lock, & escape_chord, & locked, & chained, & bell, & reload, & toggle_grab, & grabbed, & running, & hotkeys_tail, & hotkeys_head, & timeout, & mapping_count, & progress, & status_fifo, & redir_fd, & num_extra_confs, & extra_confs, & config_path, & config_file, & shell, & symbols, & root, & dpy, & Scroll_Lock, & Num_Lock, & Mode_switch, & Meta_R, & Meta_L, & Hyper_R, & Hyper_L, & Super_R, & Super_L, & Alt_R, & Alt_L, (char const   *)*(extra_confs + i) (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in {&escape_chord} has escaped. (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown value in {?} could be an escaped pointer address! (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in {&hotkeys_tail} has escaped. (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in {&hotkeys_head} has escaped. (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in {&status_fifo} has escaped. (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in {&extra_confs} has escaped. (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in {&config_path} has escaped. (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in {&shell} has escaped. (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in {&symbols} has escaped. (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in {&dpy} has escaped. (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in (char const   *)*(extra_confs + i) has escaped. (src/sxhkd.c:284:3-284:30)
+[Error][Imprecise][Unsound] Function definition missing for load_config (src/sxhkd.c:284:3-284:30)
+[Info][Imprecise] INVALIDATING ALL GLOBALS! (src/sxhkd.c:284:3-284:30)
+[Info][Imprecise] Invalidating expressions: & scroll_lock, & caps_lock, & num_lock, & escape_chord, & locked, & chained, & bell, & reload, & toggle_grab, & grabbed, & running, & hotkeys_tail, & hotkeys_head, & timeout, & mapping_count, & progress, & status_fifo, & redir_fd, & num_extra_confs, & extra_confs, & config_path, & config_file, & shell, & symbols, & root, & dpy, & Scroll_Lock, & Num_Lock, & Mode_switch, & Meta_R, & Meta_L, & Hyper_R, & Hyper_L, & Super_R, & Super_L, & Alt_R, & Alt_L, (char const   *)*(extra_confs + i) (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in {&escape_chord} has escaped. (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown value in {?} could be an escaped pointer address! (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in {&hotkeys_tail} has escaped. (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in {&hotkeys_head} has escaped. (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in {&status_fifo} has escaped. (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in {&extra_confs} has escaped. (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in {&config_path} has escaped. (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in {&shell} has escaped. (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in {&symbols} has escaped. (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in {&dpy} has escaped. (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in (char const   *)*(extra_confs + i) has escaped. (src/sxhkd.c:284:3-284:30)
+[Error][Imprecise][Unsound] Function definition missing for load_config (src/sxhkd.c:284:3-284:30)
+[Info][Imprecise] INVALIDATING ALL GLOBALS! (src/sxhkd.c:284:3-284:30)
+[Info][Imprecise] Invalidating expressions: & scroll_lock, & caps_lock, & num_lock, & escape_chord, & locked, & chained, & bell, & reload, & toggle_grab, & grabbed, & running, & hotkeys_tail, & hotkeys_head, & timeout, & mapping_count, & progress, & status_fifo, & redir_fd, & num_extra_confs, & extra_confs, & config_path, & config_file, & shell, & symbols, & root, & dpy, & Scroll_Lock, & Num_Lock, & Mode_switch, & Meta_R, & Meta_L, & Hyper_R, & Hyper_L, & Super_R, & Super_L, & Alt_R, & Alt_L, (char const   *)*(extra_confs + i) (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in {&escape_chord} has escaped. (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown value in {?} could be an escaped pointer address! (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in {&hotkeys_tail} has escaped. (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in {&hotkeys_head} has escaped. (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in {&status_fifo} has escaped. (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in {&extra_confs} has escaped. (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in {&config_path} has escaped. (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in {&shell} has escaped. (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in {&symbols} has escaped. (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in {&dpy} has escaped. (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in (char const   *)*(extra_confs + i) has escaped. (src/sxhkd.c:284:3-284:30)
+[Error][Imprecise][Unsound] Function definition missing for load_config (src/sxhkd.c:284:3-284:30)
+[Info][Imprecise] INVALIDATING ALL GLOBALS! (src/sxhkd.c:284:3-284:30)
+[Info][Imprecise] Invalidating expressions: & scroll_lock, & caps_lock, & num_lock, & escape_chord, & locked, & chained, & bell, & reload, & toggle_grab, & grabbed, & running, & hotkeys_tail, & hotkeys_head, & timeout, & mapping_count, & progress, & status_fifo, & redir_fd, & num_extra_confs, & extra_confs, & config_path, & config_file, & shell, & symbols, & root, & dpy, & Scroll_Lock, & Num_Lock, & Mode_switch, & Meta_R, & Meta_L, & Hyper_R, & Hyper_L, & Super_R, & Super_L, & Alt_R, & Alt_L, (char const   *)*(extra_confs + i) (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in {&escape_chord} has escaped. (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown value in {?} could be an escaped pointer address! (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in {&hotkeys_tail} has escaped. (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in {&hotkeys_head} has escaped. (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in {&status_fifo} has escaped. (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in {&extra_confs} has escaped. (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in {&config_path} has escaped. (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in {&shell} has escaped. (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in {&symbols} has escaped. (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in {&dpy} has escaped. (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in (char const   *)*(extra_confs + i) has escaped. (src/sxhkd.c:284:3-284:30)
+[Error][Imprecise][Unsound] Function definition missing for load_config (src/sxhkd.c:284:3-284:30)
+[Info][Imprecise] INVALIDATING ALL GLOBALS! (src/sxhkd.c:284:3-284:30)
+[Info][Imprecise] Invalidating expressions: & scroll_lock, & caps_lock, & num_lock, & escape_chord, & locked, & chained, & bell, & reload, & toggle_grab, & grabbed, & running, & hotkeys_tail, & hotkeys_head, & timeout, & mapping_count, & progress, & status_fifo, & redir_fd, & num_extra_confs, & extra_confs, & config_path, & config_file, & shell, & symbols, & root, & dpy, & Scroll_Lock, & Num_Lock, & Mode_switch, & Meta_R, & Meta_L, & Hyper_R, & Hyper_L, & Super_R, & Super_L, & Alt_R, & Alt_L, (char const   *)*(extra_confs + i) (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in {&escape_chord} has escaped. (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown value in {?} could be an escaped pointer address! (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in {&hotkeys_tail} has escaped. (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in {&hotkeys_head} has escaped. (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in {&status_fifo} has escaped. (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in {&extra_confs} has escaped. (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in {&config_path} has escaped. (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in {&shell} has escaped. (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in {&symbols} has escaped. (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in {&dpy} has escaped. (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in (char const   *)*(extra_confs + i) has escaped. (src/sxhkd.c:284:3-284:30)
+[Error][Imprecise][Unsound] Function definition missing for load_config (src/sxhkd.c:284:3-284:30)
+[Info][Imprecise] INVALIDATING ALL GLOBALS! (src/sxhkd.c:284:3-284:30)
+[Info][Imprecise] Invalidating expressions: & scroll_lock, & caps_lock, & num_lock, & escape_chord, & locked, & chained, & bell, & reload, & toggle_grab, & grabbed, & running, & hotkeys_tail, & hotkeys_head, & timeout, & mapping_count, & progress, & status_fifo, & redir_fd, & num_extra_confs, & extra_confs, & config_path, & config_file, & shell, & symbols, & root, & dpy, & Scroll_Lock, & Num_Lock, & Mode_switch, & Meta_R, & Meta_L, & Hyper_R, & Hyper_L, & Super_R, & Super_L, & Alt_R, & Alt_L, (char const   *)*(extra_confs + i) (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in {&escape_chord} has escaped. (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown value in {?} could be an escaped pointer address! (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in {&hotkeys_tail} has escaped. (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in {&hotkeys_head} has escaped. (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in {&status_fifo} has escaped. (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in {&extra_confs} has escaped. (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in {&config_path} has escaped. (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in {&shell} has escaped. (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in {&symbols} has escaped. (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in {&dpy} has escaped. (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in (char const   *)*(extra_confs + i) has escaped. (src/sxhkd.c:284:3-284:30)
+[Error][Imprecise][Unsound] Function definition missing for load_config (src/sxhkd.c:284:3-284:30)
+[Info][Imprecise] INVALIDATING ALL GLOBALS! (src/sxhkd.c:284:3-284:30)
+[Info][Imprecise] Invalidating expressions: & scroll_lock, & caps_lock, & num_lock, & escape_chord, & locked, & chained, & bell, & reload, & toggle_grab, & grabbed, & running, & hotkeys_tail, & hotkeys_head, & timeout, & mapping_count, & progress, & status_fifo, & redir_fd, & num_extra_confs, & extra_confs, & config_path, & config_file, & shell, & symbols, & root, & dpy, & Scroll_Lock, & Num_Lock, & Mode_switch, & Meta_R, & Meta_L, & Hyper_R, & Hyper_L, & Super_R, & Super_L, & Alt_R, & Alt_L, (char const   *)*(extra_confs + i) (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in {&escape_chord} has escaped. (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown value in {?} could be an escaped pointer address! (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in {&hotkeys_tail} has escaped. (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in {&hotkeys_head} has escaped. (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in {&status_fifo} has escaped. (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in {&extra_confs} has escaped. (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in {&config_path} has escaped. (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in {&shell} has escaped. (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in {&symbols} has escaped. (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in {&dpy} has escaped. (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in (char const   *)*(extra_confs + i) has escaped. (src/sxhkd.c:284:3-284:30)
+[Error][Imprecise][Unsound] Function definition missing for load_config (src/sxhkd.c:284:3-284:30)
+[Info][Imprecise] INVALIDATING ALL GLOBALS! (src/sxhkd.c:284:3-284:30)
+[Info][Imprecise] Invalidating expressions: & scroll_lock, & caps_lock, & num_lock, & escape_chord, & locked, & chained, & bell, & reload, & toggle_grab, & grabbed, & running, & hotkeys_tail, & hotkeys_head, & timeout, & mapping_count, & progress, & status_fifo, & redir_fd, & num_extra_confs, & extra_confs, & config_path, & config_file, & shell, & symbols, & root, & dpy, & Scroll_Lock, & Num_Lock, & Mode_switch, & Meta_R, & Meta_L, & Hyper_R, & Hyper_L, & Super_R, & Super_L, & Alt_R, & Alt_L, (char const   *)*(extra_confs + i) (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in {&escape_chord} has escaped. (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown value in {?} could be an escaped pointer address! (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in {&hotkeys_tail} has escaped. (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in {&hotkeys_head} has escaped. (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in {&status_fifo} has escaped. (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in {&extra_confs} has escaped. (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in {&config_path} has escaped. (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in {&shell} has escaped. (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in {&symbols} has escaped. (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in {&dpy} has escaped. (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in (char const   *)*(extra_confs + i) has escaped. (src/sxhkd.c:284:3-284:30)
+[Error][Imprecise][Unsound] Function definition missing for load_config (src/sxhkd.c:284:3-284:30)
+[Info][Imprecise] INVALIDATING ALL GLOBALS! (src/sxhkd.c:284:3-284:30)
+[Info][Imprecise] Invalidating expressions: & scroll_lock, & caps_lock, & num_lock, & escape_chord, & locked, & chained, & bell, & reload, & toggle_grab, & grabbed, & running, & hotkeys_tail, & hotkeys_head, & timeout, & mapping_count, & progress, & status_fifo, & redir_fd, & num_extra_confs, & extra_confs, & config_path, & config_file, & shell, & symbols, & root, & dpy, & Scroll_Lock, & Num_Lock, & Mode_switch, & Meta_R, & Meta_L, & Hyper_R, & Hyper_L, & Super_R, & Super_L, & Alt_R, & Alt_L, (char const   *)*(extra_confs + i) (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in {&escape_chord} has escaped. (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown value in {?} could be an escaped pointer address! (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in {&hotkeys_tail} has escaped. (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in {&hotkeys_head} has escaped. (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in {&status_fifo} has escaped. (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in {&extra_confs} has escaped. (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in {&config_path} has escaped. (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in {&shell} has escaped. (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in {&symbols} has escaped. (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in {&dpy} has escaped. (src/sxhkd.c:284:3-284:30)
+[Info][Unsound] Unknown address in (char const   *)*(extra_confs + i) has escaped. (src/sxhkd.c:284:3-284:30)
+[Warning][Termination] The program might not terminate! (Loop analysis) (src/sxhkd.c:283:6-283:42)
+[Warning][Integer > Overflow][CWE-190] Unsigned integer overflow (src/sxhkd.c:283:6-283:42)
+[Error][Imprecise][Unsound] Function definition missing for ungrab (src/sxhkd.c:285:2-285:10)
+[Info][Imprecise] INVALIDATING ALL GLOBALS! (src/sxhkd.c:285:2-285:10)
+[Info][Imprecise] Invalidating expressions: & scroll_lock, & caps_lock, & num_lock, & escape_chord, & locked, & chained, & bell, & reload, & toggle_grab, & grabbed, & running, & hotkeys_tail, & hotkeys_head, & timeout, & mapping_count, & progress, & status_fifo, & redir_fd, & num_extra_confs, & extra_confs, & config_path, & config_file, & shell, & symbols, & root, & dpy, & Scroll_Lock, & Num_Lock, & Mode_switch, & Meta_R, & Meta_L, & Hyper_R, & Hyper_L, & Super_R, & Super_L, & Alt_R, & Alt_L (src/sxhkd.c:285:2-285:10)
+[Info][Unsound] Unknown address in {&escape_chord} has escaped. (src/sxhkd.c:285:2-285:10)
+[Info][Unsound] Unknown value in {?} could be an escaped pointer address! (src/sxhkd.c:285:2-285:10)
+[Info][Unsound] Unknown address in {&hotkeys_tail} has escaped. (src/sxhkd.c:285:2-285:10)
+[Info][Unsound] Unknown address in {&hotkeys_head} has escaped. (src/sxhkd.c:285:2-285:10)
+[Info][Unsound] Unknown address in {&status_fifo} has escaped. (src/sxhkd.c:285:2-285:10)
+[Info][Unsound] Unknown address in {&extra_confs} has escaped. (src/sxhkd.c:285:2-285:10)
+[Info][Unsound] Unknown address in {&config_path} has escaped. (src/sxhkd.c:285:2-285:10)
+[Info][Unsound] Unknown address in {&shell} has escaped. (src/sxhkd.c:285:2-285:10)
+[Info][Unsound] Unknown address in {&symbols} has escaped. (src/sxhkd.c:285:2-285:10)
+[Info][Unsound] Unknown address in {&dpy} has escaped. (src/sxhkd.c:285:2-285:10)
+[Error][Imprecise][Unsound] Function definition missing for grab (src/sxhkd.c:286:2-286:8)
+[Info][Imprecise] INVALIDATING ALL GLOBALS! (src/sxhkd.c:286:2-286:8)
+[Info][Imprecise] Invalidating expressions: & scroll_lock, & caps_lock, & num_lock, & escape_chord, & locked, & chained, & bell, & reload, & toggle_grab, & grabbed, & running, & hotkeys_tail, & hotkeys_head, & timeout, & mapping_count, & progress, & status_fifo, & redir_fd, & num_extra_confs, & extra_confs, & config_path, & config_file, & shell, & symbols, & root, & dpy, & Scroll_Lock, & Num_Lock, & Mode_switch, & Meta_R, & Meta_L, & Hyper_R, & Hyper_L, & Super_R, & Super_L, & Alt_R, & Alt_L (src/sxhkd.c:286:2-286:8)
+[Info][Unsound] Unknown address in {&escape_chord} has escaped. (src/sxhkd.c:286:2-286:8)
+[Info][Unsound] Unknown value in {?} could be an escaped pointer address! (src/sxhkd.c:286:2-286:8)
+[Info][Unsound] Unknown address in {&hotkeys_tail} has escaped. (src/sxhkd.c:286:2-286:8)
+[Info][Unsound] Unknown address in {&hotkeys_head} has escaped. (src/sxhkd.c:286:2-286:8)
+[Info][Unsound] Unknown address in {&status_fifo} has escaped. (src/sxhkd.c:286:2-286:8)
+[Info][Unsound] Unknown address in {&extra_confs} has escaped. (src/sxhkd.c:286:2-286:8)
+[Info][Unsound] Unknown address in {&config_path} has escaped. (src/sxhkd.c:286:2-286:8)
+[Info][Unsound] Unknown address in {&shell} has escaped. (src/sxhkd.c:286:2-286:8)
+[Info][Unsound] Unknown address in {&symbols} has escaped. (src/sxhkd.c:286:2-286:8)
+[Info][Unsound] Unknown address in {&dpy} has escaped. (src/sxhkd.c:286:2-286:8)
+[Error][Imprecise][Unsound] Function definition missing for make_chord (src/sxhkd.c:242:3-242:84)
+[Info][Imprecise] INVALIDATING ALL GLOBALS! (src/sxhkd.c:242:3-242:84)
+[Info][Imprecise] Invalidating expressions: & scroll_lock, & caps_lock, & num_lock, & escape_chord, & locked, & chained, & bell, & reload, & toggle_grab, & grabbed, & running, & hotkeys_tail, & hotkeys_head, & timeout, & mapping_count, & progress, & status_fifo, & redir_fd, & num_extra_confs, & extra_confs, & config_path, & config_file, & shell, & symbols, & root, & dpy, & Scroll_Lock, & Num_Lock, & Mode_switch, & Meta_R, & Meta_L, & Hyper_R, & Hyper_L, & Super_R, & Super_L, & Alt_R, & Alt_L, (xcb_keysym_t )0xff1b, (xcb_button_t )0L, (uint16_t )0, (uint8_t )2, (_Bool)0, (_Bool)0 (src/sxhkd.c:242:3-242:84)
+[Info][Unsound] Unknown address in {&escape_chord} has escaped. (src/sxhkd.c:242:3-242:84)
+[Info][Unsound] Unknown value in {?} could be an escaped pointer address! (src/sxhkd.c:242:3-242:84)
+[Info][Unsound] Unknown address in {&hotkeys_tail} has escaped. (src/sxhkd.c:242:3-242:84)
+[Info][Unsound] Unknown address in {&hotkeys_head} has escaped. (src/sxhkd.c:242:3-242:84)
+[Info][Unsound] Unknown address in {&status_fifo} has escaped. (src/sxhkd.c:242:3-242:84)
+[Info][Unsound] Unknown address in {&extra_confs} has escaped. (src/sxhkd.c:242:3-242:84)
+[Info][Unsound] Unknown address in {&config_path} has escaped. (src/sxhkd.c:242:3-242:84)
+[Info][Unsound] Unknown address in {&shell} has escaped. (src/sxhkd.c:242:3-242:84)
+[Info][Unsound] Unknown address in {&symbols} has escaped. (src/sxhkd.c:242:3-242:84)
+[Info][Unsound] Unknown address in {&dpy} has escaped. (src/sxhkd.c:242:3-242:84)
+[Info][Imprecise] Invalidating expressions: & escape_chord (src/sxhkd.c:242:3-242:84)
+[Info][Unsound] Unknown address given as function argument (src/sxhkd.c:141:7-141:40)
+[Warning][Integer > Overflow][CWE-190][CWE-191] Unsigned integer overflow and underflow (src/sxhkd.c:201:11-201:57)
+[Error][Imprecise][Unsound] Function definition missing for parse_event (src/sxhkd.c:202:2-202:59)
+[Info][Imprecise] INVALIDATING ALL GLOBALS! (src/sxhkd.c:202:2-202:59)
+[Info][Imprecise] Invalidating expressions: & scroll_lock, & caps_lock, & num_lock, & escape_chord, & locked, & chained, & bell, & reload, & toggle_grab, & grabbed, & running, & hotkeys_tail, & hotkeys_head, & timeout, & mapping_count, & progress, & status_fifo, & redir_fd, & num_extra_confs, & extra_confs, & config_path, & config_file, & shell, & symbols, & root, & dpy, & Scroll_Lock, & Num_Lock, & Mode_switch, & Meta_R, & Meta_L, & Hyper_R, & Hyper_L, & Super_R, & Super_L, & Alt_R, & Alt_L, evt, event_type, & keysym, & button, & modfield (src/sxhkd.c:202:2-202:59)
+[Info][Unsound] Unknown address in {&escape_chord} has escaped. (src/sxhkd.c:202:2-202:59)
+[Info][Unsound] Unknown value in {?} could be an escaped pointer address! (src/sxhkd.c:202:2-202:59)
+[Info][Unsound] Unknown address in {&hotkeys_tail} has escaped. (src/sxhkd.c:202:2-202:59)
+[Info][Unsound] Unknown address in {&hotkeys_head} has escaped. (src/sxhkd.c:202:2-202:59)
+[Info][Unsound] Unknown address in {&status_fifo} has escaped. (src/sxhkd.c:202:2-202:59)
+[Info][Unsound] Unknown address in {&extra_confs} has escaped. (src/sxhkd.c:202:2-202:59)
+[Info][Unsound] Unknown address in {&config_path} has escaped. (src/sxhkd.c:202:2-202:59)
+[Info][Unsound] Unknown address in {&shell} has escaped. (src/sxhkd.c:202:2-202:59)
+[Info][Unsound] Unknown address in {&symbols} has escaped. (src/sxhkd.c:202:2-202:59)
+[Info][Unsound] Unknown address in {&dpy} has escaped. (src/sxhkd.c:202:2-202:59)
+[Info][Unsound] Unknown address in evt has escaped. (src/sxhkd.c:202:2-202:59)
+[Warning][Integer > Overflow][CWE-190][CWE-191] Unsigned integer overflow and underflow (src/sxhkd.c:203:2-203:30)
+[Error][Imprecise][Unsound] Function definition missing for find_hotkey (src/sxhkd.c:205:12-205:82)
+[Info][Imprecise] INVALIDATING ALL GLOBALS! (src/sxhkd.c:205:12-205:82)
+[Info][Imprecise] Invalidating expressions: & scroll_lock, & caps_lock, & num_lock, & escape_chord, & locked, & chained, & bell, & reload, & toggle_grab, & grabbed, & running, & hotkeys_tail, & hotkeys_head, & timeout, & mapping_count, & progress, & status_fifo, & redir_fd, & num_extra_confs, & extra_confs, & config_path, & config_file, & shell, & symbols, & root, & dpy, & Scroll_Lock, & Num_Lock, & Mode_switch, & Meta_R, & Meta_L, & Hyper_R, & Hyper_L, & Super_R, & Super_L, & Alt_R, & Alt_L, keysym, button, modfield, event_type, & replay_event (src/sxhkd.c:205:12-205:82)
+[Info][Unsound] Unknown address in {&escape_chord} has escaped. (src/sxhkd.c:205:12-205:82)
+[Info][Unsound] Unknown value in {?} could be an escaped pointer address! (src/sxhkd.c:205:12-205:82)
+[Info][Unsound] Unknown address in {&hotkeys_tail} has escaped. (src/sxhkd.c:205:12-205:82)
+[Info][Unsound] Unknown address in {&hotkeys_head} has escaped. (src/sxhkd.c:205:12-205:82)
+[Info][Unsound] Unknown address in {&status_fifo} has escaped. (src/sxhkd.c:205:12-205:82)
+[Info][Unsound] Unknown address in {&extra_confs} has escaped. (src/sxhkd.c:205:12-205:82)
+[Info][Unsound] Unknown address in {&config_path} has escaped. (src/sxhkd.c:205:12-205:82)
+[Info][Unsound] Unknown address in {&shell} has escaped. (src/sxhkd.c:205:12-205:82)
+[Info][Unsound] Unknown address in {&symbols} has escaped. (src/sxhkd.c:205:12-205:82)
+[Info][Unsound] Unknown address in {&dpy} has escaped. (src/sxhkd.c:205:12-205:82)
+[Info][Imprecise] Invalidating expressions: & tmp (src/sxhkd.c:205:12-205:82)
+[Error][Imprecise][Unsound] Function definition missing for run (src/sxhkd.c:207:4-207:30)
+[Info][Imprecise] INVALIDATING ALL GLOBALS! (src/sxhkd.c:207:4-207:30)
+[Info][Imprecise] Invalidating expressions: & scroll_lock, & caps_lock, & num_lock, & escape_chord, & locked, & chained, & bell, & reload, & toggle_grab, & grabbed, & running, & hotkeys_tail, & hotkeys_head, & timeout, & mapping_count, & progress, & status_fifo, & redir_fd, & num_extra_confs, & extra_confs, & config_path, & config_file, & shell, & symbols, & root, & dpy, & Scroll_Lock, & Num_Lock, & Mode_switch, & Meta_R, & Meta_L, & Hyper_R, & Hyper_L, & Super_R, & Super_L, & Alt_R, & Alt_L, hk->command, hk->sync (src/sxhkd.c:207:4-207:30)
+[Info][Unsound] Unknown address in {&escape_chord} has escaped. (src/sxhkd.c:207:4-207:30)
+[Info][Unsound] Unknown value in {?} could be an escaped pointer address! (src/sxhkd.c:207:4-207:30)
+[Info][Unsound] Unknown address in {&hotkeys_tail} has escaped. (src/sxhkd.c:207:4-207:30)
+[Info][Unsound] Unknown address in {&hotkeys_head} has escaped. (src/sxhkd.c:207:4-207:30)
+[Info][Unsound] Unknown address in {&status_fifo} has escaped. (src/sxhkd.c:207:4-207:30)
+[Info][Unsound] Unknown address in {&extra_confs} has escaped. (src/sxhkd.c:207:4-207:30)
+[Info][Unsound] Unknown address in {&config_path} has escaped. (src/sxhkd.c:207:4-207:30)
+[Info][Unsound] Unknown address in {&shell} has escaped. (src/sxhkd.c:207:4-207:30)
+[Info][Unsound] Unknown address in {&symbols} has escaped. (src/sxhkd.c:207:4-207:30)
+[Info][Unsound] Unknown address in {&dpy} has escaped. (src/sxhkd.c:207:4-207:30)
+[Info][Unsound] Unknown address in hk->command has escaped. (src/sxhkd.c:207:4-207:30)
+[Info][Unsound] Unknown address given as function argument (src/sxhkd.c:208:4-208:32)
+[Warning][Unknown] lval (& hk)->command points to a non-local variable. Invalid pointer dereference may occur (src/sxhkd.c:314:3-314:9)
+[Info][Imprecise] Invalidating expressions: (FILE * __restrict  )status_fifo (src/sxhkd.c:316:2-316:38)
+[Info][Unsound] Unknown address in (FILE * __restrict  )status_fifo has escaped. (src/sxhkd.c:316:2-316:38)
+[Info][Unsound] Unknown value in {?} could be an escaped pointer address! (src/sxhkd.c:316:2-316:38)
+[Info][Imprecise] Invalidating expressions: status_fifo (src/sxhkd.c:317:2-317:21)
+[Info][Unsound] Unknown address in status_fifo has escaped. (src/sxhkd.c:317:2-317:21)
+[Info][Unsound] Unknown value in {?} could be an escaped pointer address! (src/sxhkd.c:317:2-317:21)
+[Error][Imprecise][Unsound] Function definition missing for xcb_allow_events (src/sxhkd.c:215:5-215:69)
+[Info][Imprecise] INVALIDATING ALL GLOBALS! (src/sxhkd.c:215:5-215:69)
+[Info][Imprecise] Invalidating expressions: & scroll_lock, & caps_lock, & num_lock, & escape_chord, & locked, & chained, & bell, & reload, & toggle_grab, & grabbed, & running, & hotkeys_tail, & hotkeys_head, & timeout, & mapping_count, & progress, & status_fifo, & redir_fd, & num_extra_confs, & extra_confs, & config_path, & config_file, & shell, & symbols, & root, & dpy, & Scroll_Lock, & Num_Lock, & Mode_switch, & Meta_R, & Meta_L, & Hyper_R, & Hyper_L, & Super_R, & Super_L, & Alt_R, & Alt_L, dpy, (uint8_t )2, (xcb_timestamp_t )0L (src/sxhkd.c:215:5-215:69)
+[Info][Unsound] Unknown address in {&escape_chord} has escaped. (src/sxhkd.c:215:5-215:69)
+[Info][Unsound] Unknown value in {?} could be an escaped pointer address! (src/sxhkd.c:215:5-215:69)
+[Info][Unsound] Unknown address in {&hotkeys_tail} has escaped. (src/sxhkd.c:215:5-215:69)
+[Info][Unsound] Unknown address in {&hotkeys_head} has escaped. (src/sxhkd.c:215:5-215:69)
+[Info][Unsound] Unknown address in {&status_fifo} has escaped. (src/sxhkd.c:215:5-215:69)
+[Info][Unsound] Unknown address in {&extra_confs} has escaped. (src/sxhkd.c:215:5-215:69)
+[Info][Unsound] Unknown address in {&config_path} has escaped. (src/sxhkd.c:215:5-215:69)
+[Info][Unsound] Unknown address in {&shell} has escaped. (src/sxhkd.c:215:5-215:69)
+[Info][Unsound] Unknown address in {&symbols} has escaped. (src/sxhkd.c:215:5-215:69)
+[Info][Unsound] Unknown address in {&dpy} has escaped. (src/sxhkd.c:215:5-215:69)
+[Info][Unsound] Unknown address in dpy has escaped. (src/sxhkd.c:215:5-215:69)
+[Error][Imprecise][Unsound] Function definition missing for xcb_allow_events (src/sxhkd.c:217:5-217:67)
+[Info][Imprecise] INVALIDATING ALL GLOBALS! (src/sxhkd.c:217:5-217:67)
+[Info][Imprecise] Invalidating expressions: & scroll_lock, & caps_lock, & num_lock, & escape_chord, & locked, & chained, & bell, & reload, & toggle_grab, & grabbed, & running, & hotkeys_tail, & hotkeys_head, & timeout, & mapping_count, & progress, & status_fifo, & redir_fd, & num_extra_confs, & extra_confs, & config_path, & config_file, & shell, & symbols, & root, & dpy, & Scroll_Lock, & Num_Lock, & Mode_switch, & Meta_R, & Meta_L, & Hyper_R, & Hyper_L, & Super_R, & Super_L, & Alt_R, & Alt_L, dpy, (uint8_t )1, (xcb_timestamp_t )0L (src/sxhkd.c:217:5-217:67)
+[Info][Unsound] Unknown address in {&escape_chord} has escaped. (src/sxhkd.c:217:5-217:67)
+[Info][Unsound] Unknown value in {?} could be an escaped pointer address! (src/sxhkd.c:217:5-217:67)
+[Info][Unsound] Unknown address in {&hotkeys_tail} has escaped. (src/sxhkd.c:217:5-217:67)
+[Info][Unsound] Unknown address in {&hotkeys_head} has escaped. (src/sxhkd.c:217:5-217:67)
+[Info][Unsound] Unknown address in {&status_fifo} has escaped. (src/sxhkd.c:217:5-217:67)
+[Info][Unsound] Unknown address in {&extra_confs} has escaped. (src/sxhkd.c:217:5-217:67)
+[Info][Unsound] Unknown address in {&config_path} has escaped. (src/sxhkd.c:217:5-217:67)
+[Info][Unsound] Unknown address in {&shell} has escaped. (src/sxhkd.c:217:5-217:67)
+[Info][Unsound] Unknown address in {&symbols} has escaped. (src/sxhkd.c:217:5-217:67)
+[Info][Unsound] Unknown address in {&dpy} has escaped. (src/sxhkd.c:217:5-217:67)
+[Info][Unsound] Unknown address in dpy has escaped. (src/sxhkd.c:217:5-217:67)
+[Error][Imprecise][Unsound] Function definition missing for xcb_allow_events (src/sxhkd.c:222:5-222:70)
+[Info][Imprecise] INVALIDATING ALL GLOBALS! (src/sxhkd.c:222:5-222:70)
+[Info][Imprecise] Invalidating expressions: & scroll_lock, & caps_lock, & num_lock, & escape_chord, & locked, & chained, & bell, & reload, & toggle_grab, & grabbed, & running, & hotkeys_tail, & hotkeys_head, & timeout, & mapping_count, & progress, & status_fifo, & redir_fd, & num_extra_confs, & extra_confs, & config_path, & config_file, & shell, & symbols, & root, & dpy, & Scroll_Lock, & Num_Lock, & Mode_switch, & Meta_R, & Meta_L, & Hyper_R, & Hyper_L, & Super_R, & Super_L, & Alt_R, & Alt_L, dpy, (uint8_t )5, (xcb_timestamp_t )0L (src/sxhkd.c:222:5-222:70)
+[Info][Unsound] Unknown address in {&escape_chord} has escaped. (src/sxhkd.c:222:5-222:70)
+[Info][Unsound] Unknown value in {?} could be an escaped pointer address! (src/sxhkd.c:222:5-222:70)
+[Info][Unsound] Unknown address in {&hotkeys_tail} has escaped. (src/sxhkd.c:222:5-222:70)
+[Info][Unsound] Unknown address in {&hotkeys_head} has escaped. (src/sxhkd.c:222:5-222:70)
+[Info][Unsound] Unknown address in {&status_fifo} has escaped. (src/sxhkd.c:222:5-222:70)
+[Info][Unsound] Unknown address in {&extra_confs} has escaped. (src/sxhkd.c:222:5-222:70)
+[Info][Unsound] Unknown address in {&config_path} has escaped. (src/sxhkd.c:222:5-222:70)
+[Info][Unsound] Unknown address in {&shell} has escaped. (src/sxhkd.c:222:5-222:70)
+[Info][Unsound] Unknown address in {&symbols} has escaped. (src/sxhkd.c:222:5-222:70)
+[Info][Unsound] Unknown address in {&dpy} has escaped. (src/sxhkd.c:222:5-222:70)
+[Info][Unsound] Unknown address in dpy has escaped. (src/sxhkd.c:222:5-222:70)
+[Error][Imprecise][Unsound] Function definition missing for xcb_allow_events (src/sxhkd.c:224:5-224:68)
+[Info][Imprecise] INVALIDATING ALL GLOBALS! (src/sxhkd.c:224:5-224:68)
+[Info][Imprecise] Invalidating expressions: & scroll_lock, & caps_lock, & num_lock, & escape_chord, & locked, & chained, & bell, & reload, & toggle_grab, & grabbed, & running, & hotkeys_tail, & hotkeys_head, & timeout, & mapping_count, & progress, & status_fifo, & redir_fd, & num_extra_confs, & extra_confs, & config_path, & config_file, & shell, & symbols, & root, & dpy, & Scroll_Lock, & Num_Lock, & Mode_switch, & Meta_R, & Meta_L, & Hyper_R, & Hyper_L, & Super_R, & Super_L, & Alt_R, & Alt_L, dpy, (uint8_t )4, (xcb_timestamp_t )0L (src/sxhkd.c:224:5-224:68)
+[Info][Unsound] Unknown address in {&escape_chord} has escaped. (src/sxhkd.c:224:5-224:68)
+[Info][Unsound] Unknown value in {?} could be an escaped pointer address! (src/sxhkd.c:224:5-224:68)
+[Info][Unsound] Unknown address in {&hotkeys_tail} has escaped. (src/sxhkd.c:224:5-224:68)
+[Info][Unsound] Unknown address in {&hotkeys_head} has escaped. (src/sxhkd.c:224:5-224:68)
+[Info][Unsound] Unknown address in {&status_fifo} has escaped. (src/sxhkd.c:224:5-224:68)
+[Info][Unsound] Unknown address in {&extra_confs} has escaped. (src/sxhkd.c:224:5-224:68)
+[Info][Unsound] Unknown address in {&config_path} has escaped. (src/sxhkd.c:224:5-224:68)
+[Info][Unsound] Unknown address in {&shell} has escaped. (src/sxhkd.c:224:5-224:68)
+[Info][Unsound] Unknown address in {&symbols} has escaped. (src/sxhkd.c:224:5-224:68)
+[Info][Unsound] Unknown address in {&dpy} has escaped. (src/sxhkd.c:224:5-224:68)
+[Info][Unsound] Unknown address in dpy has escaped. (src/sxhkd.c:224:5-224:68)
+[Error][Imprecise][Unsound] Function definition missing for xcb_flush (src/sxhkd.c:227:2-227:16)
+[Info][Imprecise] INVALIDATING ALL GLOBALS! (src/sxhkd.c:227:2-227:16)
+[Info][Imprecise] Invalidating expressions: & scroll_lock, & caps_lock, & num_lock, & escape_chord, & locked, & chained, & bell, & reload, & toggle_grab, & grabbed, & running, & hotkeys_tail, & hotkeys_head, & timeout, & mapping_count, & progress, & status_fifo, & redir_fd, & num_extra_confs, & extra_confs, & config_path, & config_file, & shell, & symbols, & root, & dpy, & Scroll_Lock, & Num_Lock, & Mode_switch, & Meta_R, & Meta_L, & Hyper_R, & Hyper_L, & Super_R, & Super_L, & Alt_R, & Alt_L, dpy (src/sxhkd.c:227:2-227:16)
+[Info][Unsound] Unknown address in {&escape_chord} has escaped. (src/sxhkd.c:227:2-227:16)
+[Info][Unsound] Unknown value in {?} could be an escaped pointer address! (src/sxhkd.c:227:2-227:16)
+[Info][Unsound] Unknown address in {&hotkeys_tail} has escaped. (src/sxhkd.c:227:2-227:16)
+[Info][Unsound] Unknown address in {&hotkeys_head} has escaped. (src/sxhkd.c:227:2-227:16)
+[Info][Unsound] Unknown address in {&status_fifo} has escaped. (src/sxhkd.c:227:2-227:16)
+[Info][Unsound] Unknown address in {&extra_confs} has escaped. (src/sxhkd.c:227:2-227:16)
+[Info][Unsound] Unknown address in {&config_path} has escaped. (src/sxhkd.c:227:2-227:16)
+[Info][Unsound] Unknown address in {&shell} has escaped. (src/sxhkd.c:227:2-227:16)
+[Info][Unsound] Unknown address in {&symbols} has escaped. (src/sxhkd.c:227:2-227:16)
+[Info][Unsound] Unknown address in {&dpy} has escaped. (src/sxhkd.c:227:2-227:16)
+[Info][Unsound] Unknown address in dpy has escaped. (src/sxhkd.c:227:2-227:16)
+[Warning][Behavior > Undefined > InvalidMemoryDeallocation][CWE-590] Points-to set for pointer (void *)evt in function free is top. Potentially invalid memory deallocation may occur (src/sxhkd.c:150:5-150:14)
+[Warning][Termination] The program might not terminate! (Loop analysis) (src/sxhkd.c:134:12-134:49)
+[Warning][Integer > Overflow][CWE-190] Unsigned integer overflow (src/sxhkd.c:134:12-134:49)
+[Error][Imprecise][Unsound] Function definition missing for xcb_poll_for_event (src/sxhkd.c:134:12-134:49)
+[Info][Imprecise] INVALIDATING ALL GLOBALS! (src/sxhkd.c:134:12-134:49)
+[Info][Imprecise] Invalidating expressions: & scroll_lock, & caps_lock, & num_lock, & escape_chord, & locked, & chained, & bell, & reload, & toggle_grab, & grabbed, & running, & hotkeys_tail, & hotkeys_head, & timeout, & mapping_count, & progress, & status_fifo, & redir_fd, & num_extra_confs, & extra_confs, & config_path, & config_file, & shell, & symbols, & root, & dpy, & Scroll_Lock, & Num_Lock, & Mode_switch, & Meta_R, & Meta_L, & Hyper_R, & Hyper_L, & Super_R, & Super_L, & Alt_R, & Alt_L, dpy (src/sxhkd.c:134:12-134:49)
+[Info][Unsound] Unknown address in {&escape_chord} has escaped. (src/sxhkd.c:134:12-134:49)
+[Info][Unsound] Unknown value in {?} could be an escaped pointer address! (src/sxhkd.c:134:12-134:49)
+[Info][Unsound] Unknown address in {&hotkeys_tail} has escaped. (src/sxhkd.c:134:12-134:49)
+[Info][Unsound] Unknown address in {&hotkeys_head} has escaped. (src/sxhkd.c:134:12-134:49)
+[Info][Unsound] Unknown address in {&status_fifo} has escaped. (src/sxhkd.c:134:12-134:49)
+[Info][Unsound] Unknown address in {&extra_confs} has escaped. (src/sxhkd.c:134:12-134:49)
+[Info][Unsound] Unknown address in {&config_path} has escaped. (src/sxhkd.c:134:12-134:49)
+[Info][Unsound] Unknown address in {&shell} has escaped. (src/sxhkd.c:134:12-134:49)
+[Info][Unsound] Unknown address in {&symbols} has escaped. (src/sxhkd.c:134:12-134:49)
+[Info][Unsound] Unknown address in {&dpy} has escaped. (src/sxhkd.c:134:12-134:49)
+[Info][Unsound] Unknown address in dpy has escaped. (src/sxhkd.c:134:12-134:49)
+[Info][Imprecise] Invalidating expressions: & evt (src/sxhkd.c:134:12-134:49)
+[Error][Imprecise][Unsound] Function definition missing for ungrab (src/sxhkd.c:293:3-293:11)
+[Info][Imprecise] INVALIDATING ALL GLOBALS! (src/sxhkd.c:293:3-293:11)
+[Info][Imprecise] Invalidating expressions: & scroll_lock, & caps_lock, & num_lock, & escape_chord, & locked, & chained, & bell, & reload, & toggle_grab, & grabbed, & running, & hotkeys_tail, & hotkeys_head, & timeout, & mapping_count, & progress, & status_fifo, & redir_fd, & num_extra_confs, & extra_confs, & config_path, & config_file, & shell, & symbols, & root, & dpy, & Scroll_Lock, & Num_Lock, & Mode_switch, & Meta_R, & Meta_L, & Hyper_R, & Hyper_L, & Super_R, & Super_L, & Alt_R, & Alt_L (src/sxhkd.c:293:3-293:11)
+[Info][Unsound] Unknown address in {&escape_chord} has escaped. (src/sxhkd.c:293:3-293:11)
+[Info][Unsound] Unknown value in {?} could be an escaped pointer address! (src/sxhkd.c:293:3-293:11)
+[Info][Unsound] Unknown address in {&hotkeys_tail} has escaped. (src/sxhkd.c:293:3-293:11)
+[Info][Unsound] Unknown address in {&hotkeys_head} has escaped. (src/sxhkd.c:293:3-293:11)
+[Info][Unsound] Unknown address in {&status_fifo} has escaped. (src/sxhkd.c:293:3-293:11)
+[Info][Unsound] Unknown address in {&extra_confs} has escaped. (src/sxhkd.c:293:3-293:11)
+[Info][Unsound] Unknown address in {&config_path} has escaped. (src/sxhkd.c:293:3-293:11)
+[Info][Unsound] Unknown address in {&shell} has escaped. (src/sxhkd.c:293:3-293:11)
+[Info][Unsound] Unknown address in {&symbols} has escaped. (src/sxhkd.c:293:3-293:11)
+[Info][Unsound] Unknown address in {&dpy} has escaped. (src/sxhkd.c:293:3-293:11)
+[Error][Imprecise][Unsound] Function definition missing for grab (src/sxhkd.c:295:3-295:9)
+[Info][Imprecise] INVALIDATING ALL GLOBALS! (src/sxhkd.c:295:3-295:9)
+[Info][Imprecise] Invalidating expressions: & scroll_lock, & caps_lock, & num_lock, & escape_chord, & locked, & chained, & bell, & reload, & toggle_grab, & grabbed, & running, & hotkeys_tail, & hotkeys_head, & timeout, & mapping_count, & progress, & status_fifo, & redir_fd, & num_extra_confs, & extra_confs, & config_path, & config_file, & shell, & symbols, & root, & dpy, & Scroll_Lock, & Num_Lock, & Mode_switch, & Meta_R, & Meta_L, & Hyper_R, & Hyper_L, & Super_R, & Super_L, & Alt_R, & Alt_L (src/sxhkd.c:295:3-295:9)
+[Info][Unsound] Unknown address in {&escape_chord} has escaped. (src/sxhkd.c:295:3-295:9)
+[Info][Unsound] Unknown value in {?} could be an escaped pointer address! (src/sxhkd.c:295:3-295:9)
+[Info][Unsound] Unknown address in {&hotkeys_tail} has escaped. (src/sxhkd.c:295:3-295:9)
+[Info][Unsound] Unknown address in {&hotkeys_head} has escaped. (src/sxhkd.c:295:3-295:9)
+[Info][Unsound] Unknown address in {&status_fifo} has escaped. (src/sxhkd.c:295:3-295:9)
+[Info][Unsound] Unknown address in {&extra_confs} has escaped. (src/sxhkd.c:295:3-295:9)
+[Info][Unsound] Unknown address in {&config_path} has escaped. (src/sxhkd.c:295:3-295:9)
+[Info][Unsound] Unknown address in {&shell} has escaped. (src/sxhkd.c:295:3-295:9)
+[Info][Unsound] Unknown address in {&symbols} has escaped. (src/sxhkd.c:295:3-295:9)
+[Info][Unsound] Unknown address in {&dpy} has escaped. (src/sxhkd.c:295:3-295:9)
+[Error][Imprecise][Unsound] Function definition missing for abort_chain (src/sxhkd.c:169:4-169:17)
+[Info][Imprecise] INVALIDATING ALL GLOBALS! (src/sxhkd.c:169:4-169:17)
+[Info][Imprecise] Invalidating expressions: & scroll_lock, & caps_lock, & num_lock, & escape_chord, & locked, & chained, & bell, & reload, & toggle_grab, & grabbed, & running, & hotkeys_tail, & hotkeys_head, & timeout, & mapping_count, & progress, & status_fifo, & redir_fd, & num_extra_confs, & extra_confs, & config_path, & config_file, & shell, & symbols, & root, & dpy, & Scroll_Lock, & Num_Lock, & Mode_switch, & Meta_R, & Meta_L, & Hyper_R, & Hyper_L, & Super_R, & Super_L, & Alt_R, & Alt_L (src/sxhkd.c:169:4-169:17)
+[Info][Unsound] Unknown address in {&escape_chord} has escaped. (src/sxhkd.c:169:4-169:17)
+[Info][Unsound] Unknown value in {?} could be an escaped pointer address! (src/sxhkd.c:169:4-169:17)
+[Info][Unsound] Unknown address in {&hotkeys_tail} has escaped. (src/sxhkd.c:169:4-169:17)
+[Info][Unsound] Unknown address in {&hotkeys_head} has escaped. (src/sxhkd.c:169:4-169:17)
+[Info][Unsound] Unknown address in {&status_fifo} has escaped. (src/sxhkd.c:169:4-169:17)
+[Info][Unsound] Unknown address in {&extra_confs} has escaped. (src/sxhkd.c:169:4-169:17)
+[Info][Unsound] Unknown address in {&config_path} has escaped. (src/sxhkd.c:169:4-169:17)
+[Info][Unsound] Unknown address in {&shell} has escaped. (src/sxhkd.c:169:4-169:17)
+[Info][Unsound] Unknown address in {&symbols} has escaped. (src/sxhkd.c:169:4-169:17)
+[Info][Unsound] Unknown address in {&dpy} has escaped. (src/sxhkd.c:169:4-169:17)
+[Error][Imprecise][Unsound] Function definition missing for xcb_connection_has_error (src/sxhkd.c:173:7-173:36)
+[Info][Imprecise] INVALIDATING ALL GLOBALS! (src/sxhkd.c:173:7-173:36)
+[Info][Imprecise] Invalidating expressions: & scroll_lock, & caps_lock, & num_lock, & escape_chord, & locked, & chained, & bell, & reload, & toggle_grab, & grabbed, & running, & hotkeys_tail, & hotkeys_head, & timeout, & mapping_count, & progress, & status_fifo, & redir_fd, & num_extra_confs, & extra_confs, & config_path, & config_file, & shell, & symbols, & root, & dpy, & Scroll_Lock, & Num_Lock, & Mode_switch, & Meta_R, & Meta_L, & Hyper_R, & Hyper_L, & Super_R, & Super_L, & Alt_R, & Alt_L, dpy (src/sxhkd.c:173:7-173:36)
+[Info][Unsound] Unknown address in {&escape_chord} has escaped. (src/sxhkd.c:173:7-173:36)
+[Info][Unsound] Unknown value in {?} could be an escaped pointer address! (src/sxhkd.c:173:7-173:36)
+[Info][Unsound] Unknown address in {&hotkeys_tail} has escaped. (src/sxhkd.c:173:7-173:36)
+[Info][Unsound] Unknown address in {&hotkeys_head} has escaped. (src/sxhkd.c:173:7-173:36)
+[Info][Unsound] Unknown address in {&status_fifo} has escaped. (src/sxhkd.c:173:7-173:36)
+[Info][Unsound] Unknown address in {&extra_confs} has escaped. (src/sxhkd.c:173:7-173:36)
+[Info][Unsound] Unknown address in {&config_path} has escaped. (src/sxhkd.c:173:7-173:36)
+[Info][Unsound] Unknown address in {&shell} has escaped. (src/sxhkd.c:173:7-173:36)
+[Info][Unsound] Unknown address in {&symbols} has escaped. (src/sxhkd.c:173:7-173:36)
+[Info][Unsound] Unknown address in {&dpy} has escaped. (src/sxhkd.c:173:7-173:36)
+[Info][Unsound] Unknown address in dpy has escaped. (src/sxhkd.c:173:7-173:36)
+[Info][Imprecise] Invalidating expressions: & tmp___5 (src/sxhkd.c:173:7-173:36)
+[Info][Imprecise] Invalidating expressions: & opt (src/sxhkd.c:50:10-50:57)
+[Info][Imprecise] Invalidating expressions: & opt (src/sxhkd.c:50:10-50:57)
+[Info][Imprecise] Invalidating expressions: & redir_fd (src/sxhkd.c:71:5-71:86)
+[Info][Imprecise] Invalidating expressions: & timeout (src/sxhkd.c:65:5-65:27)
+[Info][Imprecise] Invalidating expressions: & mapping_count (src/sxhkd.c:61:9-61:50)
+[Info][Imprecise] Invalidating expressions: & tmp (src/sxhkd.c:61:9-61:50)
+[Warning][Termination] The program might not terminate! (Loop analysis) (src/sxhkd.c:50:10-50:57)
+[Warning][Integer > Overflow][CWE-190] Unsigned integer overflow (src/sxhkd.c:50:10-50:57)
+[Info][Imprecise] Invalidating expressions: & opt (src/sxhkd.c:50:10-50:57)
+[Warning][Integer > Overflow][CWE-190][CWE-191] Signed integer overflow and underflow (src/sxhkd.c:81:2-81:33)
+[Info][Imprecise] Invalidating expressions: & tmp___0 (src/sxhkd.c:85:8-85:48)
+[Info][Imprecise] Invalidating expressions: (char * __restrict  )(config_file) (src/sxhkd.c:87:4-87:85)
+[Info][Imprecise] Invalidating expressions: & tmp___1 (src/sxhkd.c:89:4-89:102)
+[Info][Imprecise] Invalidating expressions: (char * __restrict  )(config_file) (src/sxhkd.c:89:4-89:102)
+[Info][Imprecise] Invalidating expressions: (char * __restrict  )(config_file) (src/sxhkd.c:91:3-91:64)
+[Info][Imprecise] Invalidating expressions: & tmp___2 (src/sxhkd.c:95:7-95:52)
+[Info][Imprecise] Invalidating expressions: & status_fifo (src/sxhkd.c:97:4-97:38)
+[Error][Imprecise][Unsound] Function definition missing for xcb_connect (src/sxhkd.c:250:2-250:30)
+[Info][Imprecise] INVALIDATING ALL GLOBALS! (src/sxhkd.c:250:2-250:30)
+[Info][Imprecise] Invalidating expressions: & scroll_lock, & caps_lock, & num_lock, & escape_chord, & locked, & chained, & bell, & reload, & toggle_grab, & grabbed, & running, & hotkeys_tail, & hotkeys_head, & timeout, & mapping_count, & progress, & status_fifo, & redir_fd, & num_extra_confs, & extra_confs, & config_path, & config_file, & shell, & symbols, & root, & dpy, & Scroll_Lock, & Num_Lock, & Mode_switch, & Meta_R, & Meta_L, & Hyper_R, & Hyper_L, & Super_R, & Super_L, & Alt_R, & Alt_L, (char const   *)((void *)0), (int *)((void *)0) (src/sxhkd.c:250:2-250:30)
+[Info][Unsound] Unknown address in {&status_fifo} has escaped. (src/sxhkd.c:250:2-250:30)
+[Info][Unsound] Unknown value in {?} could be an escaped pointer address! (src/sxhkd.c:250:2-250:30)
+[Info][Unsound] Unknown address in {&extra_confs} has escaped. (src/sxhkd.c:250:2-250:30)
+[Info][Unsound] Unknown address in {&config_path} has escaped. (src/sxhkd.c:250:2-250:30)
+[Info][Imprecise] Invalidating expressions: & dpy (src/sxhkd.c:250:2-250:30)
+[Error][Imprecise][Unsound] Function definition missing for xcb_connection_has_error (src/sxhkd.c:251:6-251:35)
+[Info][Imprecise] INVALIDATING ALL GLOBALS! (src/sxhkd.c:251:6-251:35)
+[Info][Imprecise] Invalidating expressions: & scroll_lock, & caps_lock, & num_lock, & escape_chord, & locked, & chained, & bell, & reload, & toggle_grab, & grabbed, & running, & hotkeys_tail, & hotkeys_head, & timeout, & mapping_count, & progress, & status_fifo, & redir_fd, & num_extra_confs, & extra_confs, & config_path, & config_file, & shell, & symbols, & root, & dpy, & Scroll_Lock, & Num_Lock, & Mode_switch, & Meta_R, & Meta_L, & Hyper_R, & Hyper_L, & Super_R, & Super_L, & Alt_R, & Alt_L, dpy (src/sxhkd.c:251:6-251:35)
+[Info][Unsound] Unknown address in {&escape_chord} has escaped. (src/sxhkd.c:251:6-251:35)
+[Info][Unsound] Unknown value in {?} could be an escaped pointer address! (src/sxhkd.c:251:6-251:35)
+[Info][Unsound] Unknown address in {&hotkeys_tail} has escaped. (src/sxhkd.c:251:6-251:35)
+[Info][Unsound] Unknown address in {&hotkeys_head} has escaped. (src/sxhkd.c:251:6-251:35)
+[Info][Unsound] Unknown address in {&status_fifo} has escaped. (src/sxhkd.c:251:6-251:35)
+[Info][Unsound] Unknown address in {&extra_confs} has escaped. (src/sxhkd.c:251:6-251:35)
+[Info][Unsound] Unknown address in {&config_path} has escaped. (src/sxhkd.c:251:6-251:35)
+[Info][Unsound] Unknown address in {&shell} has escaped. (src/sxhkd.c:251:6-251:35)
+[Info][Unsound] Unknown address in {&symbols} has escaped. (src/sxhkd.c:251:6-251:35)
+[Info][Unsound] Unknown address in {&dpy} has escaped. (src/sxhkd.c:251:6-251:35)
+[Info][Unsound] Unknown address in dpy has escaped. (src/sxhkd.c:251:6-251:35)
+[Info][Imprecise] Invalidating expressions: & tmp (src/sxhkd.c:251:6-251:35)
+[Error][Imprecise][Unsound] Function definition missing for err (src/sxhkd.c:252:3-252:31)
+[Info][Imprecise] INVALIDATING ALL GLOBALS! (src/sxhkd.c:252:3-252:31)
+[Info][Imprecise] Invalidating expressions: & scroll_lock, & caps_lock, & num_lock, & escape_chord, & locked, & chained, & bell, & reload, & toggle_grab, & grabbed, & running, & hotkeys_tail, & hotkeys_head, & timeout, & mapping_count, & progress, & status_fifo, & redir_fd, & num_extra_confs, & extra_confs, & config_path, & config_file, & shell, & symbols, & root, & dpy, & Scroll_Lock, & Num_Lock, & Mode_switch, & Meta_R, & Meta_L, & Hyper_R, & Hyper_L, & Super_R, & Super_L, & Alt_R, & Alt_L, "Can\'t open display.\n" (src/sxhkd.c:252:3-252:31)
+[Info][Unsound] Unknown address in {&escape_chord} has escaped. (src/sxhkd.c:252:3-252:31)
+[Info][Unsound] Unknown value in {?} could be an escaped pointer address! (src/sxhkd.c:252:3-252:31)
+[Info][Unsound] Unknown address in {&hotkeys_tail} has escaped. (src/sxhkd.c:252:3-252:31)
+[Info][Unsound] Unknown address in {&hotkeys_head} has escaped. (src/sxhkd.c:252:3-252:31)
+[Info][Unsound] Unknown address in {&status_fifo} has escaped. (src/sxhkd.c:252:3-252:31)
+[Info][Unsound] Unknown address in {&extra_confs} has escaped. (src/sxhkd.c:252:3-252:31)
+[Info][Unsound] Unknown address in {&config_path} has escaped. (src/sxhkd.c:252:3-252:31)
+[Info][Unsound] Unknown address in {&shell} has escaped. (src/sxhkd.c:252:3-252:31)
+[Info][Unsound] Unknown address in {&symbols} has escaped. (src/sxhkd.c:252:3-252:31)
+[Info][Unsound] Unknown address in {&dpy} has escaped. (src/sxhkd.c:252:3-252:31)
+[Error][Imprecise][Unsound] Function definition missing for xcb_get_setup (src/sxhkd.c:253:15-253:74)
+[Info][Imprecise] INVALIDATING ALL GLOBALS! (src/sxhkd.c:253:15-253:74)
+[Info][Imprecise] Invalidating expressions: & scroll_lock, & caps_lock, & num_lock, & escape_chord, & locked, & chained, & bell, & reload, & toggle_grab, & grabbed, & running, & hotkeys_tail, & hotkeys_head, & timeout, & mapping_count, & progress, & status_fifo, & redir_fd, & num_extra_confs, & extra_confs, & config_path, & config_file, & shell, & symbols, & root, & dpy, & Scroll_Lock, & Num_Lock, & Mode_switch, & Meta_R, & Meta_L, & Hyper_R, & Hyper_L, & Super_R, & Super_L, & Alt_R, & Alt_L, dpy (src/sxhkd.c:253:15-253:74)
+[Info][Unsound] Unknown address in {&escape_chord} has escaped. (src/sxhkd.c:253:15-253:74)
+[Info][Unsound] Unknown value in {?} could be an escaped pointer address! (src/sxhkd.c:253:15-253:74)
+[Info][Unsound] Unknown address in {&hotkeys_tail} has escaped. (src/sxhkd.c:253:15-253:74)
+[Info][Unsound] Unknown address in {&hotkeys_head} has escaped. (src/sxhkd.c:253:15-253:74)
+[Info][Unsound] Unknown address in {&status_fifo} has escaped. (src/sxhkd.c:253:15-253:74)
+[Info][Unsound] Unknown address in {&extra_confs} has escaped. (src/sxhkd.c:253:15-253:74)
+[Info][Unsound] Unknown address in {&config_path} has escaped. (src/sxhkd.c:253:15-253:74)
+[Info][Unsound] Unknown address in {&shell} has escaped. (src/sxhkd.c:253:15-253:74)
+[Info][Unsound] Unknown address in {&symbols} has escaped. (src/sxhkd.c:253:15-253:74)
+[Info][Unsound] Unknown address in {&dpy} has escaped. (src/sxhkd.c:253:15-253:74)
+[Info][Unsound] Unknown address in dpy has escaped. (src/sxhkd.c:253:15-253:74)
+[Info][Imprecise] Invalidating expressions: & tmp___0 (src/sxhkd.c:253:15-253:74)
+[Error][Imprecise][Unsound] Function definition missing for xcb_setup_roots_iterator (src/sxhkd.c:253:15-253:74)
+[Info][Imprecise] INVALIDATING ALL GLOBALS! (src/sxhkd.c:253:15-253:74)
+[Info][Imprecise] Invalidating expressions: & scroll_lock, & caps_lock, & num_lock, & escape_chord, & locked, & chained, & bell, & reload, & toggle_grab, & grabbed, & running, & hotkeys_tail, & hotkeys_head, & timeout, & mapping_count, & progress, & status_fifo, & redir_fd, & num_extra_confs, & extra_confs, & config_path, & config_file, & shell, & symbols, & root, & dpy, & Scroll_Lock, & Num_Lock, & Mode_switch, & Meta_R, & Meta_L, & Hyper_R, & Hyper_L, & Super_R, & Super_L, & Alt_R, & Alt_L, tmp___0 (src/sxhkd.c:253:15-253:74)
+[Info][Unsound] Unknown address in {&escape_chord} has escaped. (src/sxhkd.c:253:15-253:74)
+[Info][Unsound] Unknown value in {?} could be an escaped pointer address! (src/sxhkd.c:253:15-253:74)
+[Info][Unsound] Unknown address in {&hotkeys_tail} has escaped. (src/sxhkd.c:253:15-253:74)
+[Info][Unsound] Unknown address in {&hotkeys_head} has escaped. (src/sxhkd.c:253:15-253:74)
+[Info][Unsound] Unknown address in {&status_fifo} has escaped. (src/sxhkd.c:253:15-253:74)
+[Info][Unsound] Unknown address in {&extra_confs} has escaped. (src/sxhkd.c:253:15-253:74)
+[Info][Unsound] Unknown address in {&config_path} has escaped. (src/sxhkd.c:253:15-253:74)
+[Info][Unsound] Unknown address in {&shell} has escaped. (src/sxhkd.c:253:15-253:74)
+[Info][Unsound] Unknown address in {&symbols} has escaped. (src/sxhkd.c:253:15-253:74)
+[Info][Unsound] Unknown address in {&dpy} has escaped. (src/sxhkd.c:253:15-253:74)
+[Info][Unsound] Unknown address in tmp___0 has escaped. (src/sxhkd.c:253:15-253:74)
+[Info][Imprecise] Invalidating expressions: & tmp___1 (src/sxhkd.c:253:15-253:74)
+[Error][Imprecise][Unsound] Function definition missing for err (src/sxhkd.c:255:3-255:33)
+[Info][Imprecise] INVALIDATING ALL GLOBALS! (src/sxhkd.c:255:3-255:33)
+[Info][Imprecise] Invalidating expressions: & scroll_lock, & caps_lock, & num_lock, & escape_chord, & locked, & chained, & bell, & reload, & toggle_grab, & grabbed, & running, & hotkeys_tail, & hotkeys_head, & timeout, & mapping_count, & progress, & status_fifo, & redir_fd, & num_extra_confs, & extra_confs, & config_path, & config_file, & shell, & symbols, & root, & dpy, & Scroll_Lock, & Num_Lock, & Mode_switch, & Meta_R, & Meta_L, & Hyper_R, & Hyper_L, & Super_R, & Super_L, & Alt_R, & Alt_L, "Can\'t acquire screen.\n" (src/sxhkd.c:255:3-255:33)
+[Info][Unsound] Unknown address in {&escape_chord} has escaped. (src/sxhkd.c:255:3-255:33)
+[Info][Unsound] Unknown value in {?} could be an escaped pointer address! (src/sxhkd.c:255:3-255:33)
+[Info][Unsound] Unknown address in {&hotkeys_tail} has escaped. (src/sxhkd.c:255:3-255:33)
+[Info][Unsound] Unknown address in {&hotkeys_head} has escaped. (src/sxhkd.c:255:3-255:33)
+[Info][Unsound] Unknown address in {&status_fifo} has escaped. (src/sxhkd.c:255:3-255:33)
+[Info][Unsound] Unknown address in {&extra_confs} has escaped. (src/sxhkd.c:255:3-255:33)
+[Info][Unsound] Unknown address in {&config_path} has escaped. (src/sxhkd.c:255:3-255:33)
+[Info][Unsound] Unknown address in {&shell} has escaped. (src/sxhkd.c:255:3-255:33)
+[Info][Unsound] Unknown address in {&symbols} has escaped. (src/sxhkd.c:255:3-255:33)
+[Info][Unsound] Unknown address in {&dpy} has escaped. (src/sxhkd.c:255:3-255:33)
+[Warning][Behavior > Undefined > NullPointerDereference][CWE-476] May dereference NULL pointer (src/sxhkd.c:256:2-256:21)
+[Info][Imprecise] Invalidating expressions: & shell (src/sxhkd.c:257:7-257:85)
+[Info][Imprecise] Invalidating expressions: & shell (src/sxhkd.c:257:7-257:85)
+[Error][Imprecise][Unsound] Function definition missing for err (src/sxhkd.c:258:3-258:66)
+[Info][Imprecise] INVALIDATING ALL GLOBALS! (src/sxhkd.c:258:3-258:66)
+[Info][Imprecise] Invalidating expressions: & scroll_lock, & caps_lock, & num_lock, & escape_chord, & locked, & chained, & bell, & reload, & toggle_grab, & grabbed, & running, & hotkeys_tail, & hotkeys_head, & timeout, & mapping_count, & progress, & status_fifo, & redir_fd, & num_extra_confs, & extra_confs, & config_path, & config_file, & shell, & symbols, & root, & dpy, & Scroll_Lock, & Num_Lock, & Mode_switch, & Meta_R, & Meta_L, & Hyper_R, & Hyper_L, & Super_R, & Super_L, & Alt_R, & Alt_L, "The \'%s\' environment variable is not defined.\n", "SHELL" (src/sxhkd.c:258:3-258:66)
+[Info][Unsound] Unknown address in {&escape_chord} has escaped. (src/sxhkd.c:258:3-258:66)
+[Info][Unsound] Unknown value in {?} could be an escaped pointer address! (src/sxhkd.c:258:3-258:66)
+[Info][Unsound] Unknown address in {&hotkeys_tail} has escaped. (src/sxhkd.c:258:3-258:66)
+[Info][Unsound] Unknown address in {&hotkeys_head} has escaped. (src/sxhkd.c:258:3-258:66)
+[Info][Unsound] Unknown address in {&status_fifo} has escaped. (src/sxhkd.c:258:3-258:66)
+[Info][Unsound] Unknown address in {&extra_confs} has escaped. (src/sxhkd.c:258:3-258:66)
+[Info][Unsound] Unknown address in {&config_path} has escaped. (src/sxhkd.c:258:3-258:66)
+[Info][Unsound] Unknown address in {&symbols} has escaped. (src/sxhkd.c:258:3-258:66)
+[Info][Unsound] Unknown address in {&dpy} has escaped. (src/sxhkd.c:258:3-258:66)
+[Error][Imprecise][Unsound] Function definition missing for xcb_key_symbols_alloc (src/sxhkd.c:259:2-259:38)
+[Info][Imprecise] INVALIDATING ALL GLOBALS! (src/sxhkd.c:259:2-259:38)
+[Info][Imprecise] Invalidating expressions: & scroll_lock, & caps_lock, & num_lock, & escape_chord, & locked, & chained, & bell, & reload, & toggle_grab, & grabbed, & running, & hotkeys_tail, & hotkeys_head, & timeout, & mapping_count, & progress, & status_fifo, & redir_fd, & num_extra_confs, & extra_confs, & config_path, & config_file, & shell, & symbols, & root, & dpy, & Scroll_Lock, & Num_Lock, & Mode_switch, & Meta_R, & Meta_L, & Hyper_R, & Hyper_L, & Super_R, & Super_L, & Alt_R, & Alt_L, dpy (src/sxhkd.c:259:2-259:38)
+[Info][Unsound] Unknown address in {&escape_chord} has escaped. (src/sxhkd.c:259:2-259:38)
+[Info][Unsound] Unknown value in {?} could be an escaped pointer address! (src/sxhkd.c:259:2-259:38)
+[Info][Unsound] Unknown address in {&hotkeys_tail} has escaped. (src/sxhkd.c:259:2-259:38)
+[Info][Unsound] Unknown address in {&hotkeys_head} has escaped. (src/sxhkd.c:259:2-259:38)
+[Info][Unsound] Unknown address in {&status_fifo} has escaped. (src/sxhkd.c:259:2-259:38)
+[Info][Unsound] Unknown address in {&extra_confs} has escaped. (src/sxhkd.c:259:2-259:38)
+[Info][Unsound] Unknown address in {&config_path} has escaped. (src/sxhkd.c:259:2-259:38)
+[Info][Unsound] Unknown address in {&shell} has escaped. (src/sxhkd.c:259:2-259:38)
+[Info][Unsound] Unknown address in {&symbols} has escaped. (src/sxhkd.c:259:2-259:38)
+[Info][Unsound] Unknown address in {&dpy} has escaped. (src/sxhkd.c:259:2-259:38)
+[Info][Unsound] Unknown address in dpy has escaped. (src/sxhkd.c:259:2-259:38)
+[Info][Imprecise] Invalidating expressions: & symbols (src/sxhkd.c:259:2-259:38)
+[Error][Imprecise][Unsound] Function definition missing for get_standard_keysyms (src/sxhkd.c:111:2-111:24)
+[Info][Imprecise] INVALIDATING ALL GLOBALS! (src/sxhkd.c:111:2-111:24)
+[Info][Imprecise] Invalidating expressions: & scroll_lock, & caps_lock, & num_lock, & escape_chord, & locked, & chained, & bell, & reload, & toggle_grab, & grabbed, & running, & hotkeys_tail, & hotkeys_head, & timeout, & mapping_count, & progress, & status_fifo, & redir_fd, & num_extra_confs, & extra_confs, & config_path, & config_file, & shell, & symbols, & root, & dpy, & Scroll_Lock, & Num_Lock, & Mode_switch, & Meta_R, & Meta_L, & Hyper_R, & Hyper_L, & Super_R, & Super_L, & Alt_R, & Alt_L (src/sxhkd.c:111:2-111:24)
+[Info][Unsound] Unknown address in {&escape_chord} has escaped. (src/sxhkd.c:111:2-111:24)
+[Info][Unsound] Unknown value in {?} could be an escaped pointer address! (src/sxhkd.c:111:2-111:24)
+[Info][Unsound] Unknown address in {&status_fifo} has escaped. (src/sxhkd.c:111:2-111:24)
+[Info][Unsound] Unknown address in {&extra_confs} has escaped. (src/sxhkd.c:111:2-111:24)
+[Info][Unsound] Unknown address in {&config_path} has escaped. (src/sxhkd.c:111:2-111:24)
+[Info][Unsound] Unknown address in {&shell} has escaped. (src/sxhkd.c:111:2-111:24)
+[Info][Unsound] Unknown address in {&symbols} has escaped. (src/sxhkd.c:111:2-111:24)
+[Info][Unsound] Unknown address in {&dpy} has escaped. (src/sxhkd.c:111:2-111:24)
+[Error][Imprecise][Unsound] Function definition missing for get_lock_fields (src/sxhkd.c:112:2-112:19)
+[Info][Imprecise] INVALIDATING ALL GLOBALS! (src/sxhkd.c:112:2-112:19)
+[Info][Imprecise] Invalidating expressions: & scroll_lock, & caps_lock, & num_lock, & escape_chord, & locked, & chained, & bell, & reload, & toggle_grab, & grabbed, & running, & hotkeys_tail, & hotkeys_head, & timeout, & mapping_count, & progress, & status_fifo, & redir_fd, & num_extra_confs, & extra_confs, & config_path, & config_file, & shell, & symbols, & root, & dpy, & Scroll_Lock, & Num_Lock, & Mode_switch, & Meta_R, & Meta_L, & Hyper_R, & Hyper_L, & Super_R, & Super_L, & Alt_R, & Alt_L (src/sxhkd.c:112:2-112:19)
+[Info][Unsound] Unknown address in {&escape_chord} has escaped. (src/sxhkd.c:112:2-112:19)
+[Info][Unsound] Unknown value in {?} could be an escaped pointer address! (src/sxhkd.c:112:2-112:19)
+[Info][Unsound] Unknown address in {&hotkeys_tail} has escaped. (src/sxhkd.c:112:2-112:19)
+[Info][Unsound] Unknown address in {&hotkeys_head} has escaped. (src/sxhkd.c:112:2-112:19)
+[Info][Unsound] Unknown address in {&status_fifo} has escaped. (src/sxhkd.c:112:2-112:19)
+[Info][Unsound] Unknown address in {&extra_confs} has escaped. (src/sxhkd.c:112:2-112:19)
+[Info][Unsound] Unknown address in {&config_path} has escaped. (src/sxhkd.c:112:2-112:19)
+[Info][Unsound] Unknown address in {&shell} has escaped. (src/sxhkd.c:112:2-112:19)
+[Info][Unsound] Unknown address in {&symbols} has escaped. (src/sxhkd.c:112:2-112:19)
+[Info][Unsound] Unknown address in {&dpy} has escaped. (src/sxhkd.c:112:2-112:19)
+[Error][Imprecise][Unsound] Function definition missing for make_chord (src/sxhkd.c:113:2-113:83)
+[Info][Imprecise] INVALIDATING ALL GLOBALS! (src/sxhkd.c:113:2-113:83)
+[Info][Imprecise] Invalidating expressions: & scroll_lock, & caps_lock, & num_lock, & escape_chord, & locked, & chained, & bell, & reload, & toggle_grab, & grabbed, & running, & hotkeys_tail, & hotkeys_head, & timeout, & mapping_count, & progress, & status_fifo, & redir_fd, & num_extra_confs, & extra_confs, & config_path, & config_file, & shell, & symbols, & root, & dpy, & Scroll_Lock, & Num_Lock, & Mode_switch, & Meta_R, & Meta_L, & Hyper_R, & Hyper_L, & Super_R, & Super_L, & Alt_R, & Alt_L, (xcb_keysym_t )0xff1b, (xcb_button_t )0L, (uint16_t )0, (uint8_t )2, (_Bool)0, (_Bool)0 (src/sxhkd.c:113:2-113:83)
+[Info][Unsound] Unknown address in {&escape_chord} has escaped. (src/sxhkd.c:113:2-113:83)
+[Info][Unsound] Unknown value in {?} could be an escaped pointer address! (src/sxhkd.c:113:2-113:83)
+[Info][Unsound] Unknown address in {&hotkeys_tail} has escaped. (src/sxhkd.c:113:2-113:83)
+[Info][Unsound] Unknown address in {&hotkeys_head} has escaped. (src/sxhkd.c:113:2-113:83)
+[Info][Unsound] Unknown address in {&status_fifo} has escaped. (src/sxhkd.c:113:2-113:83)
+[Info][Unsound] Unknown address in {&extra_confs} has escaped. (src/sxhkd.c:113:2-113:83)
+[Info][Unsound] Unknown address in {&config_path} has escaped. (src/sxhkd.c:113:2-113:83)
+[Info][Unsound] Unknown address in {&shell} has escaped. (src/sxhkd.c:113:2-113:83)
+[Info][Unsound] Unknown address in {&symbols} has escaped. (src/sxhkd.c:113:2-113:83)
+[Info][Unsound] Unknown address in {&dpy} has escaped. (src/sxhkd.c:113:2-113:83)
+[Info][Imprecise] Invalidating expressions: & escape_chord (src/sxhkd.c:113:2-113:83)
+[Error][Imprecise][Unsound] Function definition missing for load_config (src/sxhkd.c:114:2-114:26)
+[Info][Imprecise] INVALIDATING ALL GLOBALS! (src/sxhkd.c:114:2-114:26)
+[Info][Imprecise] Invalidating expressions: & scroll_lock, & caps_lock, & num_lock, & escape_chord, & locked, & chained, & bell, & reload, & toggle_grab, & grabbed, & running, & hotkeys_tail, & hotkeys_head, & timeout, & mapping_count, & progress, & status_fifo, & redir_fd, & num_extra_confs, & extra_confs, & config_path, & config_file, & shell, & symbols, & root, & dpy, & Scroll_Lock, & Num_Lock, & Mode_switch, & Meta_R, & Meta_L, & Hyper_R, & Hyper_L, & Super_R, & Super_L, & Alt_R, & Alt_L, (char const   *)(config_file) (src/sxhkd.c:114:2-114:26)
+[Info][Unsound] Unknown address in {&escape_chord} has escaped. (src/sxhkd.c:114:2-114:26)
+[Info][Unsound] Unknown value in {?} could be an escaped pointer address! (src/sxhkd.c:114:2-114:26)
+[Info][Unsound] Unknown address in {&hotkeys_tail} has escaped. (src/sxhkd.c:114:2-114:26)
+[Info][Unsound] Unknown address in {&hotkeys_head} has escaped. (src/sxhkd.c:114:2-114:26)
+[Info][Unsound] Unknown address in {&status_fifo} has escaped. (src/sxhkd.c:114:2-114:26)
+[Info][Unsound] Unknown address in {&extra_confs} has escaped. (src/sxhkd.c:114:2-114:26)
+[Info][Unsound] Unknown address in {&config_path} has escaped. (src/sxhkd.c:114:2-114:26)
+[Info][Unsound] Unknown address in {&shell} has escaped. (src/sxhkd.c:114:2-114:26)
+[Info][Unsound] Unknown address in {&symbols} has escaped. (src/sxhkd.c:114:2-114:26)
+[Info][Unsound] Unknown address in {&dpy} has escaped. (src/sxhkd.c:114:2-114:26)
+[Error][Imprecise][Unsound] Function definition missing for load_config (src/sxhkd.c:116:3-116:30)
+[Info][Imprecise] INVALIDATING ALL GLOBALS! (src/sxhkd.c:116:3-116:30)
+[Info][Imprecise] Invalidating expressions: & scroll_lock, & caps_lock, & num_lock, & escape_chord, & locked, & chained, & bell, & reload, & toggle_grab, & grabbed, & running, & hotkeys_tail, & hotkeys_head, & timeout, & mapping_count, & progress, & status_fifo, & redir_fd, & num_extra_confs, & extra_confs, & config_path, & config_file, & shell, & symbols, & root, & dpy, & Scroll_Lock, & Num_Lock, & Mode_switch, & Meta_R, & Meta_L, & Hyper_R, & Hyper_L, & Super_R, & Super_L, & Alt_R, & Alt_L, (char const   *)*(extra_confs + i) (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in {&escape_chord} has escaped. (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown value in {?} could be an escaped pointer address! (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in {&hotkeys_tail} has escaped. (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in {&hotkeys_head} has escaped. (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in {&status_fifo} has escaped. (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in {&extra_confs} has escaped. (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in {&config_path} has escaped. (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in {&shell} has escaped. (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in {&symbols} has escaped. (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in {&dpy} has escaped. (src/sxhkd.c:116:3-116:30)
+[Warning][Behavior > Undefined > NullPointerDereference][CWE-476] May dereference NULL pointer (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in (char const   *)*(extra_confs + i) has escaped. (src/sxhkd.c:116:3-116:30)
+[Error][Imprecise][Unsound] Function definition missing for load_config (src/sxhkd.c:116:3-116:30)
+[Info][Imprecise] INVALIDATING ALL GLOBALS! (src/sxhkd.c:116:3-116:30)
+[Info][Imprecise] Invalidating expressions: & scroll_lock, & caps_lock, & num_lock, & escape_chord, & locked, & chained, & bell, & reload, & toggle_grab, & grabbed, & running, & hotkeys_tail, & hotkeys_head, & timeout, & mapping_count, & progress, & status_fifo, & redir_fd, & num_extra_confs, & extra_confs, & config_path, & config_file, & shell, & symbols, & root, & dpy, & Scroll_Lock, & Num_Lock, & Mode_switch, & Meta_R, & Meta_L, & Hyper_R, & Hyper_L, & Super_R, & Super_L, & Alt_R, & Alt_L, (char const   *)*(extra_confs + i) (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in {&escape_chord} has escaped. (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown value in {?} could be an escaped pointer address! (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in {&hotkeys_tail} has escaped. (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in {&hotkeys_head} has escaped. (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in {&status_fifo} has escaped. (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in {&extra_confs} has escaped. (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in {&config_path} has escaped. (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in {&shell} has escaped. (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in {&symbols} has escaped. (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in {&dpy} has escaped. (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in (char const   *)*(extra_confs + i) has escaped. (src/sxhkd.c:116:3-116:30)
+[Error][Imprecise][Unsound] Function definition missing for load_config (src/sxhkd.c:116:3-116:30)
+[Info][Imprecise] INVALIDATING ALL GLOBALS! (src/sxhkd.c:116:3-116:30)
+[Info][Imprecise] Invalidating expressions: & scroll_lock, & caps_lock, & num_lock, & escape_chord, & locked, & chained, & bell, & reload, & toggle_grab, & grabbed, & running, & hotkeys_tail, & hotkeys_head, & timeout, & mapping_count, & progress, & status_fifo, & redir_fd, & num_extra_confs, & extra_confs, & config_path, & config_file, & shell, & symbols, & root, & dpy, & Scroll_Lock, & Num_Lock, & Mode_switch, & Meta_R, & Meta_L, & Hyper_R, & Hyper_L, & Super_R, & Super_L, & Alt_R, & Alt_L, (char const   *)*(extra_confs + i) (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in {&escape_chord} has escaped. (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown value in {?} could be an escaped pointer address! (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in {&hotkeys_tail} has escaped. (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in {&hotkeys_head} has escaped. (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in {&status_fifo} has escaped. (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in {&extra_confs} has escaped. (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in {&config_path} has escaped. (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in {&shell} has escaped. (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in {&symbols} has escaped. (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in {&dpy} has escaped. (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in (char const   *)*(extra_confs + i) has escaped. (src/sxhkd.c:116:3-116:30)
+[Error][Imprecise][Unsound] Function definition missing for load_config (src/sxhkd.c:116:3-116:30)
+[Info][Imprecise] INVALIDATING ALL GLOBALS! (src/sxhkd.c:116:3-116:30)
+[Info][Imprecise] Invalidating expressions: & scroll_lock, & caps_lock, & num_lock, & escape_chord, & locked, & chained, & bell, & reload, & toggle_grab, & grabbed, & running, & hotkeys_tail, & hotkeys_head, & timeout, & mapping_count, & progress, & status_fifo, & redir_fd, & num_extra_confs, & extra_confs, & config_path, & config_file, & shell, & symbols, & root, & dpy, & Scroll_Lock, & Num_Lock, & Mode_switch, & Meta_R, & Meta_L, & Hyper_R, & Hyper_L, & Super_R, & Super_L, & Alt_R, & Alt_L, (char const   *)*(extra_confs + i) (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in {&escape_chord} has escaped. (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown value in {?} could be an escaped pointer address! (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in {&hotkeys_tail} has escaped. (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in {&hotkeys_head} has escaped. (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in {&status_fifo} has escaped. (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in {&extra_confs} has escaped. (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in {&config_path} has escaped. (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in {&shell} has escaped. (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in {&symbols} has escaped. (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in {&dpy} has escaped. (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in (char const   *)*(extra_confs + i) has escaped. (src/sxhkd.c:116:3-116:30)
+[Error][Imprecise][Unsound] Function definition missing for load_config (src/sxhkd.c:116:3-116:30)
+[Info][Imprecise] INVALIDATING ALL GLOBALS! (src/sxhkd.c:116:3-116:30)
+[Info][Imprecise] Invalidating expressions: & scroll_lock, & caps_lock, & num_lock, & escape_chord, & locked, & chained, & bell, & reload, & toggle_grab, & grabbed, & running, & hotkeys_tail, & hotkeys_head, & timeout, & mapping_count, & progress, & status_fifo, & redir_fd, & num_extra_confs, & extra_confs, & config_path, & config_file, & shell, & symbols, & root, & dpy, & Scroll_Lock, & Num_Lock, & Mode_switch, & Meta_R, & Meta_L, & Hyper_R, & Hyper_L, & Super_R, & Super_L, & Alt_R, & Alt_L, (char const   *)*(extra_confs + i) (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in {&escape_chord} has escaped. (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown value in {?} could be an escaped pointer address! (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in {&hotkeys_tail} has escaped. (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in {&hotkeys_head} has escaped. (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in {&status_fifo} has escaped. (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in {&extra_confs} has escaped. (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in {&config_path} has escaped. (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in {&shell} has escaped. (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in {&symbols} has escaped. (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in {&dpy} has escaped. (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in (char const   *)*(extra_confs + i) has escaped. (src/sxhkd.c:116:3-116:30)
+[Error][Imprecise][Unsound] Function definition missing for load_config (src/sxhkd.c:116:3-116:30)
+[Info][Imprecise] INVALIDATING ALL GLOBALS! (src/sxhkd.c:116:3-116:30)
+[Info][Imprecise] Invalidating expressions: & scroll_lock, & caps_lock, & num_lock, & escape_chord, & locked, & chained, & bell, & reload, & toggle_grab, & grabbed, & running, & hotkeys_tail, & hotkeys_head, & timeout, & mapping_count, & progress, & status_fifo, & redir_fd, & num_extra_confs, & extra_confs, & config_path, & config_file, & shell, & symbols, & root, & dpy, & Scroll_Lock, & Num_Lock, & Mode_switch, & Meta_R, & Meta_L, & Hyper_R, & Hyper_L, & Super_R, & Super_L, & Alt_R, & Alt_L, (char const   *)*(extra_confs + i) (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in {&escape_chord} has escaped. (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown value in {?} could be an escaped pointer address! (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in {&hotkeys_tail} has escaped. (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in {&hotkeys_head} has escaped. (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in {&status_fifo} has escaped. (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in {&extra_confs} has escaped. (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in {&config_path} has escaped. (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in {&shell} has escaped. (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in {&symbols} has escaped. (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in {&dpy} has escaped. (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in (char const   *)*(extra_confs + i) has escaped. (src/sxhkd.c:116:3-116:30)
+[Error][Imprecise][Unsound] Function definition missing for load_config (src/sxhkd.c:116:3-116:30)
+[Info][Imprecise] INVALIDATING ALL GLOBALS! (src/sxhkd.c:116:3-116:30)
+[Info][Imprecise] Invalidating expressions: & scroll_lock, & caps_lock, & num_lock, & escape_chord, & locked, & chained, & bell, & reload, & toggle_grab, & grabbed, & running, & hotkeys_tail, & hotkeys_head, & timeout, & mapping_count, & progress, & status_fifo, & redir_fd, & num_extra_confs, & extra_confs, & config_path, & config_file, & shell, & symbols, & root, & dpy, & Scroll_Lock, & Num_Lock, & Mode_switch, & Meta_R, & Meta_L, & Hyper_R, & Hyper_L, & Super_R, & Super_L, & Alt_R, & Alt_L, (char const   *)*(extra_confs + i) (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in {&escape_chord} has escaped. (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown value in {?} could be an escaped pointer address! (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in {&hotkeys_tail} has escaped. (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in {&hotkeys_head} has escaped. (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in {&status_fifo} has escaped. (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in {&extra_confs} has escaped. (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in {&config_path} has escaped. (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in {&shell} has escaped. (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in {&symbols} has escaped. (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in {&dpy} has escaped. (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in (char const   *)*(extra_confs + i) has escaped. (src/sxhkd.c:116:3-116:30)
+[Error][Imprecise][Unsound] Function definition missing for load_config (src/sxhkd.c:116:3-116:30)
+[Info][Imprecise] INVALIDATING ALL GLOBALS! (src/sxhkd.c:116:3-116:30)
+[Info][Imprecise] Invalidating expressions: & scroll_lock, & caps_lock, & num_lock, & escape_chord, & locked, & chained, & bell, & reload, & toggle_grab, & grabbed, & running, & hotkeys_tail, & hotkeys_head, & timeout, & mapping_count, & progress, & status_fifo, & redir_fd, & num_extra_confs, & extra_confs, & config_path, & config_file, & shell, & symbols, & root, & dpy, & Scroll_Lock, & Num_Lock, & Mode_switch, & Meta_R, & Meta_L, & Hyper_R, & Hyper_L, & Super_R, & Super_L, & Alt_R, & Alt_L, (char const   *)*(extra_confs + i) (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in {&escape_chord} has escaped. (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown value in {?} could be an escaped pointer address! (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in {&hotkeys_tail} has escaped. (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in {&hotkeys_head} has escaped. (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in {&status_fifo} has escaped. (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in {&extra_confs} has escaped. (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in {&config_path} has escaped. (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in {&shell} has escaped. (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in {&symbols} has escaped. (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in {&dpy} has escaped. (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in (char const   *)*(extra_confs + i) has escaped. (src/sxhkd.c:116:3-116:30)
+[Error][Imprecise][Unsound] Function definition missing for load_config (src/sxhkd.c:116:3-116:30)
+[Info][Imprecise] INVALIDATING ALL GLOBALS! (src/sxhkd.c:116:3-116:30)
+[Info][Imprecise] Invalidating expressions: & scroll_lock, & caps_lock, & num_lock, & escape_chord, & locked, & chained, & bell, & reload, & toggle_grab, & grabbed, & running, & hotkeys_tail, & hotkeys_head, & timeout, & mapping_count, & progress, & status_fifo, & redir_fd, & num_extra_confs, & extra_confs, & config_path, & config_file, & shell, & symbols, & root, & dpy, & Scroll_Lock, & Num_Lock, & Mode_switch, & Meta_R, & Meta_L, & Hyper_R, & Hyper_L, & Super_R, & Super_L, & Alt_R, & Alt_L, (char const   *)*(extra_confs + i) (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in {&escape_chord} has escaped. (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown value in {?} could be an escaped pointer address! (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in {&hotkeys_tail} has escaped. (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in {&hotkeys_head} has escaped. (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in {&status_fifo} has escaped. (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in {&extra_confs} has escaped. (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in {&config_path} has escaped. (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in {&shell} has escaped. (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in {&symbols} has escaped. (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in {&dpy} has escaped. (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in (char const   *)*(extra_confs + i) has escaped. (src/sxhkd.c:116:3-116:30)
+[Error][Imprecise][Unsound] Function definition missing for load_config (src/sxhkd.c:116:3-116:30)
+[Info][Imprecise] INVALIDATING ALL GLOBALS! (src/sxhkd.c:116:3-116:30)
+[Info][Imprecise] Invalidating expressions: & scroll_lock, & caps_lock, & num_lock, & escape_chord, & locked, & chained, & bell, & reload, & toggle_grab, & grabbed, & running, & hotkeys_tail, & hotkeys_head, & timeout, & mapping_count, & progress, & status_fifo, & redir_fd, & num_extra_confs, & extra_confs, & config_path, & config_file, & shell, & symbols, & root, & dpy, & Scroll_Lock, & Num_Lock, & Mode_switch, & Meta_R, & Meta_L, & Hyper_R, & Hyper_L, & Super_R, & Super_L, & Alt_R, & Alt_L, (char const   *)*(extra_confs + i) (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in {&escape_chord} has escaped. (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown value in {?} could be an escaped pointer address! (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in {&hotkeys_tail} has escaped. (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in {&hotkeys_head} has escaped. (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in {&status_fifo} has escaped. (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in {&extra_confs} has escaped. (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in {&config_path} has escaped. (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in {&shell} has escaped. (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in {&symbols} has escaped. (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in {&dpy} has escaped. (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in (char const   *)*(extra_confs + i) has escaped. (src/sxhkd.c:116:3-116:30)
+[Error][Imprecise][Unsound] Function definition missing for load_config (src/sxhkd.c:116:3-116:30)
+[Info][Imprecise] INVALIDATING ALL GLOBALS! (src/sxhkd.c:116:3-116:30)
+[Info][Imprecise] Invalidating expressions: & scroll_lock, & caps_lock, & num_lock, & escape_chord, & locked, & chained, & bell, & reload, & toggle_grab, & grabbed, & running, & hotkeys_tail, & hotkeys_head, & timeout, & mapping_count, & progress, & status_fifo, & redir_fd, & num_extra_confs, & extra_confs, & config_path, & config_file, & shell, & symbols, & root, & dpy, & Scroll_Lock, & Num_Lock, & Mode_switch, & Meta_R, & Meta_L, & Hyper_R, & Hyper_L, & Super_R, & Super_L, & Alt_R, & Alt_L, (char const   *)*(extra_confs + i) (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in {&escape_chord} has escaped. (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown value in {?} could be an escaped pointer address! (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in {&hotkeys_tail} has escaped. (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in {&hotkeys_head} has escaped. (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in {&status_fifo} has escaped. (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in {&extra_confs} has escaped. (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in {&config_path} has escaped. (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in {&shell} has escaped. (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in {&symbols} has escaped. (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in {&dpy} has escaped. (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in (char const   *)*(extra_confs + i) has escaped. (src/sxhkd.c:116:3-116:30)
+[Error][Imprecise][Unsound] Function definition missing for load_config (src/sxhkd.c:116:3-116:30)
+[Info][Imprecise] INVALIDATING ALL GLOBALS! (src/sxhkd.c:116:3-116:30)
+[Info][Imprecise] Invalidating expressions: & scroll_lock, & caps_lock, & num_lock, & escape_chord, & locked, & chained, & bell, & reload, & toggle_grab, & grabbed, & running, & hotkeys_tail, & hotkeys_head, & timeout, & mapping_count, & progress, & status_fifo, & redir_fd, & num_extra_confs, & extra_confs, & config_path, & config_file, & shell, & symbols, & root, & dpy, & Scroll_Lock, & Num_Lock, & Mode_switch, & Meta_R, & Meta_L, & Hyper_R, & Hyper_L, & Super_R, & Super_L, & Alt_R, & Alt_L, (char const   *)*(extra_confs + i) (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in {&escape_chord} has escaped. (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown value in {?} could be an escaped pointer address! (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in {&hotkeys_tail} has escaped. (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in {&hotkeys_head} has escaped. (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in {&status_fifo} has escaped. (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in {&extra_confs} has escaped. (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in {&config_path} has escaped. (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in {&shell} has escaped. (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in {&symbols} has escaped. (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in {&dpy} has escaped. (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in (char const   *)*(extra_confs + i) has escaped. (src/sxhkd.c:116:3-116:30)
+[Error][Imprecise][Unsound] Function definition missing for load_config (src/sxhkd.c:116:3-116:30)
+[Info][Imprecise] INVALIDATING ALL GLOBALS! (src/sxhkd.c:116:3-116:30)
+[Info][Imprecise] Invalidating expressions: & scroll_lock, & caps_lock, & num_lock, & escape_chord, & locked, & chained, & bell, & reload, & toggle_grab, & grabbed, & running, & hotkeys_tail, & hotkeys_head, & timeout, & mapping_count, & progress, & status_fifo, & redir_fd, & num_extra_confs, & extra_confs, & config_path, & config_file, & shell, & symbols, & root, & dpy, & Scroll_Lock, & Num_Lock, & Mode_switch, & Meta_R, & Meta_L, & Hyper_R, & Hyper_L, & Super_R, & Super_L, & Alt_R, & Alt_L, (char const   *)*(extra_confs + i) (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in {&escape_chord} has escaped. (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown value in {?} could be an escaped pointer address! (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in {&hotkeys_tail} has escaped. (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in {&hotkeys_head} has escaped. (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in {&status_fifo} has escaped. (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in {&extra_confs} has escaped. (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in {&config_path} has escaped. (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in {&shell} has escaped. (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in {&symbols} has escaped. (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in {&dpy} has escaped. (src/sxhkd.c:116:3-116:30)
+[Info][Unsound] Unknown address in (char const   *)*(extra_confs + i) has escaped. (src/sxhkd.c:116:3-116:30)
+[Warning][Termination] The program might not terminate! (Loop analysis) (src/sxhkd.c:115:6-115:42)
+[Warning][Integer > Overflow][CWE-190] Unsigned integer overflow (src/sxhkd.c:115:6-115:42)
+[Error][Imprecise][Unsound] Function definition missing for grab (src/sxhkd.c:117:2-117:8)
+[Info][Imprecise] INVALIDATING ALL GLOBALS! (src/sxhkd.c:117:2-117:8)
+[Info][Imprecise] Invalidating expressions: & scroll_lock, & caps_lock, & num_lock, & escape_chord, & locked, & chained, & bell, & reload, & toggle_grab, & grabbed, & running, & hotkeys_tail, & hotkeys_head, & timeout, & mapping_count, & progress, & status_fifo, & redir_fd, & num_extra_confs, & extra_confs, & config_path, & config_file, & shell, & symbols, & root, & dpy, & Scroll_Lock, & Num_Lock, & Mode_switch, & Meta_R, & Meta_L, & Hyper_R, & Hyper_L, & Super_R, & Super_L, & Alt_R, & Alt_L (src/sxhkd.c:117:2-117:8)
+[Info][Unsound] Unknown address in {&escape_chord} has escaped. (src/sxhkd.c:117:2-117:8)
+[Info][Unsound] Unknown value in {?} could be an escaped pointer address! (src/sxhkd.c:117:2-117:8)
+[Info][Unsound] Unknown address in {&hotkeys_tail} has escaped. (src/sxhkd.c:117:2-117:8)
+[Info][Unsound] Unknown address in {&hotkeys_head} has escaped. (src/sxhkd.c:117:2-117:8)
+[Info][Unsound] Unknown address in {&status_fifo} has escaped. (src/sxhkd.c:117:2-117:8)
+[Info][Unsound] Unknown address in {&extra_confs} has escaped. (src/sxhkd.c:117:2-117:8)
+[Info][Unsound] Unknown address in {&config_path} has escaped. (src/sxhkd.c:117:2-117:8)
+[Info][Unsound] Unknown address in {&shell} has escaped. (src/sxhkd.c:117:2-117:8)
+[Info][Unsound] Unknown address in {&symbols} has escaped. (src/sxhkd.c:117:2-117:8)
+[Info][Unsound] Unknown address in {&dpy} has escaped. (src/sxhkd.c:117:2-117:8)
+[Error][Imprecise][Unsound] Function definition missing for xcb_get_file_descriptor (src/sxhkd.c:120:6-120:39)
+[Info][Imprecise] INVALIDATING ALL GLOBALS! (src/sxhkd.c:120:6-120:39)
+[Info][Imprecise] Invalidating expressions: & scroll_lock, & caps_lock, & num_lock, & escape_chord, & locked, & chained, & bell, & reload, & toggle_grab, & grabbed, & running, & hotkeys_tail, & hotkeys_head, & timeout, & mapping_count, & progress, & status_fifo, & redir_fd, & num_extra_confs, & extra_confs, & config_path, & config_file, & shell, & symbols, & root, & dpy, & Scroll_Lock, & Num_Lock, & Mode_switch, & Meta_R, & Meta_L, & Hyper_R, & Hyper_L, & Super_R, & Super_L, & Alt_R, & Alt_L, dpy (src/sxhkd.c:120:6-120:39)
+[Info][Unsound] Unknown address in {&escape_chord} has escaped. (src/sxhkd.c:120:6-120:39)
+[Info][Unsound] Unknown value in {?} could be an escaped pointer address! (src/sxhkd.c:120:6-120:39)
+[Info][Unsound] Unknown address in {&hotkeys_tail} has escaped. (src/sxhkd.c:120:6-120:39)
+[Info][Unsound] Unknown address in {&hotkeys_head} has escaped. (src/sxhkd.c:120:6-120:39)
+[Info][Unsound] Unknown address in {&status_fifo} has escaped. (src/sxhkd.c:120:6-120:39)
+[Info][Unsound] Unknown address in {&extra_confs} has escaped. (src/sxhkd.c:120:6-120:39)
+[Info][Unsound] Unknown address in {&config_path} has escaped. (src/sxhkd.c:120:6-120:39)
+[Info][Unsound] Unknown address in {&shell} has escaped. (src/sxhkd.c:120:6-120:39)
+[Info][Unsound] Unknown address in {&symbols} has escaped. (src/sxhkd.c:120:6-120:39)
+[Info][Unsound] Unknown address in {&dpy} has escaped. (src/sxhkd.c:120:6-120:39)
+[Info][Unsound] Unknown address in dpy has escaped. (src/sxhkd.c:120:6-120:39)
+[Info][Imprecise] Invalidating expressions: & tmp___3 (src/sxhkd.c:120:6-120:39)
+[Error][Imprecise][Unsound] Function definition missing for xcb_flush (src/sxhkd.c:127:2-127:16)
+[Info][Imprecise] INVALIDATING ALL GLOBALS! (src/sxhkd.c:127:2-127:16)
+[Info][Imprecise] Invalidating expressions: & scroll_lock, & caps_lock, & num_lock, & escape_chord, & locked, & chained, & bell, & reload, & toggle_grab, & grabbed, & running, & hotkeys_tail, & hotkeys_head, & timeout, & mapping_count, & progress, & status_fifo, & redir_fd, & num_extra_confs, & extra_confs, & config_path, & config_file, & shell, & symbols, & root, & dpy, & Scroll_Lock, & Num_Lock, & Mode_switch, & Meta_R, & Meta_L, & Hyper_R, & Hyper_L, & Super_R, & Super_L, & Alt_R, & Alt_L, dpy (src/sxhkd.c:127:2-127:16)
+[Info][Unsound] Unknown address in {&escape_chord} has escaped. (src/sxhkd.c:127:2-127:16)
+[Info][Unsound] Unknown value in {?} could be an escaped pointer address! (src/sxhkd.c:127:2-127:16)
+[Info][Unsound] Unknown address in {&hotkeys_tail} has escaped. (src/sxhkd.c:127:2-127:16)
+[Info][Unsound] Unknown address in {&hotkeys_head} has escaped. (src/sxhkd.c:127:2-127:16)
+[Info][Unsound] Unknown address in {&status_fifo} has escaped. (src/sxhkd.c:127:2-127:16)
+[Info][Unsound] Unknown address in {&extra_confs} has escaped. (src/sxhkd.c:127:2-127:16)
+[Info][Unsound] Unknown address in {&config_path} has escaped. (src/sxhkd.c:127:2-127:16)
+[Info][Unsound] Unknown address in {&shell} has escaped. (src/sxhkd.c:127:2-127:16)
+[Info][Unsound] Unknown address in {&symbols} has escaped. (src/sxhkd.c:127:2-127:16)
+[Info][Unsound] Unknown address in {&dpy} has escaped. (src/sxhkd.c:127:2-127:16)
+[Info][Unsound] Unknown address in dpy has escaped. (src/sxhkd.c:127:2-127:16)
+[Warning][Termination] The program might not terminate! (Loop analysis) (src/sxhkd.c:129:9-129:16)
+[Warning][Integer > Overflow][CWE-190] Unsigned integer overflow (src/sxhkd.c:129:9-129:16)
+[Info][Imprecise] Invalidating expressions: status_fifo (src/sxhkd.c:184:3-184:22)
+[Info][Unsound] Unknown address in status_fifo has escaped. (src/sxhkd.c:184:3-184:22)
+[Info][Unsound] Unknown value in {?} could be an escaped pointer address! (src/sxhkd.c:184:3-184:22)
+[Error][Imprecise][Unsound] Function definition missing for ungrab (src/sxhkd.c:187:2-187:10)
+[Info][Imprecise] INVALIDATING ALL GLOBALS! (src/sxhkd.c:187:2-187:10)
+[Info][Imprecise] Invalidating expressions: & scroll_lock, & caps_lock, & num_lock, & escape_chord, & locked, & chained, & bell, & reload, & toggle_grab, & grabbed, & running, & hotkeys_tail, & hotkeys_head, & timeout, & mapping_count, & progress, & status_fifo, & redir_fd, & num_extra_confs, & extra_confs, & config_path, & config_file, & shell, & symbols, & root, & dpy, & Scroll_Lock, & Num_Lock, & Mode_switch, & Meta_R, & Meta_L, & Hyper_R, & Hyper_L, & Super_R, & Super_L, & Alt_R, & Alt_L (src/sxhkd.c:187:2-187:10)
+[Info][Unsound] Unknown address in {&escape_chord} has escaped. (src/sxhkd.c:187:2-187:10)
+[Info][Unsound] Unknown value in {?} could be an escaped pointer address! (src/sxhkd.c:187:2-187:10)
+[Info][Unsound] Unknown address in {&hotkeys_tail} has escaped. (src/sxhkd.c:187:2-187:10)
+[Info][Unsound] Unknown address in {&hotkeys_head} has escaped. (src/sxhkd.c:187:2-187:10)
+[Info][Unsound] Unknown address in {&status_fifo} has escaped. (src/sxhkd.c:187:2-187:10)
+[Info][Unsound] Unknown address in {&extra_confs} has escaped. (src/sxhkd.c:187:2-187:10)
+[Info][Unsound] Unknown address in {&config_path} has escaped. (src/sxhkd.c:187:2-187:10)
+[Info][Unsound] Unknown address in {&shell} has escaped. (src/sxhkd.c:187:2-187:10)
+[Info][Unsound] Unknown address in {&symbols} has escaped. (src/sxhkd.c:187:2-187:10)
+[Info][Unsound] Unknown address in {&dpy} has escaped. (src/sxhkd.c:187:2-187:10)
+[Error][Imprecise][Unsound] Function definition missing for destroy_chord (src/sxhkd.c:189:2-189:29)
+[Info][Imprecise] INVALIDATING ALL GLOBALS! (src/sxhkd.c:189:2-189:29)
+[Info][Imprecise] Invalidating expressions: & scroll_lock, & caps_lock, & num_lock, & escape_chord, & locked, & chained, & bell, & reload, & toggle_grab, & grabbed, & running, & hotkeys_tail, & hotkeys_head, & timeout, & mapping_count, & progress, & status_fifo, & redir_fd, & num_extra_confs, & extra_confs, & config_path, & config_file, & shell, & symbols, & root, & dpy, & Scroll_Lock, & Num_Lock, & Mode_switch, & Meta_R, & Meta_L, & Hyper_R, & Hyper_L, & Super_R, & Super_L, & Alt_R, & Alt_L, escape_chord (src/sxhkd.c:189:2-189:29)
+[Info][Unsound] Unknown address in {&escape_chord} has escaped. (src/sxhkd.c:189:2-189:29)
+[Info][Unsound] Unknown value in {?} could be an escaped pointer address! (src/sxhkd.c:189:2-189:29)
+[Info][Unsound] Unknown address in {&status_fifo} has escaped. (src/sxhkd.c:189:2-189:29)
+[Info][Unsound] Unknown address in {&extra_confs} has escaped. (src/sxhkd.c:189:2-189:29)
+[Info][Unsound] Unknown address in {&config_path} has escaped. (src/sxhkd.c:189:2-189:29)
+[Info][Unsound] Unknown address in {&shell} has escaped. (src/sxhkd.c:189:2-189:29)
+[Info][Unsound] Unknown address in {&symbols} has escaped. (src/sxhkd.c:189:2-189:29)
+[Info][Unsound] Unknown address in {&dpy} has escaped. (src/sxhkd.c:189:2-189:29)
+[Info][Unsound] Unknown address in escape_chord has escaped. (src/sxhkd.c:189:2-189:29)
+[Error][Imprecise][Unsound] Function definition missing for xcb_key_symbols_free (src/sxhkd.c:190:2-190:31)
+[Info][Imprecise] INVALIDATING ALL GLOBALS! (src/sxhkd.c:190:2-190:31)
+[Info][Imprecise] Invalidating expressions: & scroll_lock, & caps_lock, & num_lock, & escape_chord, & locked, & chained, & bell, & reload, & toggle_grab, & grabbed, & running, & hotkeys_tail, & hotkeys_head, & timeout, & mapping_count, & progress, & status_fifo, & redir_fd, & num_extra_confs, & extra_confs, & config_path, & config_file, & shell, & symbols, & root, & dpy, & Scroll_Lock, & Num_Lock, & Mode_switch, & Meta_R, & Meta_L, & Hyper_R, & Hyper_L, & Super_R, & Super_L, & Alt_R, & Alt_L, symbols (src/sxhkd.c:190:2-190:31)
+[Info][Unsound] Unknown address in {&escape_chord} has escaped. (src/sxhkd.c:190:2-190:31)
+[Info][Unsound] Unknown value in {?} could be an escaped pointer address! (src/sxhkd.c:190:2-190:31)
+[Info][Unsound] Unknown address in {&hotkeys_tail} has escaped. (src/sxhkd.c:190:2-190:31)
+[Info][Unsound] Unknown address in {&hotkeys_head} has escaped. (src/sxhkd.c:190:2-190:31)
+[Info][Unsound] Unknown address in {&status_fifo} has escaped. (src/sxhkd.c:190:2-190:31)
+[Info][Unsound] Unknown address in {&extra_confs} has escaped. (src/sxhkd.c:190:2-190:31)
+[Info][Unsound] Unknown address in {&config_path} has escaped. (src/sxhkd.c:190:2-190:31)
+[Info][Unsound] Unknown address in {&shell} has escaped. (src/sxhkd.c:190:2-190:31)
+[Info][Unsound] Unknown address in {&symbols} has escaped. (src/sxhkd.c:190:2-190:31)
+[Info][Unsound] Unknown address in {&dpy} has escaped. (src/sxhkd.c:190:2-190:31)
+[Info][Unsound] Unknown address in symbols has escaped. (src/sxhkd.c:190:2-190:31)
+[Error][Imprecise][Unsound] Function definition missing for xcb_disconnect (src/sxhkd.c:191:2-191:21)
+[Info][Imprecise] INVALIDATING ALL GLOBALS! (src/sxhkd.c:191:2-191:21)
+[Info][Imprecise] Invalidating expressions: & scroll_lock, & caps_lock, & num_lock, & escape_chord, & locked, & chained, & bell, & reload, & toggle_grab, & grabbed, & running, & hotkeys_tail, & hotkeys_head, & timeout, & mapping_count, & progress, & status_fifo, & redir_fd, & num_extra_confs, & extra_confs, & config_path, & config_file, & shell, & symbols, & root, & dpy, & Scroll_Lock, & Num_Lock, & Mode_switch, & Meta_R, & Meta_L, & Hyper_R, & Hyper_L, & Super_R, & Super_L, & Alt_R, & Alt_L, dpy (src/sxhkd.c:191:2-191:21)
+[Info][Unsound] Unknown address in {&escape_chord} has escaped. (src/sxhkd.c:191:2-191:21)
+[Info][Unsound] Unknown value in {?} could be an escaped pointer address! (src/sxhkd.c:191:2-191:21)
+[Info][Unsound] Unknown address in {&hotkeys_tail} has escaped. (src/sxhkd.c:191:2-191:21)
+[Info][Unsound] Unknown address in {&hotkeys_head} has escaped. (src/sxhkd.c:191:2-191:21)
+[Info][Unsound] Unknown address in {&status_fifo} has escaped. (src/sxhkd.c:191:2-191:21)
+[Info][Unsound] Unknown address in {&extra_confs} has escaped. (src/sxhkd.c:191:2-191:21)
+[Info][Unsound] Unknown address in {&config_path} has escaped. (src/sxhkd.c:191:2-191:21)
+[Info][Unsound] Unknown address in {&shell} has escaped. (src/sxhkd.c:191:2-191:21)
+[Info][Unsound] Unknown address in {&symbols} has escaped. (src/sxhkd.c:191:2-191:21)
+[Info][Unsound] Unknown address in {&dpy} has escaped. (src/sxhkd.c:191:2-191:21)
+[Info][Unsound] Unknown address in dpy has escaped. (src/sxhkd.c:191:2-191:21)
+[Warning][Deadcode] Function 'hold' is uncalled: 9 LLoC (src/sxhkd.c:299:1-309:1)
+[Warning][Termination] The program might not terminate! (Upjumping Goto) (src/sxhkd.c:257:2-258:66)
+[Info][Deadcode] Logical lines of code (LLoC) summary:
+  live: 176
+  dead: 9 (9 in uncalled functions)
+  total lines: 185
+[Warning][Deadcode][CWE-570] condition '0' (possibly inserted by CIL) is always false (src/sxhkd.c:130:111-130:23)
+[Warning][Deadcode][CWE-571] condition '(unsigned long )__i < sizeof(fd_set ) / sizeof(__fd_mask )' (possibly inserted by CIL) is always true (src/sxhkd.c:130:9-130:68)
+[Warning][Deadcode][CWE-571] condition '(unsigned long )__i < sizeof(fd_set ) / sizeof(__fd_mask )' (possibly inserted by CIL) is always true (src/sxhkd.c:130:9-130:68)
+[Warning][Deadcode][CWE-571] condition '(unsigned long )__i < sizeof(fd_set ) / sizeof(__fd_mask )' (possibly inserted by CIL) is always true (src/sxhkd.c:130:9-130:68)
+[Warning][Deadcode][CWE-571] condition '(unsigned long )__i < sizeof(fd_set ) / sizeof(__fd_mask )' (possibly inserted by CIL) is always true (src/sxhkd.c:130:9-130:68)
+[Warning][Deadcode][CWE-571] condition '(unsigned long )__i < sizeof(fd_set ) / sizeof(__fd_mask )' (possibly inserted by CIL) is always true (src/sxhkd.c:130:9-130:68)
+[Warning][Deadcode][CWE-571] condition '(int )event_type == 2' is always true (src/sxhkd.c:220:3-220:22)
+[Warning][Deadcode][CWE-571] condition '(unsigned long )__i < sizeof(fd_set ) / sizeof(__fd_mask )' (possibly inserted by CIL) is always true (src/sxhkd.c:130:9-130:68)
+[Warning][Deadcode][CWE-571] condition '(unsigned long )__i < sizeof(fd_set ) / sizeof(__fd_mask )' (possibly inserted by CIL) is always true (src/sxhkd.c:130:9-130:68)
+[Warning][Deadcode][CWE-571] condition '(unsigned long )__i < sizeof(fd_set ) / sizeof(__fd_mask )' (possibly inserted by CIL) is always true (src/sxhkd.c:130:9-130:68)
+[Warning][Deadcode][CWE-571] condition '(unsigned long )__i < sizeof(fd_set ) / sizeof(__fd_mask )' (possibly inserted by CIL) is always true (src/sxhkd.c:130:9-130:68)
+[Warning][Deadcode][CWE-571] condition '(unsigned long )__i < sizeof(fd_set ) / sizeof(__fd_mask )' (possibly inserted by CIL) is always true (src/sxhkd.c:130:9-130:68)
+[Warning][Deadcode][CWE-571] condition '(unsigned long )__i < sizeof(fd_set ) / sizeof(__fd_mask )' (possibly inserted by CIL) is always true (src/sxhkd.c:130:9-130:68)
+[Warning][Deadcode][CWE-571] condition '(unsigned long )__i < sizeof(fd_set ) / sizeof(__fd_mask )' (possibly inserted by CIL) is always true (src/sxhkd.c:130:9-130:68)
+SV-COMP result: unknown
+[Warning][Analyzer] Invariant Apron: coefficient is not int: 1.84467440738e+19
+[Warning][Analyzer] Invariant Apron: coefficient is not int: 1.84467440781e+19
+[Warning][Analyzer] Invariant Apron: coefficient is not int: 1.84467440759e+19
+[Warning][Analyzer] Invariant Apron: coefficient is not int: 3.68934881475e+19
+[Info][Witness] witness generation summary:
+  total generation entries: 1
+[Error][Imprecise][Unsound] Function definition missing
+
+--- Error ---
+[Info] Specification: CHECK( init(main()), LTL(F end) ) -> enabling soundness analyses "termination"
+[Info] Specification: Termination -> enabling termination analyses "threadflag, apron"
+:-1: Warning: Incompatible declaration for pthread_create (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:202 (from /home/qingshi1019/analyzer/repositories/sxhkd.i (0)) 
+	Failed assumption that pthread_attr_t and pthread_attr_t are isomorphic 
+	Failed assumption that union pthread_attr_t and union pthread_attr_t are isomorphic (different array sizes)
+union pthread_attr_t {
+   char __size[64] ;
+   long __align ;
+};
+
+union pthread_attr_t {
+   char __size[56] ;
+   long __align ;
+};
+ 
+:-1: Warning: Incompatible declaration for pthread_attr_init (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:285 (from /home/qingshi1019/analyzer/repositories/sxhkd.i (0)) 
+	Failed assumption that pthread_attr_t and pthread_attr_t are isomorphic 
+	Failed assumption that union pthread_attr_t and union pthread_attr_t are isomorphic (different array sizes)
+union pthread_attr_t {
+   char __size[64] ;
+   long __align ;
+};
+
+union pthread_attr_t {
+   char __size[56] ;
+   long __align ;
+};
+ 
+:-1: Warning: Incompatible declaration for pthread_attr_destroy (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:288 (from /home/qingshi1019/analyzer/repositories/sxhkd.i (0)) 
+	Failed assumption that pthread_attr_t and pthread_attr_t are isomorphic 
+	Failed assumption that union pthread_attr_t and union pthread_attr_t are isomorphic (different array sizes)
+union pthread_attr_t {
+   char __size[64] ;
+   long __align ;
+};
+
+union pthread_attr_t {
+   char __size[56] ;
+   long __align ;
+};
+ 
+:-1: Warning: Incompatible declaration for pthread_attr_getdetachstate (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:292 (from /home/qingshi1019/analyzer/repositories/sxhkd.i (0)) 
+	Failed assumption that pthread_attr_t and pthread_attr_t are isomorphic 
+	Failed assumption that union pthread_attr_t and union pthread_attr_t are isomorphic (different array sizes)
+union pthread_attr_t {
+   char __size[64] ;
+   long __align ;
+};
+
+union pthread_attr_t {
+   char __size[56] ;
+   long __align ;
+};
+ 
+:-1: Warning: Incompatible declaration for pthread_attr_setdetachstate (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:297 (from /home/qingshi1019/analyzer/repositories/sxhkd.i (0)) 
+	Failed assumption that pthread_attr_t and pthread_attr_t are isomorphic 
+	Failed assumption that union pthread_attr_t and union pthread_attr_t are isomorphic (different array sizes)
+union pthread_attr_t {
+   char __size[64] ;
+   long __align ;
+};
+
+union pthread_attr_t {
+   char __size[56] ;
+   long __align ;
+};
+ 
+:-1: Warning: Incompatible declaration for pthread_attr_getguardsize (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:303 (from /home/qingshi1019/analyzer/repositories/sxhkd.i (0)) 
+	Failed assumption that pthread_attr_t and pthread_attr_t are isomorphic 
+	Failed assumption that union pthread_attr_t and union pthread_attr_t are isomorphic (different array sizes)
+union pthread_attr_t {
+   char __size[64] ;
+   long __align ;
+};
+
+union pthread_attr_t {
+   char __size[56] ;
+   long __align ;
+};
+ 
+:-1: Warning: Incompatible declaration for pthread_attr_setguardsize (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:308 (from /home/qingshi1019/analyzer/repositories/sxhkd.i (0)) 
+	Failed assumption that pthread_attr_t and pthread_attr_t are isomorphic 
+	Failed assumption that union pthread_attr_t and union pthread_attr_t are isomorphic (different array sizes)
+union pthread_attr_t {
+   char __size[64] ;
+   long __align ;
+};
+
+union pthread_attr_t {
+   char __size[56] ;
+   long __align ;
+};
+ 
+:-1: Warning: Incompatible declaration for pthread_attr_getschedparam (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:314 (from /home/qingshi1019/analyzer/repositories/sxhkd.i (0)) 
+	Failed assumption that pthread_attr_t and pthread_attr_t are isomorphic 
+	Failed assumption that union pthread_attr_t and union pthread_attr_t are isomorphic (different array sizes)
+union pthread_attr_t {
+   char __size[64] ;
+   long __align ;
+};
+
+union pthread_attr_t {
+   char __size[56] ;
+   long __align ;
+};
+ 
+:-1: Warning: Incompatible declaration for pthread_attr_setschedparam (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:319 (from /home/qingshi1019/analyzer/repositories/sxhkd.i (0)) 
+	Failed assumption that pthread_attr_t and pthread_attr_t are isomorphic 
+	Failed assumption that union pthread_attr_t and union pthread_attr_t are isomorphic (different array sizes)
+union pthread_attr_t {
+   char __size[64] ;
+   long __align ;
+};
+
+union pthread_attr_t {
+   char __size[56] ;
+   long __align ;
+};
+ 
+:-1: Warning: Incompatible declaration for pthread_attr_getschedpolicy (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:324 (from /home/qingshi1019/analyzer/repositories/sxhkd.i (0)) 
+	Failed assumption that pthread_attr_t and pthread_attr_t are isomorphic 
+	Failed assumption that union pthread_attr_t and union pthread_attr_t are isomorphic (different array sizes)
+union pthread_attr_t {
+   char __size[64] ;
+   long __align ;
+};
+
+union pthread_attr_t {
+   char __size[56] ;
+   long __align ;
+};
+ 
+:-1: Warning: Incompatible declaration for pthread_attr_setschedpolicy (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:329 (from /home/qingshi1019/analyzer/repositories/sxhkd.i (0)) 
+	Failed assumption that pthread_attr_t and pthread_attr_t are isomorphic 
+	Failed assumption that union pthread_attr_t and union pthread_attr_t are isomorphic (different array sizes)
+union pthread_attr_t {
+   char __size[64] ;
+   long __align ;
+};
+
+union pthread_attr_t {
+   char __size[56] ;
+   long __align ;
+};
+ 
+:-1: Warning: Incompatible declaration for pthread_attr_getinheritsched (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:333 (from /home/qingshi1019/analyzer/repositories/sxhkd.i (0)) 
+	Failed assumption that pthread_attr_t and pthread_attr_t are isomorphic 
+	Failed assumption that union pthread_attr_t and union pthread_attr_t are isomorphic (different array sizes)
+union pthread_attr_t {
+   char __size[64] ;
+   long __align ;
+};
+
+union pthread_attr_t {
+   char __size[56] ;
+   long __align ;
+};
+ 
+:-1: Warning: Incompatible declaration for pthread_attr_setinheritsched (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:338 (from /home/qingshi1019/analyzer/repositories/sxhkd.i (0)) 
+	Failed assumption that pthread_attr_t and pthread_attr_t are isomorphic 
+	Failed assumption that union pthread_attr_t and union pthread_attr_t are isomorphic (different array sizes)
+union pthread_attr_t {
+   char __size[64] ;
+   long __align ;
+};
+
+union pthread_attr_t {
+   char __size[56] ;
+   long __align ;
+};
+ 
+:-1: Warning: Incompatible declaration for pthread_attr_getscope (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:344 (from /home/qingshi1019/analyzer/repositories/sxhkd.i (0)) 
+	Failed assumption that pthread_attr_t and pthread_attr_t are isomorphic 
+	Failed assumption that union pthread_attr_t and union pthread_attr_t are isomorphic (different array sizes)
+union pthread_attr_t {
+   char __size[64] ;
+   long __align ;
+};
+
+union pthread_attr_t {
+   char __size[56] ;
+   long __align ;
+};
+ 
+:-1: Warning: Incompatible declaration for pthread_attr_setscope (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:349 (from /home/qingshi1019/analyzer/repositories/sxhkd.i (0)) 
+	Failed assumption that pthread_attr_t and pthread_attr_t are isomorphic 
+	Failed assumption that union pthread_attr_t and union pthread_attr_t are isomorphic (different array sizes)
+union pthread_attr_t {
+   char __size[64] ;
+   long __align ;
+};
+
+union pthread_attr_t {
+   char __size[56] ;
+   long __align ;
+};
+ 
+:-1: Warning: Incompatible declaration for pthread_attr_getstackaddr (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:353 (from /home/qingshi1019/analyzer/repositories/sxhkd.i (0)) 
+	Failed assumption that pthread_attr_t and pthread_attr_t are isomorphic 
+	Failed assumption that union pthread_attr_t and union pthread_attr_t are isomorphic (different array sizes)
+union pthread_attr_t {
+   char __size[64] ;
+   long __align ;
+};
+
+union pthread_attr_t {
+   char __size[56] ;
+   long __align ;
+};
+ 
+:-1: Warning: Incompatible declaration for pthread_attr_setstackaddr (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:361 (from /home/qingshi1019/analyzer/repositories/sxhkd.i (0)) 
+	Failed assumption that pthread_attr_t and pthread_attr_t are isomorphic 
+	Failed assumption that union pthread_attr_t and union pthread_attr_t are isomorphic (different array sizes)
+union pthread_attr_t {
+   char __size[64] ;
+   long __align ;
+};
+
+union pthread_attr_t {
+   char __size[56] ;
+   long __align ;
+};
+ 
+:-1: Warning: Incompatible declaration for pthread_attr_getstacksize (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:366 (from /home/qingshi1019/analyzer/repositories/sxhkd.i (0)) 
+	Failed assumption that pthread_attr_t and pthread_attr_t are isomorphic 
+	Failed assumption that union pthread_attr_t and union pthread_attr_t are isomorphic (different array sizes)
+union pthread_attr_t {
+   char __size[64] ;
+   long __align ;
+};
+
+union pthread_attr_t {
+   char __size[56] ;
+   long __align ;
+};
+ 
+:-1: Warning: Incompatible declaration for pthread_attr_setstacksize (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:373 (from /home/qingshi1019/analyzer/repositories/sxhkd.i (0)) 
+	Failed assumption that pthread_attr_t and pthread_attr_t are isomorphic 
+	Failed assumption that union pthread_attr_t and union pthread_attr_t are isomorphic (different array sizes)
+union pthread_attr_t {
+   char __size[64] ;
+   long __align ;
+};
+
+union pthread_attr_t {
+   char __size[56] ;
+   long __align ;
+};
+ 
+:-1: Warning: Incompatible declaration for pthread_attr_getstack (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:379 (from /home/qingshi1019/analyzer/repositories/sxhkd.i (0)) 
+	Failed assumption that pthread_attr_t and pthread_attr_t are isomorphic 
+	Failed assumption that union pthread_attr_t and union pthread_attr_t are isomorphic (different array sizes)
+union pthread_attr_t {
+   char __size[64] ;
+   long __align ;
+};
+
+union pthread_attr_t {
+   char __size[56] ;
+   long __align ;
+};
+ 
+:-1: Warning: Incompatible declaration for pthread_attr_setstack (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:387 (from /home/qingshi1019/analyzer/repositories/sxhkd.i (0)) 
+	Failed assumption that pthread_attr_t and pthread_attr_t are isomorphic 
+	Failed assumption that union pthread_attr_t and union pthread_attr_t are isomorphic (different array sizes)
+union pthread_attr_t {
+   char __size[64] ;
+   long __align ;
+};
+
+union pthread_attr_t {
+   char __size[56] ;
+   long __align ;
+};
+ 
+:-1: Warning: Incompatible declaration for __pthread_register_cancel (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:697 (from /home/qingshi1019/analyzer/repositories/sxhkd.i (0)) 
+	Failed assumption that __pthread_unwind_buf_t and __pthread_unwind_buf_t are isomorphic 
+	Failed assumption that struct __anonstruct___pthread_unwind_buf_t_530692248 and struct __anonstruct___pthread_unwind_buf_t_530692248 are isomorphic 
+	Failed assumption that struct __cancel_jmp_buf_tag and struct __cancel_jmp_buf_tag are isomorphic 
+	Failed assumption that __jmp_buf and __jmp_buf are isomorphic (different integer types unsigned long long  and long )
+struct __cancel_jmp_buf_tag {
+   __jmp_buf __cancel_jmp_buf ;
+   int __mask_was_saved ;
+};
+
+struct __cancel_jmp_buf_tag {
+   __jmp_buf __cancel_jmp_buf ;
+   int __mask_was_saved ;
+};
+
+struct __anonstruct___pthread_unwind_buf_t_530692248 {
+   struct __cancel_jmp_buf_tag __cancel_jmp_buf[1] ;
+   void *__pad[4] ;
+};
+
+struct __anonstruct___pthread_unwind_buf_t_530692248 {
+   struct __cancel_jmp_buf_tag __cancel_jmp_buf[1] ;
+   void *__pad[4] ;
+};
+ 
+:-1: Warning: Incompatible declaration for __pthread_unregister_cancel (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:709 (from /home/qingshi1019/analyzer/repositories/sxhkd.i (0)) 
+	Failed assumption that __pthread_unwind_buf_t and __pthread_unwind_buf_t are isomorphic 
+	Failed assumption that struct __anonstruct___pthread_unwind_buf_t_530692248 and struct __anonstruct___pthread_unwind_buf_t_530692248 are isomorphic 
+	Failed assumption that struct __cancel_jmp_buf_tag and struct __cancel_jmp_buf_tag are isomorphic 
+	Failed assumption that __jmp_buf and __jmp_buf are isomorphic (different integer types unsigned long long  and long )
+struct __cancel_jmp_buf_tag {
+   __jmp_buf __cancel_jmp_buf ;
+   int __mask_was_saved ;
+};
+
+struct __cancel_jmp_buf_tag {
+   __jmp_buf __cancel_jmp_buf ;
+   int __mask_was_saved ;
+};
+
+struct __anonstruct___pthread_unwind_buf_t_530692248 {
+   struct __cancel_jmp_buf_tag __cancel_jmp_buf[1] ;
+   void *__pad[4] ;
+};
+
+struct __anonstruct___pthread_unwind_buf_t_530692248 {
+   struct __cancel_jmp_buf_tag __cancel_jmp_buf[1] ;
+   void *__pad[4] ;
+};
+ 
+:-1: Warning: Incompatible declaration for __pthread_unwind_next (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:750 (from /home/qingshi1019/analyzer/repositories/sxhkd.i (0)) 
+	Failed assumption that __pthread_unwind_buf_t and __pthread_unwind_buf_t are isomorphic 
+	Failed assumption that struct __anonstruct___pthread_unwind_buf_t_530692248 and struct __anonstruct___pthread_unwind_buf_t_530692248 are isomorphic 
+	Failed assumption that struct __cancel_jmp_buf_tag and struct __cancel_jmp_buf_tag are isomorphic 
+	Failed assumption that __jmp_buf and __jmp_buf are isomorphic (different integer types unsigned long long  and long )
+struct __cancel_jmp_buf_tag {
+   __jmp_buf __cancel_jmp_buf ;
+   int __mask_was_saved ;
+};
+
+struct __cancel_jmp_buf_tag {
+   __jmp_buf __cancel_jmp_buf ;
+   int __mask_was_saved ;
+};
+
+struct __anonstruct___pthread_unwind_buf_t_530692248 {
+   struct __cancel_jmp_buf_tag __cancel_jmp_buf[1] ;
+   void *__pad[4] ;
+};
+
+struct __anonstruct___pthread_unwind_buf_t_530692248 {
+   struct __cancel_jmp_buf_tag __cancel_jmp_buf[1] ;
+   void *__pad[4] ;
+};
+ 
+:-1: Warning: Incompatible declaration for __sigsetjmp_cancel (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:766 (from /home/qingshi1019/analyzer/repositories/sxhkd.i (0)) 
+	Failed assumption that struct __cancel_jmp_buf_tag and struct __cancel_jmp_buf_tag are isomorphic 
+	Failed assumption that __jmp_buf and __jmp_buf are isomorphic (different integer types unsigned long long  and long )
+struct __cancel_jmp_buf_tag {
+   __jmp_buf __cancel_jmp_buf ;
+   int __mask_was_saved ;
+};
+
+struct __cancel_jmp_buf_tag {
+   __jmp_buf __cancel_jmp_buf ;
+   int __mask_was_saved ;
+};
+ 
+:-1: Warning: Incompatible declaration for pthread_mutex_init (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:781 (from /home/qingshi1019/analyzer/repositories/sxhkd.i (0)) 
+	Failed assumption that pthread_mutex_t and pthread_mutex_t are isomorphic 
+	Failed assumption that union __anonunion_pthread_mutex_t_335460617 and union __anonunion_pthread_mutex_t_335460617 are isomorphic (different number of fields in __pthread_mutex_s and __pthread_mutex_s: 7 != 8.)
+union __anonunion_pthread_mutex_t_335460617 {
+   struct __pthread_mutex_s __data ;
+   char __size[48] ;
+   long __align ;
+};
+
+union __anonunion_pthread_mutex_t_335460617 {
+   struct __pthread_mutex_s __data ;
+   char __size[40] ;
+   long __align ;
+};
+ 
+:-1: Warning: Incompatible declaration for pthread_mutex_destroy (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:786 (from /home/qingshi1019/analyzer/repositories/sxhkd.i (0)) 
+	Failed assumption that pthread_mutex_t and pthread_mutex_t are isomorphic 
+	Failed assumption that union __anonunion_pthread_mutex_t_335460617 and union __anonunion_pthread_mutex_t_335460617 are isomorphic (different number of fields in __pthread_mutex_s and __pthread_mutex_s: 7 != 8.)
+union __anonunion_pthread_mutex_t_335460617 {
+   struct __pthread_mutex_s __data ;
+   char __size[48] ;
+   long __align ;
+};
+
+union __anonunion_pthread_mutex_t_335460617 {
+   struct __pthread_mutex_s __data ;
+   char __size[40] ;
+   long __align ;
+};
+ 
+:-1: Warning: Incompatible declaration for pthread_mutex_trylock (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:790 (from /home/qingshi1019/analyzer/repositories/sxhkd.i (0)) 
+	Failed assumption that pthread_mutex_t and pthread_mutex_t are isomorphic 
+	Failed assumption that union __anonunion_pthread_mutex_t_335460617 and union __anonunion_pthread_mutex_t_335460617 are isomorphic (different number of fields in __pthread_mutex_s and __pthread_mutex_s: 7 != 8.)
+union __anonunion_pthread_mutex_t_335460617 {
+   struct __pthread_mutex_s __data ;
+   char __size[48] ;
+   long __align ;
+};
+
+union __anonunion_pthread_mutex_t_335460617 {
+   struct __pthread_mutex_s __data ;
+   char __size[40] ;
+   long __align ;
+};
+ 
+:-1: Warning: Incompatible declaration for pthread_mutex_lock (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:794 (from /home/qingshi1019/analyzer/repositories/sxhkd.i (0)) 
+	Failed assumption that pthread_mutex_t and pthread_mutex_t are isomorphic 
+	Failed assumption that union __anonunion_pthread_mutex_t_335460617 and union __anonunion_pthread_mutex_t_335460617 are isomorphic (different number of fields in __pthread_mutex_s and __pthread_mutex_s: 7 != 8.)
+union __anonunion_pthread_mutex_t_335460617 {
+   struct __pthread_mutex_s __data ;
+   char __size[48] ;
+   long __align ;
+};
+
+union __anonunion_pthread_mutex_t_335460617 {
+   struct __pthread_mutex_s __data ;
+   char __size[40] ;
+   long __align ;
+};
+ 
+:-1: Warning: Incompatible declaration for pthread_mutex_timedlock (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:800 (from /home/qingshi1019/analyzer/repositories/sxhkd.i (0)) 
+	Failed assumption that pthread_mutex_t and pthread_mutex_t are isomorphic 
+	Failed assumption that union __anonunion_pthread_mutex_t_335460617 and union __anonunion_pthread_mutex_t_335460617 are isomorphic (different number of fields in __pthread_mutex_s and __pthread_mutex_s: 7 != 8.)
+union __anonunion_pthread_mutex_t_335460617 {
+   struct __pthread_mutex_s __data ;
+   char __size[48] ;
+   long __align ;
+};
+
+union __anonunion_pthread_mutex_t_335460617 {
+   struct __pthread_mutex_s __data ;
+   char __size[40] ;
+   long __align ;
+};
+ 
+:-1: Warning: Incompatible declaration for pthread_mutex_unlock (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:835 (from /home/qingshi1019/analyzer/repositories/sxhkd.i (0)) 
+	Failed assumption that pthread_mutex_t and pthread_mutex_t are isomorphic 
+	Failed assumption that union __anonunion_pthread_mutex_t_335460617 and union __anonunion_pthread_mutex_t_335460617 are isomorphic (different number of fields in __pthread_mutex_s and __pthread_mutex_s: 7 != 8.)
+union __anonunion_pthread_mutex_t_335460617 {
+   struct __pthread_mutex_s __data ;
+   char __size[48] ;
+   long __align ;
+};
+
+union __anonunion_pthread_mutex_t_335460617 {
+   struct __pthread_mutex_s __data ;
+   char __size[40] ;
+   long __align ;
+};
+ 
+:-1: Warning: Incompatible declaration for pthread_mutex_getprioceiling (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:840 (from /home/qingshi1019/analyzer/repositories/sxhkd.i (0)) 
+	Failed assumption that pthread_mutex_t and pthread_mutex_t are isomorphic 
+	Failed assumption that union __anonunion_pthread_mutex_t_335460617 and union __anonunion_pthread_mutex_t_335460617 are isomorphic (different number of fields in __pthread_mutex_s and __pthread_mutex_s: 7 != 8.)
+union __anonunion_pthread_mutex_t_335460617 {
+   struct __pthread_mutex_s __data ;
+   char __size[48] ;
+   long __align ;
+};
+
+union __anonunion_pthread_mutex_t_335460617 {
+   struct __pthread_mutex_s __data ;
+   char __size[40] ;
+   long __align ;
+};
+ 
+:-1: Warning: Incompatible declaration for pthread_mutex_setprioceiling (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:847 (from /home/qingshi1019/analyzer/repositories/sxhkd.i (0)) 
+	Failed assumption that pthread_mutex_t and pthread_mutex_t are isomorphic 
+	Failed assumption that union __anonunion_pthread_mutex_t_335460617 and union __anonunion_pthread_mutex_t_335460617 are isomorphic (different number of fields in __pthread_mutex_s and __pthread_mutex_s: 7 != 8.)
+union __anonunion_pthread_mutex_t_335460617 {
+   struct __pthread_mutex_s __data ;
+   char __size[48] ;
+   long __align ;
+};
+
+union __anonunion_pthread_mutex_t_335460617 {
+   struct __pthread_mutex_s __data ;
+   char __size[40] ;
+   long __align ;
+};
+ 
+:-1: Warning: Incompatible declaration for pthread_mutexattr_init (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:874 (from /home/qingshi1019/analyzer/repositories/sxhkd.i (0)) 
+	Failed assumption that pthread_mutexattr_t and pthread_mutexattr_t are isomorphic 
+	Failed assumption that union __anonunion_pthread_mutexattr_t_488594144 and union __anonunion_pthread_mutexattr_t_488594144 are isomorphic (different array sizes)
+union __anonunion_pthread_mutexattr_t_488594144 {
+   char __size[8] ;
+   int __align ;
+};
+
+union __anonunion_pthread_mutexattr_t_488594144 {
+   char __size[4] ;
+   int __align ;
+};
+ 
+:-1: Warning: Incompatible declaration for pthread_mutexattr_destroy (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:878 (from /home/qingshi1019/analyzer/repositories/sxhkd.i (0)) 
+	Failed assumption that pthread_mutexattr_t and pthread_mutexattr_t are isomorphic 
+	Failed assumption that union __anonunion_pthread_mutexattr_t_488594144 and union __anonunion_pthread_mutexattr_t_488594144 are isomorphic (different array sizes)
+union __anonunion_pthread_mutexattr_t_488594144 {
+   char __size[8] ;
+   int __align ;
+};
+
+union __anonunion_pthread_mutexattr_t_488594144 {
+   char __size[4] ;
+   int __align ;
+};
+ 
+:-1: Warning: Incompatible declaration for pthread_mutexattr_getpshared (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:882 (from /home/qingshi1019/analyzer/repositories/sxhkd.i (0)) 
+	Failed assumption that pthread_mutexattr_t and pthread_mutexattr_t are isomorphic 
+	Failed assumption that union __anonunion_pthread_mutexattr_t_488594144 and union __anonunion_pthread_mutexattr_t_488594144 are isomorphic (different array sizes)
+union __anonunion_pthread_mutexattr_t_488594144 {
+   char __size[8] ;
+   int __align ;
+};
+
+union __anonunion_pthread_mutexattr_t_488594144 {
+   char __size[4] ;
+   int __align ;
+};
+ 
+:-1: Warning: Incompatible declaration for pthread_mutexattr_setpshared (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:888 (from /home/qingshi1019/analyzer/repositories/sxhkd.i (0)) 
+	Failed assumption that pthread_mutexattr_t and pthread_mutexattr_t are isomorphic 
+	Failed assumption that union __anonunion_pthread_mutexattr_t_488594144 and union __anonunion_pthread_mutexattr_t_488594144 are isomorphic (different array sizes)
+union __anonunion_pthread_mutexattr_t_488594144 {
+   char __size[8] ;
+   int __align ;
+};
+
+union __anonunion_pthread_mutexattr_t_488594144 {
+   char __size[4] ;
+   int __align ;
+};
+ 
+:-1: Warning: Incompatible declaration for pthread_mutexattr_getprotocol (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:906 (from /home/qingshi1019/analyzer/repositories/sxhkd.i (0)) 
+	Failed assumption that pthread_mutexattr_t and pthread_mutexattr_t are isomorphic 
+	Failed assumption that union __anonunion_pthread_mutexattr_t_488594144 and union __anonunion_pthread_mutexattr_t_488594144 are isomorphic (different array sizes)
+union __anonunion_pthread_mutexattr_t_488594144 {
+   char __size[8] ;
+   int __align ;
+};
+
+union __anonunion_pthread_mutexattr_t_488594144 {
+   char __size[4] ;
+   int __align ;
+};
+ 
+:-1: Warning: Incompatible declaration for pthread_mutexattr_setprotocol (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:913 (from /home/qingshi1019/analyzer/repositories/sxhkd.i (0)) 
+	Failed assumption that pthread_mutexattr_t and pthread_mutexattr_t are isomorphic 
+	Failed assumption that union __anonunion_pthread_mutexattr_t_488594144 and union __anonunion_pthread_mutexattr_t_488594144 are isomorphic (different array sizes)
+union __anonunion_pthread_mutexattr_t_488594144 {
+   char __size[8] ;
+   int __align ;
+};
+
+union __anonunion_pthread_mutexattr_t_488594144 {
+   char __size[4] ;
+   int __align ;
+};
+ 
+:-1: Warning: Incompatible declaration for pthread_mutexattr_getprioceiling (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:918 (from /home/qingshi1019/analyzer/repositories/sxhkd.i (0)) 
+	Failed assumption that pthread_mutexattr_t and pthread_mutexattr_t are isomorphic 
+	Failed assumption that union __anonunion_pthread_mutexattr_t_488594144 and union __anonunion_pthread_mutexattr_t_488594144 are isomorphic (different array sizes)
+union __anonunion_pthread_mutexattr_t_488594144 {
+   char __size[8] ;
+   int __align ;
+};
+
+union __anonunion_pthread_mutexattr_t_488594144 {
+   char __size[4] ;
+   int __align ;
+};
+ 
+:-1: Warning: Incompatible declaration for pthread_mutexattr_setprioceiling (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:924 (from /home/qingshi1019/analyzer/repositories/sxhkd.i (0)) 
+	Failed assumption that pthread_mutexattr_t and pthread_mutexattr_t are isomorphic 
+	Failed assumption that union __anonunion_pthread_mutexattr_t_488594144 and union __anonunion_pthread_mutexattr_t_488594144 are isomorphic (different array sizes)
+union __anonunion_pthread_mutexattr_t_488594144 {
+   char __size[8] ;
+   int __align ;
+};
+
+union __anonunion_pthread_mutexattr_t_488594144 {
+   char __size[4] ;
+   int __align ;
+};
+ 
+:-1: Warning: Incompatible declaration for pthread_mutexattr_getrobust (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:930 (from /home/qingshi1019/analyzer/repositories/sxhkd.i (0)) 
+	Failed assumption that pthread_mutexattr_t and pthread_mutexattr_t are isomorphic 
+	Failed assumption that union __anonunion_pthread_mutexattr_t_488594144 and union __anonunion_pthread_mutexattr_t_488594144 are isomorphic (different array sizes)
+union __anonunion_pthread_mutexattr_t_488594144 {
+   char __size[8] ;
+   int __align ;
+};
+
+union __anonunion_pthread_mutexattr_t_488594144 {
+   char __size[4] ;
+   int __align ;
+};
+ 
+:-1: Warning: Incompatible declaration for pthread_mutexattr_setrobust (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:946 (from /home/qingshi1019/analyzer/repositories/sxhkd.i (0)) 
+	Failed assumption that pthread_mutexattr_t and pthread_mutexattr_t are isomorphic 
+	Failed assumption that union __anonunion_pthread_mutexattr_t_488594144 and union __anonunion_pthread_mutexattr_t_488594144 are isomorphic (different array sizes)
+union __anonunion_pthread_mutexattr_t_488594144 {
+   char __size[8] ;
+   int __align ;
+};
+
+union __anonunion_pthread_mutexattr_t_488594144 {
+   char __size[4] ;
+   int __align ;
+};
+ 
+:-1: Warning: Incompatible declaration for pthread_rwlock_init (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:967 (from /home/qingshi1019/analyzer/repositories/sxhkd.i (0)) 
+	Failed assumption that pthread_rwlock_t and pthread_rwlock_t are isomorphic 
+	Failed assumption that union __anonunion_pthread_rwlock_t_656928968 and union __anonunion_pthread_rwlock_t_656928968 are isomorphic (different number of fields in __pthread_rwlock_arch_t and __pthread_rwlock_arch_t: 11 != 12.)
+union __anonunion_pthread_rwlock_t_656928968 {
+   struct __pthread_rwlock_arch_t __data ;
+   char __size[56] ;
+   long __align ;
+};
+
+union __anonunion_pthread_rwlock_t_656928968 {
+   struct __pthread_rwlock_arch_t __data ;
+   char __size[56] ;
+   long __align ;
+};
+ 
+:-1: Warning: Incompatible declaration for pthread_rwlock_destroy (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:972 (from /home/qingshi1019/analyzer/repositories/sxhkd.i (0)) 
+	Failed assumption that pthread_rwlock_t and pthread_rwlock_t are isomorphic 
+	Failed assumption that union __anonunion_pthread_rwlock_t_656928968 and union __anonunion_pthread_rwlock_t_656928968 are isomorphic (different number of fields in __pthread_rwlock_arch_t and __pthread_rwlock_arch_t: 11 != 12.)
+union __anonunion_pthread_rwlock_t_656928968 {
+   struct __pthread_rwlock_arch_t __data ;
+   char __size[56] ;
+   long __align ;
+};
+
+union __anonunion_pthread_rwlock_t_656928968 {
+   struct __pthread_rwlock_arch_t __data ;
+   char __size[56] ;
+   long __align ;
+};
+ 
+:-1: Warning: Incompatible declaration for pthread_rwlock_rdlock (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:976 (from /home/qingshi1019/analyzer/repositories/sxhkd.i (0)) 
+	Failed assumption that pthread_rwlock_t and pthread_rwlock_t are isomorphic 
+	Failed assumption that union __anonunion_pthread_rwlock_t_656928968 and union __anonunion_pthread_rwlock_t_656928968 are isomorphic (different number of fields in __pthread_rwlock_arch_t and __pthread_rwlock_arch_t: 11 != 12.)
+union __anonunion_pthread_rwlock_t_656928968 {
+   struct __pthread_rwlock_arch_t __data ;
+   char __size[56] ;
+   long __align ;
+};
+
+union __anonunion_pthread_rwlock_t_656928968 {
+   struct __pthread_rwlock_arch_t __data ;
+   char __size[56] ;
+   long __align ;
+};
+ 
+:-1: Warning: Incompatible declaration for pthread_rwlock_tryrdlock (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:980 (from /home/qingshi1019/analyzer/repositories/sxhkd.i (0)) 
+	Failed assumption that pthread_rwlock_t and pthread_rwlock_t are isomorphic 
+	Failed assumption that union __anonunion_pthread_rwlock_t_656928968 and union __anonunion_pthread_rwlock_t_656928968 are isomorphic (different number of fields in __pthread_rwlock_arch_t and __pthread_rwlock_arch_t: 11 != 12.)
+union __anonunion_pthread_rwlock_t_656928968 {
+   struct __pthread_rwlock_arch_t __data ;
+   char __size[56] ;
+   long __align ;
+};
+
+union __anonunion_pthread_rwlock_t_656928968 {
+   struct __pthread_rwlock_arch_t __data ;
+   char __size[56] ;
+   long __align ;
+};
+ 
+:-1: Warning: Incompatible declaration for pthread_rwlock_timedrdlock (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:986 (from /home/qingshi1019/analyzer/repositories/sxhkd.i (0)) 
+	Failed assumption that pthread_rwlock_t and pthread_rwlock_t are isomorphic 
+	Failed assumption that union __anonunion_pthread_rwlock_t_656928968 and union __anonunion_pthread_rwlock_t_656928968 are isomorphic (different number of fields in __pthread_rwlock_arch_t and __pthread_rwlock_arch_t: 11 != 12.)
+union __anonunion_pthread_rwlock_t_656928968 {
+   struct __pthread_rwlock_arch_t __data ;
+   char __size[56] ;
+   long __align ;
+};
+
+union __anonunion_pthread_rwlock_t_656928968 {
+   struct __pthread_rwlock_arch_t __data ;
+   char __size[56] ;
+   long __align ;
+};
+ 
+:-1: Warning: Incompatible declaration for pthread_rwlock_wrlock (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:1023 (from /home/qingshi1019/analyzer/repositories/sxhkd.i (0)) 
+	Failed assumption that pthread_rwlock_t and pthread_rwlock_t are isomorphic 
+	Failed assumption that union __anonunion_pthread_rwlock_t_656928968 and union __anonunion_pthread_rwlock_t_656928968 are isomorphic (different number of fields in __pthread_rwlock_arch_t and __pthread_rwlock_arch_t: 11 != 12.)
+union __anonunion_pthread_rwlock_t_656928968 {
+   struct __pthread_rwlock_arch_t __data ;
+   char __size[56] ;
+   long __align ;
+};
+
+union __anonunion_pthread_rwlock_t_656928968 {
+   struct __pthread_rwlock_arch_t __data ;
+   char __size[56] ;
+   long __align ;
+};
+ 
+:-1: Warning: Incompatible declaration for pthread_rwlock_trywrlock (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:1027 (from /home/qingshi1019/analyzer/repositories/sxhkd.i (0)) 
+	Failed assumption that pthread_rwlock_t and pthread_rwlock_t are isomorphic 
+	Failed assumption that union __anonunion_pthread_rwlock_t_656928968 and union __anonunion_pthread_rwlock_t_656928968 are isomorphic (different number of fields in __pthread_rwlock_arch_t and __pthread_rwlock_arch_t: 11 != 12.)
+union __anonunion_pthread_rwlock_t_656928968 {
+   struct __pthread_rwlock_arch_t __data ;
+   char __size[56] ;
+   long __align ;
+};
+
+union __anonunion_pthread_rwlock_t_656928968 {
+   struct __pthread_rwlock_arch_t __data ;
+   char __size[56] ;
+   long __align ;
+};
+ 
+:-1: Warning: Incompatible declaration for pthread_rwlock_timedwrlock (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:1033 (from /home/qingshi1019/analyzer/repositories/sxhkd.i (0)) 
+	Failed assumption that pthread_rwlock_t and pthread_rwlock_t are isomorphic 
+	Failed assumption that union __anonunion_pthread_rwlock_t_656928968 and union __anonunion_pthread_rwlock_t_656928968 are isomorphic (different number of fields in __pthread_rwlock_arch_t and __pthread_rwlock_arch_t: 11 != 12.)
+union __anonunion_pthread_rwlock_t_656928968 {
+   struct __pthread_rwlock_arch_t __data ;
+   char __size[56] ;
+   long __align ;
+};
+
+union __anonunion_pthread_rwlock_t_656928968 {
+   struct __pthread_rwlock_arch_t __data ;
+   char __size[56] ;
+   long __align ;
+};
+ 
+:-1: Warning: Incompatible declaration for pthread_rwlock_unlock (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:1071 (from /home/qingshi1019/analyzer/repositories/sxhkd.i (0)) 
+	Failed assumption that pthread_rwlock_t and pthread_rwlock_t are isomorphic 
+	Failed assumption that union __anonunion_pthread_rwlock_t_656928968 and union __anonunion_pthread_rwlock_t_656928968 are isomorphic (different number of fields in __pthread_rwlock_arch_t and __pthread_rwlock_arch_t: 11 != 12.)
+union __anonunion_pthread_rwlock_t_656928968 {
+   struct __pthread_rwlock_arch_t __data ;
+   char __size[56] ;
+   long __align ;
+};
+
+union __anonunion_pthread_rwlock_t_656928968 {
+   struct __pthread_rwlock_arch_t __data ;
+   char __size[56] ;
+   long __align ;
+};
+ 
+:-1: Warning: Incompatible declaration for pthread_cond_init (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:1112 (from /home/qingshi1019/analyzer/repositories/sxhkd.i (0)) 
+	Failed assumption that pthread_condattr_t and pthread_condattr_t are isomorphic 
+	Failed assumption that union __anonunion_pthread_condattr_t_488594145 and union __anonunion_pthread_condattr_t_488594145 are isomorphic (different array sizes)
+union __anonunion_pthread_condattr_t_488594145 {
+   char __size[8] ;
+   int __align ;
+};
+
+union __anonunion_pthread_condattr_t_488594145 {
+   char __size[4] ;
+   int __align ;
+};
+ 
+:-1: Warning: Incompatible declaration for pthread_cond_wait (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:1133 (from /home/qingshi1019/analyzer/repositories/sxhkd.i (0)) 
+	Failed assumption that pthread_mutex_t and pthread_mutex_t are isomorphic 
+	Failed assumption that union __anonunion_pthread_mutex_t_335460617 and union __anonunion_pthread_mutex_t_335460617 are isomorphic (different number of fields in __pthread_mutex_s and __pthread_mutex_s: 7 != 8.)
+union __anonunion_pthread_mutex_t_335460617 {
+   struct __pthread_mutex_s __data ;
+   char __size[48] ;
+   long __align ;
+};
+
+union __anonunion_pthread_mutex_t_335460617 {
+   struct __pthread_mutex_s __data ;
+   char __size[40] ;
+   long __align ;
+};
+ 
+:-1: Warning: Incompatible declaration for pthread_cond_timedwait (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:1145 (from /home/qingshi1019/analyzer/repositories/sxhkd.i (0)) 
+	Failed assumption that pthread_mutex_t and pthread_mutex_t are isomorphic 
+	Failed assumption that union __anonunion_pthread_mutex_t_335460617 and union __anonunion_pthread_mutex_t_335460617 are isomorphic (different number of fields in __pthread_mutex_s and __pthread_mutex_s: 7 != 8.)
+union __anonunion_pthread_mutex_t_335460617 {
+   struct __pthread_mutex_s __data ;
+   char __size[48] ;
+   long __align ;
+};
+
+union __anonunion_pthread_mutex_t_335460617 {
+   struct __pthread_mutex_s __data ;
+   char __size[40] ;
+   long __align ;
+};
+ 
+:-1: Warning: Incompatible declaration for pthread_condattr_init (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:1194 (from /home/qingshi1019/analyzer/repositories/sxhkd.i (0)) 
+	Failed assumption that pthread_condattr_t and pthread_condattr_t are isomorphic 
+	Failed assumption that union __anonunion_pthread_condattr_t_488594145 and union __anonunion_pthread_condattr_t_488594145 are isomorphic (different array sizes)
+union __anonunion_pthread_condattr_t_488594145 {
+   char __size[8] ;
+   int __align ;
+};
+
+union __anonunion_pthread_condattr_t_488594145 {
+   char __size[4] ;
+   int __align ;
+};
+ 
+:-1: Warning: Incompatible declaration for pthread_condattr_destroy (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:1198 (from /home/qingshi1019/analyzer/repositories/sxhkd.i (0)) 
+	Failed assumption that pthread_condattr_t and pthread_condattr_t are isomorphic 
+	Failed assumption that union __anonunion_pthread_condattr_t_488594145 and union __anonunion_pthread_condattr_t_488594145 are isomorphic (different array sizes)
+union __anonunion_pthread_condattr_t_488594145 {
+   char __size[8] ;
+   int __align ;
+};
+
+union __anonunion_pthread_condattr_t_488594145 {
+   char __size[4] ;
+   int __align ;
+};
+ 
+:-1: Warning: Incompatible declaration for pthread_condattr_getpshared (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:1202 (from /home/qingshi1019/analyzer/repositories/sxhkd.i (0)) 
+	Failed assumption that pthread_condattr_t and pthread_condattr_t are isomorphic 
+	Failed assumption that union __anonunion_pthread_condattr_t_488594145 and union __anonunion_pthread_condattr_t_488594145 are isomorphic (different array sizes)
+union __anonunion_pthread_condattr_t_488594145 {
+   char __size[8] ;
+   int __align ;
+};
+
+union __anonunion_pthread_condattr_t_488594145 {
+   char __size[4] ;
+   int __align ;
+};
+ 
+:-1: Warning: Incompatible declaration for pthread_condattr_setpshared (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:1208 (from /home/qingshi1019/analyzer/repositories/sxhkd.i (0)) 
+	Failed assumption that pthread_condattr_t and pthread_condattr_t are isomorphic 
+	Failed assumption that union __anonunion_pthread_condattr_t_488594145 and union __anonunion_pthread_condattr_t_488594145 are isomorphic (different array sizes)
+union __anonunion_pthread_condattr_t_488594145 {
+   char __size[8] ;
+   int __align ;
+};
+
+union __anonunion_pthread_condattr_t_488594145 {
+   char __size[4] ;
+   int __align ;
+};
+ 
+:-1: Warning: Incompatible declaration for pthread_condattr_getclock (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:1213 (from /home/qingshi1019/analyzer/repositories/sxhkd.i (0)) 
+	Failed assumption that pthread_condattr_t and pthread_condattr_t are isomorphic 
+	Failed assumption that union __anonunion_pthread_condattr_t_488594145 and union __anonunion_pthread_condattr_t_488594145 are isomorphic (different array sizes)
+union __anonunion_pthread_condattr_t_488594145 {
+   char __size[8] ;
+   int __align ;
+};
+
+union __anonunion_pthread_condattr_t_488594145 {
+   char __size[4] ;
+   int __align ;
+};
+ 
+:-1: Warning: Incompatible declaration for pthread_condattr_setclock (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:1219 (from /home/qingshi1019/analyzer/repositories/sxhkd.i (0)) 
+	Failed assumption that pthread_condattr_t and pthread_condattr_t are isomorphic 
+	Failed assumption that union __anonunion_pthread_condattr_t_488594145 and union __anonunion_pthread_condattr_t_488594145 are isomorphic (different array sizes)
+union __anonunion_pthread_condattr_t_488594145 {
+   char __size[8] ;
+   int __align ;
+};
+
+union __anonunion_pthread_condattr_t_488594145 {
+   char __size[4] ;
+   int __align ;
+};
+ 
+:-1: Warning: Incompatible declaration for pthread_barrier_init (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:1254 (from /home/qingshi1019/analyzer/repositories/sxhkd.i (0)) 
+	Failed assumption that pthread_barrierattr_t and pthread_barrierattr_t are isomorphic 
+	Failed assumption that union __anonunion_pthread_barrierattr_t_951761806 and union __anonunion_pthread_barrierattr_t_951761806 are isomorphic (different array sizes)
+union __anonunion_pthread_barrierattr_t_951761806 {
+   char __size[8] ;
+   int __align ;
+};
+
+union __anonunion_pthread_barrierattr_t_951761806 {
+   char __size[4] ;
+   int __align ;
+};
+ 
+:-1: Warning: Incompatible declaration for pthread_barrierattr_init (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:1269 (from /home/qingshi1019/analyzer/repositories/sxhkd.i (0)) 
+	Failed assumption that pthread_barrierattr_t and pthread_barrierattr_t are isomorphic 
+	Failed assumption that union __anonunion_pthread_barrierattr_t_951761806 and union __anonunion_pthread_barrierattr_t_951761806 are isomorphic (different array sizes)
+union __anonunion_pthread_barrierattr_t_951761806 {
+   char __size[8] ;
+   int __align ;
+};
+
+union __anonunion_pthread_barrierattr_t_951761806 {
+   char __size[4] ;
+   int __align ;
+};
+ 
+:-1: Warning: Incompatible declaration for pthread_barrierattr_destroy (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:1273 (from /home/qingshi1019/analyzer/repositories/sxhkd.i (0)) 
+	Failed assumption that pthread_barrierattr_t and pthread_barrierattr_t are isomorphic 
+	Failed assumption that union __anonunion_pthread_barrierattr_t_951761806 and union __anonunion_pthread_barrierattr_t_951761806 are isomorphic (different array sizes)
+union __anonunion_pthread_barrierattr_t_951761806 {
+   char __size[8] ;
+   int __align ;
+};
+
+union __anonunion_pthread_barrierattr_t_951761806 {
+   char __size[4] ;
+   int __align ;
+};
+ 
+:-1: Warning: Incompatible declaration for pthread_barrierattr_getpshared (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:1277 (from /home/qingshi1019/analyzer/repositories/sxhkd.i (0)) 
+	Failed assumption that pthread_barrierattr_t and pthread_barrierattr_t are isomorphic 
+	Failed assumption that union __anonunion_pthread_barrierattr_t_951761806 and union __anonunion_pthread_barrierattr_t_951761806 are isomorphic (different array sizes)
+union __anonunion_pthread_barrierattr_t_951761806 {
+   char __size[8] ;
+   int __align ;
+};
+
+union __anonunion_pthread_barrierattr_t_951761806 {
+   char __size[4] ;
+   int __align ;
+};
+ 
+:-1: Warning: Incompatible declaration for pthread_barrierattr_setpshared (from .goblint/preprocessed/pthread.i(2)).
+ Previous was at /usr/include/pthread.h:1283 (from /home/qingshi1019/analyzer/repositories/sxhkd.i (0)) 
+	Failed assumption that pthread_barrierattr_t and pthread_barrierattr_t are isomorphic 
+	Failed assumption that union __anonunion_pthread_barrierattr_t_951761806 and union __anonunion_pthread_barrierattr_t_951761806 are isomorphic (different array sizes)
+union __anonunion_pthread_barrierattr_t_951761806 {
+   char __size[8] ;
+   int __align ;
+};
+
+union __anonunion_pthread_barrierattr_t_951761806 {
+   char __size[4] ;
+   int __align ;
+};
+ 
+[Info] unrolling loop at src/sxhkd.c:50:2-79:2 with factor 2
+[Info] unrolling loop at src/sxhkd.c:115:2-116:30 with factor 12
+[Info] unrolling loop at src/sxhkd.c:130:5-130:100 with factor 12
+[Info] unrolling loop at src/sxhkd.c:134:4-151:4 with factor 6
+[Info] unrolling loop at src/sxhkd.c:268:2-274:2 with factor 7
+[Info] unrolling loop at src/sxhkd.c:283:2-284:30 with factor 12
+[Info] unrolling loop at lib/libc/stub/src/stdlib.c:10:5-12:5 with factor 12
+[Info] unrolling loop at lib/libc/stub/src/stdlib.c:21:9-27:9 with factor 6
+[Info] unrolling loop at lib/libc/stub/src/stdlib.c:40:3-45:3 with factor 8
+[Info] no thread creation -> disabling thread analyses "race, deadlock, maylocks, symb_locks, thread, threadid, threadJoins, threadreturn, mhp, region"
+[Info] SV-COMP specification: CHECK( init(main()), LTL(F end) )
+
+[Info] runtime: 00:00:10.316
+[Info] vars: 892, evals: 2861
+
+[Info] |called|=0
+
+Memory statistics: total=1631.79MB, max=32.63MB, minor=1627.82MB, major=40.78MB, promoted=36.80MB
+    minor collections=780  major collections=9 compactions=0

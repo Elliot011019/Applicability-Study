@@ -1,0 +1,198 @@
+This is Ultimate 0.2.4-dev-0e0057c
+[2024-07-08 16:23:46,364 INFO  L188        SettingsManager]: Resetting all preferences to default values...
+[2024-07-08 16:23:46,441 INFO  L114        SettingsManager]: Loading settings from /home/qingshi1019/UAutomizer/config/svcomp-Overflow-64bit-Automizer_Default.epf
+[2024-07-08 16:23:46,447 WARN  L101        SettingsManager]: Preference file contains the following unknown settings:
+[2024-07-08 16:23:46,447 WARN  L103        SettingsManager]:   * de.uni_freiburg.informatik.ultimate.core.Log level for class
+[2024-07-08 16:23:46,474 INFO  L130        SettingsManager]: Preferences different from defaults after loading the file:
+[2024-07-08 16:23:46,474 INFO  L151        SettingsManager]: Preferences of UltimateCore differ from their defaults:
+[2024-07-08 16:23:46,475 INFO  L153        SettingsManager]:  * Log level for class=de.uni_freiburg.informatik.ultimate.lib.smtlibutils.quantifier.QuantifierPusher=ERROR;
+[2024-07-08 16:23:46,475 INFO  L151        SettingsManager]: Preferences of Boogie Preprocessor differ from their defaults:
+[2024-07-08 16:23:46,476 INFO  L153        SettingsManager]:  * Use memory slicer=true
+[2024-07-08 16:23:46,476 INFO  L151        SettingsManager]: Preferences of Boogie Procedure Inliner differ from their defaults:
+[2024-07-08 16:23:46,476 INFO  L153        SettingsManager]:  * Ignore calls to procedures called more than once=ONLY_FOR_SEQUENTIAL_PROGRAMS
+[2024-07-08 16:23:46,477 INFO  L151        SettingsManager]: Preferences of BlockEncodingV2 differ from their defaults:
+[2024-07-08 16:23:46,477 INFO  L153        SettingsManager]:  * Create parallel compositions if possible=false
+[2024-07-08 16:23:46,478 INFO  L153        SettingsManager]:  * Use SBE=true
+[2024-07-08 16:23:46,478 INFO  L151        SettingsManager]: Preferences of CACSL2BoogieTranslator differ from their defaults:
+[2024-07-08 16:23:46,478 INFO  L153        SettingsManager]:  * Pointer base address is valid at dereference=IGNORE
+[2024-07-08 16:23:46,479 INFO  L153        SettingsManager]:  * Overapproximate operations on floating types=true
+[2024-07-08 16:23:46,479 INFO  L153        SettingsManager]:  * Check division by zero=IGNORE
+[2024-07-08 16:23:46,479 INFO  L153        SettingsManager]:  * Pointer to allocated memory at dereference=IGNORE
+[2024-07-08 16:23:46,480 INFO  L153        SettingsManager]:  * If two pointers are subtracted or compared they have the same base address=IGNORE
+[2024-07-08 16:23:46,480 INFO  L153        SettingsManager]:  * Check array bounds for arrays that are off heap=IGNORE
+[2024-07-08 16:23:46,481 INFO  L153        SettingsManager]:  * Check absence of signed integer overflows=true
+[2024-07-08 16:23:46,481 INFO  L153        SettingsManager]:  * Check unreachability of reach_error function=false
+[2024-07-08 16:23:46,481 INFO  L153        SettingsManager]:  * Check if freed pointer was valid=false
+[2024-07-08 16:23:46,482 INFO  L153        SettingsManager]:  * Use constant arrays=true
+[2024-07-08 16:23:46,482 INFO  L151        SettingsManager]: Preferences of RCFGBuilder differ from their defaults:
+[2024-07-08 16:23:46,482 INFO  L153        SettingsManager]:  * Size of a code block=SequenceOfStatements
+[2024-07-08 16:23:46,483 INFO  L153        SettingsManager]:  * Only consider context switches at boundaries of atomic blocks=true
+[2024-07-08 16:23:46,483 INFO  L153        SettingsManager]:  * SMT solver=External_DefaultMode
+[2024-07-08 16:23:46,483 INFO  L153        SettingsManager]:  * Command for external solver=z3 SMTLIB2_COMPLIANT=true -memory:2024 -smt2 -in -t:4000
+[2024-07-08 16:23:46,484 INFO  L151        SettingsManager]: Preferences of TraceAbstraction differ from their defaults:
+[2024-07-08 16:23:46,484 INFO  L153        SettingsManager]:  * Compute Interpolants along a Counterexample=FPandBP
+[2024-07-08 16:23:46,484 INFO  L153        SettingsManager]:  * Positions where we compute the Hoare Annotation=LoopHeads
+[2024-07-08 16:23:46,484 INFO  L153        SettingsManager]:  * Trace refinement strategy=CAMEL
+[2024-07-08 16:23:46,485 INFO  L153        SettingsManager]:  * Command for external solver=z3 SMTLIB2_COMPLIANT=true -memory:2024 -smt2 -in
+[2024-07-08 16:23:46,485 INFO  L153        SettingsManager]:  * Apply one-shot large block encoding in concurrent analysis=false
+[2024-07-08 16:23:46,485 INFO  L153        SettingsManager]:  * Automaton type used in concurrency analysis=PETRI_NET
+[2024-07-08 16:23:46,485 INFO  L153        SettingsManager]:  * Compute Hoare Annotation of negated interpolant automaton, abstraction and CFG=true
+[2024-07-08 16:23:46,486 INFO  L153        SettingsManager]:  * Order on configurations for Petri net unfoldings=DBO
+[2024-07-08 16:23:46,491 INFO  L153        SettingsManager]:  * SMT solver=External_ModelsAndUnsatCoreMode
+[2024-07-08 16:23:46,492 INFO  L153        SettingsManager]:  * Looper check in Petri net analysis=SEMANTIC
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.sun.xml.bind.v2.runtime.reflect.opt.Injector$1 (file:/home/qingshi1019/UAutomizer/plugins/com.sun.xml.bind_2.2.0.v201505121915.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int)
+WARNING: Please consider reporting this to the maintainers of com.sun.xml.bind.v2.runtime.reflect.opt.Injector$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Applying setting for plugin de.uni_freiburg.informatik.ultimate.plugins.generator.cacsl2boogietranslator: Entry function -> main
+Applying setting for plugin de.uni_freiburg.informatik.ultimate.witnessprinter: Witness directory -> /home/qingshi1019/UAutomizer
+Applying setting for plugin de.uni_freiburg.informatik.ultimate.witnessprinter: Witness filename -> witness
+Applying setting for plugin de.uni_freiburg.informatik.ultimate.witnessprinter: Write witness besides input file -> false
+Applying setting for plugin de.uni_freiburg.informatik.ultimate.witnessprinter: Graph data specification -> CHECK( init(main()), LTL(G ! overflow) )
+
+
+Applying setting for plugin de.uni_freiburg.informatik.ultimate.witnessprinter: Graph data producer -> Automizer
+Applying setting for plugin de.uni_freiburg.informatik.ultimate.witnessprinter: Graph data architecture -> 64bit
+Applying setting for plugin de.uni_freiburg.informatik.ultimate.witnessprinter: Graph data programhash -> 9dfc4abf1b4554bf03110a14bf9ab76dd44f26810489eb7445b47f935e416a9c
+[2024-07-08 16:23:46,842 INFO  L75    nceAwareModelManager]: Repository-Root is: /tmp
+[2024-07-08 16:23:46,864 INFO  L261   ainManager$Toolchain]: [Toolchain 1]: Applicable parser(s) successfully (re)initialized
+[2024-07-08 16:23:46,866 INFO  L217   ainManager$Toolchain]: [Toolchain 1]: Toolchain selected.
+[2024-07-08 16:23:46,868 INFO  L270        PluginConnector]: Initializing CDTParser...
+[2024-07-08 16:23:46,868 INFO  L274        PluginConnector]: CDTParser initialized
+[2024-07-08 16:23:46,870 INFO  L431   ainManager$Toolchain]: [Toolchain 1]: Parsing single file: /home/qingshi1019/UAutomizer/repositories/sxhkd.i
+[2024-07-08 16:23:48,204 INFO  L533              CDTParser]: Created temporary CDT project at NULL
+[2024-07-08 16:23:48,639 INFO  L384              CDTParser]: Found 1 translation units.
+[2024-07-08 16:23:48,640 INFO  L180              CDTParser]: Scanning /home/qingshi1019/UAutomizer/repositories/sxhkd.i
+[2024-07-08 16:23:48,676 INFO  L427              CDTParser]: About to delete temporary CDT project at /home/qingshi1019/UAutomizer/data/0e7f9f37d/fa5b44ace3e24556ba53e49a5c9bb6df/FLAG7b881a3b0
+[2024-07-08 16:23:48,700 INFO  L435              CDTParser]: Successfully deleted /home/qingshi1019/UAutomizer/data/0e7f9f37d/fa5b44ace3e24556ba53e49a5c9bb6df
+[2024-07-08 16:23:48,703 INFO  L299   ainManager$Toolchain]: ####################### [Toolchain 1] #######################
+[2024-07-08 16:23:48,705 INFO  L133        ToolchainWalker]: Walking toolchain with 6 elements.
+[2024-07-08 16:23:48,706 INFO  L112        PluginConnector]: ------------------------CACSL2BoogieTranslator----------------------------
+[2024-07-08 16:23:48,707 INFO  L270        PluginConnector]: Initializing CACSL2BoogieTranslator...
+[2024-07-08 16:23:48,713 INFO  L274        PluginConnector]: CACSL2BoogieTranslator initialized
+[2024-07-08 16:23:48,714 INFO  L184        PluginConnector]: Executing the observer ACSLObjectContainerObserver from plugin CACSL2BoogieTranslator for "CDTParser AST 08.07 04:23:48" (1/1) ...
+[2024-07-08 16:23:48,715 INFO  L204        PluginConnector]: Invalid model from CACSL2BoogieTranslator for observer de.uni_freiburg.informatik.ultimate.plugins.generator.cacsl2boogietranslator.ACSLObjectContainerObserver@3f27fee7 and model type de.uni_freiburg.informatik.ultimate.plugins.generator.cacsl2boogietranslator AST 08.07 04:23:48, skipping insertion in model container
+[2024-07-08 16:23:48,716 INFO  L184        PluginConnector]: Executing the observer CACSL2BoogieTranslatorObserver from plugin CACSL2BoogieTranslator for "CDTParser AST 08.07 04:23:48" (1/1) ...
+[2024-07-08 16:23:48,891 INFO  L177         MainTranslator]: Built tables and reachable declarations
+[2024-07-08 16:23:51,924 ERROR L324         MainTranslator]: Unsupported Syntax: identifier is not declared (neither a variable nor a function name): argv in file /home/qingshi1019/UAutomizer/repositories/sxhkd.i
+[2024-07-08 16:23:51,925 INFO  L204        PluginConnector]: Invalid model from CACSL2BoogieTranslator for observer de.uni_freiburg.informatik.ultimate.plugins.generator.cacsl2boogietranslator.CACSL2BoogieTranslatorObserver@3003f955 and model type de.uni_freiburg.informatik.ultimate.plugins.generator.cacsl2boogietranslator AST 08.07 04:23:51, skipping insertion in model container
+[2024-07-08 16:23:51,925 INFO  L131        PluginConnector]: ------------------------ END CACSL2BoogieTranslator----------------------------
+[2024-07-08 16:23:51,925 INFO  L186        ToolchainWalker]: Toolchain execution was canceled (user or tool) before executing de.uni_freiburg.informatik.ultimate.boogie.procedureinliner
+[2024-07-08 16:23:51,927 INFO  L158              Benchmark]: Toolchain (without parser) took 3221.98ms. Allocated memory was 58.7MB in the beginning and 71.3MB in the end (delta: 12.6MB). Free memory was 25.2MB in the beginning and 28.4MB in the end (delta: -3.3MB). Peak memory consumption was 16.8MB. Max. memory is 16.1GB.
+[2024-07-08 16:23:51,928 INFO  L158              Benchmark]: CDTParser took 0.20ms. Allocated memory is still 48.2MB. Free memory was 24.5MB in the beginning and 24.5MB in the end (delta: 42.0kB). There was no memory consumed. Max. memory is 16.1GB.
+[2024-07-08 16:23:51,929 INFO  L158              Benchmark]: CACSL2BoogieTranslator took 3218.94ms. Allocated memory was 58.7MB in the beginning and 71.3MB in the end (delta: 12.6MB). Free memory was 24.9MB in the beginning and 28.4MB in the end (delta: -3.5MB). Peak memory consumption was 16.8MB. Max. memory is 16.1GB.
+[2024-07-08 16:23:51,930 INFO  L338   ainManager$Toolchain]: #######################  End [Toolchain 1] #######################
+ --- Results ---
+ * Results from de.uni_freiburg.informatik.ultimate.core:
+  - StatisticsResult: Toolchain Benchmarks
+    Benchmark results are:
+ * CDTParser took 0.20ms. Allocated memory is still 48.2MB. Free memory was 24.5MB in the beginning and 24.5MB in the end (delta: 42.0kB). There was no memory consumed. Max. memory is 16.1GB.
+ * CACSL2BoogieTranslator took 3218.94ms. Allocated memory was 58.7MB in the beginning and 71.3MB in the end (delta: 12.6MB). Free memory was 24.9MB in the beginning and 28.4MB in the end (delta: -3.5MB). Peak memory consumption was 16.8MB. Max. memory is 16.1GB.
+ * Results from de.uni_freiburg.informatik.ultimate.plugins.generator.cacsl2boogietranslator:
+  - UnsupportedSyntaxResult [Line: 11704]: Unsupported Syntax
+    identifier is not declared (neither a variable nor a function name): argv in file /home/qingshi1019/UAutomizer/repositories/sxhkd.i
+RESULT: Ultimate could not prove your program: Toolchain returned no result.
+Received shutdown request...
+
+### Bit-precise run ###
+This is Ultimate 0.2.4-dev-0e0057c
+[2024-07-08 16:23:53,846 INFO  L188        SettingsManager]: Resetting all preferences to default values...
+[2024-07-08 16:23:53,937 INFO  L114        SettingsManager]: Loading settings from /home/qingshi1019/UAutomizer/config/svcomp-Overflow-64bit-Automizer_Bitvector.epf
+[2024-07-08 16:23:53,944 WARN  L101        SettingsManager]: Preference file contains the following unknown settings:
+[2024-07-08 16:23:53,945 WARN  L103        SettingsManager]:   * de.uni_freiburg.informatik.ultimate.core.Log level for class
+[2024-07-08 16:23:53,945 WARN  L103        SettingsManager]:   * de.uni_freiburg.informatik.ultimate.plugins.generator.cacsl2boogietranslator.Checked method. Library mode if empty.
+[2024-07-08 16:23:53,984 INFO  L130        SettingsManager]: Preferences different from defaults after loading the file:
+[2024-07-08 16:23:53,985 INFO  L151        SettingsManager]: Preferences of UltimateCore differ from their defaults:
+[2024-07-08 16:23:53,985 INFO  L153        SettingsManager]:  * Log level for class=de.uni_freiburg.informatik.ultimate.lib.smtlibutils.quantifier.QuantifierPusher=ERROR;
+[2024-07-08 16:23:53,986 INFO  L151        SettingsManager]: Preferences of Boogie Preprocessor differ from their defaults:
+[2024-07-08 16:23:53,987 INFO  L153        SettingsManager]:  * Use memory slicer=true
+[2024-07-08 16:23:53,987 INFO  L151        SettingsManager]: Preferences of Boogie Procedure Inliner differ from their defaults:
+[2024-07-08 16:23:53,988 INFO  L153        SettingsManager]:  * Ignore calls to procedures called more than once=ONLY_FOR_SEQUENTIAL_PROGRAMS
+[2024-07-08 16:23:53,989 INFO  L151        SettingsManager]: Preferences of BlockEncodingV2 differ from their defaults:
+[2024-07-08 16:23:53,989 INFO  L153        SettingsManager]:  * Create parallel compositions if possible=false
+[2024-07-08 16:23:53,990 INFO  L153        SettingsManager]:  * Use SBE=true
+[2024-07-08 16:23:53,991 INFO  L151        SettingsManager]: Preferences of CACSL2BoogieTranslator differ from their defaults:
+[2024-07-08 16:23:53,991 INFO  L153        SettingsManager]:  * Pointer base address is valid at dereference=IGNORE
+[2024-07-08 16:23:53,992 INFO  L153        SettingsManager]:  * Check division by zero=IGNORE
+[2024-07-08 16:23:53,993 INFO  L153        SettingsManager]:  * Pointer to allocated memory at dereference=IGNORE
+[2024-07-08 16:23:53,993 INFO  L153        SettingsManager]:  * If two pointers are subtracted or compared they have the same base address=IGNORE
+[2024-07-08 16:23:53,994 INFO  L153        SettingsManager]:  * Check array bounds for arrays that are off heap=IGNORE
+[2024-07-08 16:23:53,994 INFO  L153        SettingsManager]:  * Adapt memory model on pointer casts if necessary=true
+[2024-07-08 16:23:53,995 INFO  L153        SettingsManager]:  * Use bitvectors instead of ints=true
+[2024-07-08 16:23:53,995 INFO  L153        SettingsManager]:  * Check absence of signed integer overflows=true
+[2024-07-08 16:23:53,996 INFO  L153        SettingsManager]:  * Memory model=HoenickeLindenmann_4ByteResolution
+[2024-07-08 16:23:53,996 INFO  L153        SettingsManager]:  * Check unreachability of reach_error function=false
+[2024-07-08 16:23:53,997 INFO  L153        SettingsManager]:  * Check if freed pointer was valid=false
+[2024-07-08 16:23:53,997 INFO  L153        SettingsManager]:  * Use constant arrays=true
+[2024-07-08 16:23:53,998 INFO  L151        SettingsManager]: Preferences of RCFGBuilder differ from their defaults:
+[2024-07-08 16:23:53,998 INFO  L153        SettingsManager]:  * Size of a code block=SequenceOfStatements
+[2024-07-08 16:23:53,999 INFO  L153        SettingsManager]:  * Only consider context switches at boundaries of atomic blocks=true
+[2024-07-08 16:23:53,999 INFO  L153        SettingsManager]:  * SMT solver=External_DefaultMode
+[2024-07-08 16:23:53,999 INFO  L153        SettingsManager]:  * Command for external solver=z3 SMTLIB2_COMPLIANT=true -memory:2024 -smt2 -in -t:4000
+[2024-07-08 16:23:54,000 INFO  L151        SettingsManager]: Preferences of TraceAbstraction differ from their defaults:
+[2024-07-08 16:23:54,000 INFO  L153        SettingsManager]:  * Compute Interpolants along a Counterexample=FPandBP
+[2024-07-08 16:23:54,000 INFO  L153        SettingsManager]:  * Positions where we compute the Hoare Annotation=LoopHeads
+[2024-07-08 16:23:54,001 INFO  L153        SettingsManager]:  * Trace refinement strategy=WOLF
+[2024-07-08 16:23:54,001 INFO  L153        SettingsManager]:  * Command for external solver=cvc4 --incremental --print-success --lang smt 
+[2024-07-08 16:23:54,010 INFO  L153        SettingsManager]:  * Apply one-shot large block encoding in concurrent analysis=false
+[2024-07-08 16:23:54,010 INFO  L153        SettingsManager]:  * Automaton type used in concurrency analysis=PETRI_NET
+[2024-07-08 16:23:54,011 INFO  L153        SettingsManager]:  * Compute Hoare Annotation of negated interpolant automaton, abstraction and CFG=true
+[2024-07-08 16:23:54,011 INFO  L153        SettingsManager]:  * Order on configurations for Petri net unfoldings=DBO
+[2024-07-08 16:23:54,011 INFO  L153        SettingsManager]:  * SMT solver=External_ModelsAndUnsatCoreMode
+[2024-07-08 16:23:54,011 INFO  L153        SettingsManager]:  * Logic for external solver=AUFBV
+[2024-07-08 16:23:54,011 INFO  L153        SettingsManager]:  * Looper check in Petri net analysis=SEMANTIC
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.sun.xml.bind.v2.runtime.reflect.opt.Injector$1 (file:/home/qingshi1019/UAutomizer/plugins/com.sun.xml.bind_2.2.0.v201505121915.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int)
+WARNING: Please consider reporting this to the maintainers of com.sun.xml.bind.v2.runtime.reflect.opt.Injector$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Applying setting for plugin de.uni_freiburg.informatik.ultimate.plugins.generator.cacsl2boogietranslator: Entry function -> main
+Applying setting for plugin de.uni_freiburg.informatik.ultimate.witnessprinter: Witness directory -> /home/qingshi1019/UAutomizer
+Applying setting for plugin de.uni_freiburg.informatik.ultimate.witnessprinter: Witness filename -> witness
+Applying setting for plugin de.uni_freiburg.informatik.ultimate.witnessprinter: Write witness besides input file -> false
+Applying setting for plugin de.uni_freiburg.informatik.ultimate.witnessprinter: Graph data specification -> CHECK( init(main()), LTL(G ! overflow) )
+
+
+Applying setting for plugin de.uni_freiburg.informatik.ultimate.witnessprinter: Graph data producer -> Automizer
+Applying setting for plugin de.uni_freiburg.informatik.ultimate.witnessprinter: Graph data architecture -> 64bit
+Applying setting for plugin de.uni_freiburg.informatik.ultimate.witnessprinter: Graph data programhash -> 9dfc4abf1b4554bf03110a14bf9ab76dd44f26810489eb7445b47f935e416a9c
+[2024-07-08 16:23:54,376 INFO  L75    nceAwareModelManager]: Repository-Root is: /tmp
+[2024-07-08 16:23:54,400 INFO  L261   ainManager$Toolchain]: [Toolchain 1]: Applicable parser(s) successfully (re)initialized
+[2024-07-08 16:23:54,403 INFO  L217   ainManager$Toolchain]: [Toolchain 1]: Toolchain selected.
+[2024-07-08 16:23:54,404 INFO  L270        PluginConnector]: Initializing CDTParser...
+[2024-07-08 16:23:54,404 INFO  L274        PluginConnector]: CDTParser initialized
+[2024-07-08 16:23:54,406 INFO  L431   ainManager$Toolchain]: [Toolchain 1]: Parsing single file: /home/qingshi1019/UAutomizer/repositories/sxhkd.i
+[2024-07-08 16:23:55,805 INFO  L533              CDTParser]: Created temporary CDT project at NULL
+[2024-07-08 16:23:56,276 INFO  L384              CDTParser]: Found 1 translation units.
+[2024-07-08 16:23:56,277 INFO  L180              CDTParser]: Scanning /home/qingshi1019/UAutomizer/repositories/sxhkd.i
+[2024-07-08 16:23:56,317 INFO  L427              CDTParser]: About to delete temporary CDT project at /home/qingshi1019/UAutomizer/data/7d1fb52b0/fd5f4eeac59d4c0899d7d768bb505456/FLAG874dd0ec9
+[2024-07-08 16:23:56,342 INFO  L435              CDTParser]: Successfully deleted /home/qingshi1019/UAutomizer/data/7d1fb52b0/fd5f4eeac59d4c0899d7d768bb505456
+[2024-07-08 16:23:56,346 INFO  L299   ainManager$Toolchain]: ####################### [Toolchain 1] #######################
+[2024-07-08 16:23:56,348 INFO  L133        ToolchainWalker]: Walking toolchain with 6 elements.
+[2024-07-08 16:23:56,349 INFO  L112        PluginConnector]: ------------------------CACSL2BoogieTranslator----------------------------
+[2024-07-08 16:23:56,349 INFO  L270        PluginConnector]: Initializing CACSL2BoogieTranslator...
+[2024-07-08 16:23:56,355 INFO  L274        PluginConnector]: CACSL2BoogieTranslator initialized
+[2024-07-08 16:23:56,356 INFO  L184        PluginConnector]: Executing the observer ACSLObjectContainerObserver from plugin CACSL2BoogieTranslator for "CDTParser AST 08.07 04:23:56" (1/1) ...
+[2024-07-08 16:23:56,358 INFO  L204        PluginConnector]: Invalid model from CACSL2BoogieTranslator for observer de.uni_freiburg.informatik.ultimate.plugins.generator.cacsl2boogietranslator.ACSLObjectContainerObserver@446d1958 and model type de.uni_freiburg.informatik.ultimate.plugins.generator.cacsl2boogietranslator AST 08.07 04:23:56, skipping insertion in model container
+[2024-07-08 16:23:56,358 INFO  L184        PluginConnector]: Executing the observer CACSL2BoogieTranslatorObserver from plugin CACSL2BoogieTranslator for "CDTParser AST 08.07 04:23:56" (1/1) ...
+[2024-07-08 16:23:56,525 INFO  L177         MainTranslator]: Built tables and reachable declarations
+[2024-07-08 16:23:59,750 ERROR L324         MainTranslator]: Unsupported Syntax: identifier is not declared (neither a variable nor a function name): argv in file /home/qingshi1019/UAutomizer/repositories/sxhkd.i
+[2024-07-08 16:23:59,750 INFO  L204        PluginConnector]: Invalid model from CACSL2BoogieTranslator for observer de.uni_freiburg.informatik.ultimate.plugins.generator.cacsl2boogietranslator.CACSL2BoogieTranslatorObserver@68137d4c and model type de.uni_freiburg.informatik.ultimate.plugins.generator.cacsl2boogietranslator AST 08.07 04:23:59, skipping insertion in model container
+[2024-07-08 16:23:59,750 INFO  L131        PluginConnector]: ------------------------ END CACSL2BoogieTranslator----------------------------
+[2024-07-08 16:23:59,751 INFO  L186        ToolchainWalker]: Toolchain execution was canceled (user or tool) before executing de.uni_freiburg.informatik.ultimate.boogie.procedureinliner
+[2024-07-08 16:23:59,753 INFO  L158              Benchmark]: Toolchain (without parser) took 3404.46ms. Allocated memory was 60.8MB in the beginning and 79.7MB in the end (delta: 18.9MB). Free memory was 27.4MB in the beginning and 38.6MB in the end (delta: -11.2MB). Peak memory consumption was 22.6MB. Max. memory is 16.1GB.
+[2024-07-08 16:23:59,754 INFO  L158              Benchmark]: CDTParser took 0.23ms. Allocated memory is still 48.2MB. Free memory was 24.6MB in the beginning and 24.6MB in the end (delta: 42.0kB). There was no memory consumed. Max. memory is 16.1GB.
+[2024-07-08 16:23:59,754 INFO  L158              Benchmark]: CACSL2BoogieTranslator took 3401.56ms. Allocated memory was 60.8MB in the beginning and 79.7MB in the end (delta: 18.9MB). Free memory was 27.1MB in the beginning and 38.6MB in the end (delta: -11.5MB). Peak memory consumption was 22.6MB. Max. memory is 16.1GB.
+[2024-07-08 16:23:59,756 INFO  L338   ainManager$Toolchain]: #######################  End [Toolchain 1] #######################
+ --- Results ---
+ * Results from de.uni_freiburg.informatik.ultimate.core:
+  - StatisticsResult: Toolchain Benchmarks
+    Benchmark results are:
+ * CDTParser took 0.23ms. Allocated memory is still 48.2MB. Free memory was 24.6MB in the beginning and 24.6MB in the end (delta: 42.0kB). There was no memory consumed. Max. memory is 16.1GB.
+ * CACSL2BoogieTranslator took 3401.56ms. Allocated memory was 60.8MB in the beginning and 79.7MB in the end (delta: 18.9MB). Free memory was 27.1MB in the beginning and 38.6MB in the end (delta: -11.5MB). Peak memory consumption was 22.6MB. Max. memory is 16.1GB.
+ * Results from de.uni_freiburg.informatik.ultimate.plugins.generator.cacsl2boogietranslator:
+  - UnsupportedSyntaxResult [Line: 11704]: Unsupported Syntax
+    identifier is not declared (neither a variable nor a function name): argv in file /home/qingshi1019/UAutomizer/repositories/sxhkd.i
+RESULT: Ultimate could not prove your program: Toolchain returned no result.
+Received shutdown request...

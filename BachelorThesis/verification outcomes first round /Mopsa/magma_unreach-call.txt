@@ -1,0 +1,193 @@
+Program File: /home/qingshi1019/mopsa/repositories/magma.i
+Property File: /home/qingshi1019/mopsa/properties/unreach-call.prp
+
+--- Output ---
+Running /home/qingshi1019/mopsa/bin/mopsa-c -config=c/default.json -c-init-memset-threshold=5 -additional-stubs=c/sv-comp.c -use-stub=reach_error,fread_unlocked,fread,strndup,xstrndup -no-warning -ccopt=-fbracket-depth=2048 -stub-ignore-case=malloc.failure,malloc.empty -c-check-signed-implicit-cast-overflow=false -c-check-unsigned-implicit-cast-overflow=false -c-check-unreachable-memory /home/qingshi1019/mopsa/repositories/magma.i /home/qingshi1019/mopsa/share/mopsa/stubs/c/libc/assert.c  /home/qingshi1019/mopsa/share/mopsa/stubs/c/libc/sys/socket.c /home/qingshi1019/mopsa/share/mopsa/stubs/c/libc/libintl.c /home/qingshi1019/mopsa/share/mopsa/stubs/c/libc/stdio_ext.c /home/qingshi1019/mopsa/share/mopsa/stubs/c/libc/netinet/in.c /home/qingshi1019/mopsa/share/mopsa/stubs/c/libc/arpa/inet.c /home/qingshi1019/mopsa/share/mopsa/stubs/c/libc/wctype.c /home/qingshi1019/mopsa/share/mopsa/stubs/c/libc/sys/stat.c -error-is-builtin=false /home/qingshi1019/mopsa/share/mopsa/stubs/c/libc/math.c /home/qingshi1019/mopsa/share/mopsa/stubs/c/libc/stdio.c /home/qingshi1019/mopsa/share/mopsa/stubs/c/libc/stdlib.c -format=json
+Analysis aborted: Parsing error raised:
+<built-in>:0:8: redefining builtin macro
+<built-in>:0:8: redefining builtin macro
+<built-in>:0:8: redefining builtin macro
+<built-in>:0:8: redefining builtin macro
+<built-in>:0:8: redefining builtin macro
+<built-in>:0:8: '__GNUC__' macro redefined
+<built-in>:7:8: previous definition is here
+<built-in>:0:8: '__GNUC_MINOR__' macro redefined
+<built-in>:8:8: previous definition is here
+<built-in>:0:8: '__GNUC_PATCHLEVEL__' macro redefined
+<built-in>:9:8: previous definition is here
+<built-in>:0:8: '__VERSION__' macro redefined
+<built-in>:38:8: previous definition is here
+<built-in>:0:8: '__WCHAR_TYPE__' macro redefined
+<built-in>:112:8: previous definition is here
+<built-in>:0:8: '__CHAR16_TYPE__' macro redefined
+<built-in>:116:8: previous definition is here
+<built-in>:0:8: '__INT16_TYPE__' macro redefined
+<built-in>:186:8: previous definition is here
+<built-in>:0:8: '__UINT16_TYPE__' macro redefined
+<built-in>:206:8: previous definition is here
+<built-in>:0:8: '__INT_LEAST16_TYPE__' macro redefined
+<built-in>:241:8: previous definition is here
+<built-in>:0:8: '__UINT_LEAST16_TYPE__' macro redefined
+<built-in>:246:8: previous definition is here
+<built-in>:0:8: '__INT_FAST16_TYPE__' macro redefined
+<built-in>:285:8: previous definition is here
+<built-in>:0:8: '__INT_FAST32_TYPE__' macro redefined
+<built-in>:296:8: previous definition is here
+<built-in>:0:8: '__UINT_FAST16_TYPE__' macro redefined
+<built-in>:290:8: previous definition is here
+<built-in>:0:8: '__UINT_FAST32_TYPE__' macro redefined
+<built-in>:301:8: previous definition is here
+<built-in>:0:8: '__GXX_ABI_VERSION' macro redefined
+<built-in>:10:8: previous definition is here
+<built-in>:0:8: '__SCHAR_MAX__' macro redefined
+<built-in>:57:8: previous definition is here
+<built-in>:0:8: '__SHRT_MAX__' macro redefined
+<built-in>:58:8: previous definition is here
+<built-in>:0:8: '__INT_MAX__' macro redefined
+<built-in>:59:8: previous definition is here
+<built-in>:0:8: '__LONG_MAX__' macro redefined
+<built-in>:60:8: previous definition is here
+<built-in>:0:8: '__LONG_LONG_MAX__' macro redefined
+<built-in>:61:8: previous definition is here
+<built-in>:0:8: '__WCHAR_MAX__' macro redefined
+<built-in>:62:8: previous definition is here
+<built-in>:0:8: '__WINT_MAX__' macro redefined
+<built-in>:64:8: previous definition is here
+<built-in>:0:8: '__PTRDIFF_MAX__' macro redefined
+<built-in>:72:8: previous definition is here
+<built-in>:0:8: '__SIZE_MAX__' macro redefined
+<built-in>:68:8: previous definition is here
+<built-in>:0:8: '__INTMAX_MAX__' macro redefined
+<built-in>:66:8: previous definition is here
+<built-in>:0:8: '__UINTMAX_MAX__' macro redefined
+<built-in>:70:8: previous definition is here
+<built-in>:0:8: '__SIG_ATOMIC_MAX__' macro redefined
+<built-in>:114:8: previous definition is here
+<built-in>:0:8: '__INT8_MAX__' macro redefined
+<built-in>:205:8: previous definition is here
+<built-in>:0:8: '__INT16_MAX__' macro redefined
+<built-in>:213:8: previous definition is here
+<built-in>:0:8: '__INT32_MAX__' macro redefined
+<built-in>:221:8: previous definition is here
+<built-in>:0:8: '__INT64_MAX__' macro redefined
+<built-in>:229:8: previous definition is here
+<built-in>:0:8: '__UINT8_MAX__' macro redefined
+<built-in>:204:8: previous definition is here
+<built-in>:0:8: '__UINT16_MAX__' macro redefined
+<built-in>:212:8: previous definition is here
+<built-in>:0:8: '__UINT32_MAX__' macro redefined
+<built-in>:220:8: previous definition is here
+<built-in>:0:8: '__UINT64_MAX__' macro redefined
+<built-in>:228:8: previous definition is here
+<built-in>:0:8: '__INT_LEAST8_MAX__' macro redefined
+<built-in>:231:8: previous definition is here
+<built-in>:0:8: '__INT_LEAST16_MAX__' macro redefined
+<built-in>:242:8: previous definition is here
+<built-in>:0:8: '__INT_LEAST32_MAX__' macro redefined
+<built-in>:253:8: previous definition is here
+<built-in>:0:8: '__INT_LEAST64_MAX__' macro redefined
+<built-in>:264:8: previous definition is here
+<built-in>:0:8: '__UINT_LEAST8_MAX__' macro redefined
+<built-in>:236:8: previous definition is here
+<built-in>:0:8: '__UINT_LEAST16_MAX__' macro redefined
+<built-in>:247:8: previous definition is here
+<built-in>:0:8: '__UINT_LEAST32_MAX__' macro redefined
+<built-in>:258:8: previous definition is here
+<built-in>:0:8: '__UINT_LEAST64_MAX__' macro redefined
+<built-in>:269:8: previous definition is here
+<built-in>:0:8: '__INT_FAST8_MAX__' macro redefined
+<built-in>:275:8: previous definition is here
+<built-in>:0:8: '__INT_FAST16_MAX__' macro redefined
+<built-in>:286:8: previous definition is here
+<built-in>:0:8: '__INT_FAST16_WIDTH__' macro redefined
+<built-in>:287:8: previous definition is here
+<built-in>:0:8: '__INT_FAST32_MAX__' macro redefined
+<built-in>:297:8: previous definition is here
+<built-in>:0:8: '__INT_FAST32_WIDTH__' macro redefined
+<built-in>:298:8: previous definition is here
+<built-in>:0:8: '__INT_FAST64_MAX__' macro redefined
+<built-in>:308:8: previous definition is here
+<built-in>:0:8: '__UINT_FAST8_MAX__' macro redefined
+<built-in>:280:8: previous definition is here
+<built-in>:0:8: '__UINT_FAST16_MAX__' macro redefined
+<built-in>:291:8: previous definition is here
+<built-in>:0:8: '__UINT_FAST32_MAX__' macro redefined
+<built-in>:302:8: previous definition is here
+<built-in>:0:8: '__UINT_FAST64_MAX__' macro redefined
+<built-in>:313:8: previous definition is here
+<built-in>:0:8: '__INTPTR_MAX__' macro redefined
+<built-in>:74:8: previous definition is here
+<built-in>:0:8: '__UINTPTR_MAX__' macro redefined
+<built-in>:76:8: previous definition is here
+<built-in>:0:8: redefining builtin macro
+<built-in>:0:8: '__FLT_MAX__' macro redefined
+<built-in>:147:8: previous definition is here
+<built-in>:0:8: '__FLT_MIN__' macro redefined
+<built-in>:150:8: previous definition is here
+<built-in>:0:8: '__FLT_EPSILON__' macro redefined
+<built-in>:141:8: previous definition is here
+<built-in>:0:8: '__FLT_DENORM_MIN__' macro redefined
+<built-in>:137:8: previous definition is here
+<built-in>:0:8: '__DBL_MAX__' macro redefined
+<built-in>:161:8: previous definition is here
+<built-in>:0:8: '__DBL_MIN__' macro redefined
+<built-in>:164:8: previous definition is here
+<built-in>:0:8: '__DBL_EPSILON__' macro redefined
+<built-in>:155:8: previous definition is here
+<built-in>:0:8: '__DBL_DENORM_MIN__' macro redefined
+<built-in>:151:8: previous definition is here
+<built-in>:0:8: '__LDBL_MANT_DIG__' macro redefined
+<built-in>:172:8: previous definition is here
+<built-in>:0:8: '__LDBL_DIG__' macro redefined
+<built-in>:167:8: previous definition is here
+<built-in>:0:8: '__DECIMAL_DIG__' macro redefined
+<built-in>:348:8: previous definition is here
+<built-in>:0:8: '__LDBL_DECIMAL_DIG__' macro redefined
+<built-in>:168:8: previous definition is here
+<built-in>:0:8: '__LDBL_MAX__' macro redefined
+<built-in>:175:8: previous definition is here
+<built-in>:0:8: '__LDBL_MIN__' macro redefined
+<built-in>:178:8: previous definition is here
+<built-in>:0:8: '__LDBL_EPSILON__' macro redefined
+<built-in>:169:8: previous definition is here
+<built-in>:0:8: '__LDBL_DENORM_MIN__' macro redefined
+<built-in>:165:8: previous definition is here
+<built-in>:0:8: '__FLT16_MAX__' macro redefined
+<built-in>:133:8: previous definition is here
+<built-in>:0:8: '__FLT16_MIN__' macro redefined
+<built-in>:136:8: previous definition is here
+<built-in>:0:8: '__FLT16_EPSILON__' macro redefined
+<built-in>:127:8: previous definition is here
+<built-in>:0:8: '__FLT16_DENORM_MIN__' macro redefined
+<built-in>:123:8: previous definition is here
+/usr/include/stdlib.h:141:7: unknown type name '_Float32'
+/usr/include/stdlib.h:147:7: unknown type name '_Float64'
+/usr/include/stdlib.h:153:7: unknown type name '_Float128'
+/usr/include/stdlib.h:159:7: unknown type name '_Float32x'
+/usr/include/stdlib.h:165:7: unknown type name '_Float64x'
+/usr/include/stdlib.h:234:9: unknown type name '_Float32'
+/usr/include/stdlib.h:240:9: unknown type name '_Float64'
+/usr/include/stdlib.h:246:3: unknown type name '_Float128'
+/usr/include/stdlib.h:252:3: unknown type name '_Float32x'
+/usr/include/stdlib.h:258:3: unknown type name '_Float64x'
+/usr/include/stdlib.h:317:7: unknown type name '_Float32'
+/usr/include/stdlib.h:324:7: unknown type name '_Float64'
+/usr/include/stdlib.h:331:7: unknown type name '_Float128'
+/usr/include/stdlib.h:338:7: unknown type name '_Float32x'
+/usr/include/stdlib.h:345:7: unknown type name '_Float64x'
+/usr/include/stdlib.h:566:20: '__malloc__' attribute takes no arguments
+/usr/include/stdlib.h:570:62: '__malloc__' attribute takes no arguments
+/usr/include/stdlib.h:799:21: '__malloc__' attribute takes no arguments
+/usr/include/stdio.h:189:47: '__malloc__' attribute takes no arguments
+/usr/include/stdio.h:201:48: '__malloc__' attribute takes no arguments
+/usr/include/stdio.h:223:89: '__malloc__' attribute takes no arguments
+/usr/include/stdio.h:260:47: '__malloc__' attribute takes no arguments
+/usr/include/stdio.h:285:47: '__malloc__' attribute takes no arguments
+/usr/include/stdio.h:294:47: '__malloc__' attribute takes no arguments
+/usr/include/stdio.h:303:47: '__malloc__' attribute takes no arguments
+/usr/include/stdio.h:309:88: '__malloc__' attribute takes no arguments
+/usr/include/stdio.h:315:47: '__malloc__' attribute takes no arguments
+/usr/include/stdio.h:830:47: '__malloc__' attribute takes no arguments
+error parsing error
+
+--- Error ---

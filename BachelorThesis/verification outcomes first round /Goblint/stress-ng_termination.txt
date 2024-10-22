@@ -1,0 +1,13 @@
+Program File: /home/qingshi1019/analyzer/repositories/stress-ng.i
+Property File: /home/qingshi1019/analyzer/properties/termination.prp
+
+--- Output ---
+
+
+--- Error ---
+[Info] Specification: CHECK( init(main()), LTL(F end) ) -> enabling soundness analyses "termination"
+[Info] Specification: Termination -> enabling termination analyses "threadflag, apron"
+/usr/include/aarch64-linux-gnu/sys/mount.h:33: Error: Constant initializer 1 << 31 not an integer
+Error on A.ONLYTYPEDEF (GoblintCil__Errormsg.Error)
+Error: There were parsing errors in /home/qingshi1019/analyzer/repositories/stress-ng.i
+Fatal error: exception Goblint_lib__Maingoblint.FrontendError("Errormsg.Error")

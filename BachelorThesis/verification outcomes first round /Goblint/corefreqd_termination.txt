@@ -1,0 +1,11 @@
+Program File: /home/qingshi1019/analyzer/repositories/corefreqd.i
+Property File: /home/qingshi1019/analyzer/properties/termination.prp
+
+--- Output ---
+
+
+--- Error ---
+[Info] Specification: CHECK( init(main()), LTL(F end) ) -> enabling soundness analyses "termination"
+[Info] Specification: Termination -> enabling termination analyses "threadflag, apron"
+amdmsr.h[69:7-8] : syntax error
+Parsing errorFatal error: exception Goblint_lib__Maingoblint.FrontendError("Frontc.ParseError: Parse error")
